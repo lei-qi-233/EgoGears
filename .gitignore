@@ -1,0 +1,20 @@
+.DS_Store
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Local configuration and runtime logs
+.env
+.env.*
+*.log
+
+# Test and tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
