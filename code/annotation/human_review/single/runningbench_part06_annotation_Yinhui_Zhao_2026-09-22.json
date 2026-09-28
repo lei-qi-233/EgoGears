@@ -1,0 +1,1923 @@
+{
+ "schema": "runningbench-annotation-v1",
+ "bundle": "runningbench_part06",
+ "annotator": "Yinhui Zhao",
+ "exported_at": "2026-09-22T13:47:55.026Z",
+ "reviews": [
+  {
+   "review_id": "bf3b65071a596a0b",
+   "source": "P01_Running_Day_Traj02",
+   "unit": "P01_Running_Day_Traj02 [420.0--480.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8295
+  },
+  {
+   "review_id": "88ae4bec0f1c93ec",
+   "source": "P01_Running_Day_Traj03",
+   "unit": "P01_Running_Day_Traj03 [180.0--240.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8300
+  },
+  {
+   "review_id": "05cd91bcedb7ea15",
+   "source": "P01_Running_Day_Traj03",
+   "unit": "P01_Running_Day_Traj03 [480.0--540.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "supported",
+     "D": "supported",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "B",
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8303
+  },
+  {
+   "review_id": "fc1492bdc97b8f01",
+   "source": "P01_Running_Night_Traj01",
+   "unit": "P01_Running_Night_Traj01 [300.0--360.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8306
+  },
+  {
+   "review_id": "23ec09cd17280137",
+   "source": "P01_Running_Night_Traj03",
+   "unit": "P01_Running_Night_Traj03 [180.0--240.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "E": "supported",
+     "F": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "E",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": "blurry scene"
+   },
+   "time_sec": 8310
+  },
+  {
+   "review_id": "08386bd391e3a834",
+   "source": "P01_Running_Night_Traj03",
+   "unit": "P01_Running_Night_Traj03 [420.0--480.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8313
+  },
+  {
+   "review_id": "527ef33d529d081a",
+   "source": "P01_SlowWalk_Day_Traj01",
+   "unit": "P01_SlowWalk_Day_Traj01 [180.0--240.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "C": "supported",
+     "E": "supported",
+     "A": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8314
+  },
+  {
+   "review_id": "aff6ff1087a07b4c",
+   "source": "P01_SlowWalk_Day_Traj01",
+   "unit": "P01_SlowWalk_Day_Traj01 [480.0--540.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8317
+  },
+  {
+   "review_id": "d81e10904a292990",
+   "source": "P01_SlowWalk_Day_Traj02",
+   "unit": "P01_SlowWalk_Day_Traj02 [300.0--360.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "ambiguous",
+    "notes": "It should be the right front"
+   },
+   "time_sec": 8321
+  },
+  {
+   "review_id": "d8cb67da9d40ae30",
+   "source": "P01_SlowWalk_Day_Traj02",
+   "unit": "P01_SlowWalk_Day_Traj02 [600.0--660.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8323
+  },
+  {
+   "review_id": "4d11e5180df85be8",
+   "source": "P01_SlowWalk_Day_Traj02",
+   "unit": "P01_SlowWalk_Day_Traj02 [900.0--960.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8326
+  },
+  {
+   "review_id": "916c95b0d0f43c7c",
+   "source": "P01_SlowWalk_Day_Traj02",
+   "unit": "P01_SlowWalk_Day_Traj02 [960.0--1020.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8330
+  },
+  {
+   "review_id": "fe5ca14ed7291511",
+   "source": "P01_SlowWalk_Day_Traj03",
+   "unit": "P01_SlowWalk_Day_Traj03 [660.0--720.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8332
+  },
+  {
+   "review_id": "58b05160d8e7bb6a",
+   "source": "P01_SlowWalk_Night_Traj01",
+   "unit": "P01_SlowWalk_Night_Traj01 [480.0--540.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "cant_tell",
+    "notes": ""
+   },
+   "time_sec": 8335
+  },
+  {
+   "review_id": "daa0cf20c688d0ba",
+   "source": "P01_SlowWalk_Night_Traj01",
+   "unit": "P01_SlowWalk_Night_Traj01 [780.0--840.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8338
+  },
+  {
+   "review_id": "455427a5c4e952cb",
+   "source": "P01_SlowWalk_Night_Traj01",
+   "unit": "P01_SlowWalk_Night_Traj01 [1020.0--1080.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out",
+     "A": "supported",
+     "H": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "B",
+     "H"
+    ],
+    "verdict": "ambiguous",
+    "notes": "too vague"
+   },
+   "time_sec": 8340
+  },
+  {
+   "review_id": "3563099ea2c04666",
+   "source": "P01_SlowWalk_Night_Traj02",
+   "unit": "P01_SlowWalk_Night_Traj02 [180.0--240.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8343
+  },
+  {
+   "review_id": "917955848f99daa0",
+   "source": "P01_SlowWalk_Night_Traj02",
+   "unit": "P01_SlowWalk_Night_Traj02 [240.0--300.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "F": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8347
+  },
+  {
+   "review_id": "70462d1a099456fa",
+   "source": "P01_SlowWalk_Night_Traj02",
+   "unit": "P01_SlowWalk_Night_Traj02 [720.0--780.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "G": "supported",
+     "C": "supported",
+     "A": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8349
+  },
+  {
+   "review_id": "7836eb2605e27b6d",
+   "source": "P01_SlowWalk_Night_Traj03",
+   "unit": "P01_SlowWalk_Night_Traj03 [120.0--180.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8353
+  },
+  {
+   "review_id": "7f47c251b9e0807b",
+   "source": "P01_SlowWalk_Night_Traj03",
+   "unit": "P01_SlowWalk_Night_Traj03 [300.0--360.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "H": "supported",
+     "G": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8356
+  },
+  {
+   "review_id": "ac60c8a88f1f274e",
+   "source": "P01_SlowWalk_Night_Traj03",
+   "unit": "P01_SlowWalk_Night_Traj03 [480.0--540.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "ambiguous",
+    "notes": ""
+   },
+   "time_sec": 8359
+  },
+  {
+   "review_id": "472f8935cc6d64b5",
+   "source": "P01_SlowWalk_Night_Traj03",
+   "unit": "P01_SlowWalk_Night_Traj03 [540.0--600.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "undecidable",
+     "F": "supported",
+     "C": "supported",
+     "E": "supported",
+     "D": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "C",
+     "E",
+     "F"
+    ],
+    "verdict": "ambiguous",
+    "notes": ""
+   },
+   "time_sec": 8363
+  },
+  {
+   "review_id": "5a632c7df39a4ca1",
+   "source": "P01_SlowWalk_Night_Traj03",
+   "unit": "P01_SlowWalk_Night_Traj03 [600.0--660.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8366
+  },
+  {
+   "review_id": "518022000e9e0e01",
+   "source": "P01_SlowWalk_Night_Traj03",
+   "unit": "P01_SlowWalk_Night_Traj03 [780.0--840.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "H": "supported",
+     "F": "supported",
+     "B": "supported",
+     "C": "supported",
+     "A": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "F",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8368
+  },
+  {
+   "review_id": "7fa32c690e75fa2e",
+   "source": "P02_FastWalk_Day_Trial01",
+   "unit": "P02_FastWalk_Day_Trial01 [300.0--360.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "ambiguous",
+    "notes": "Only AKK can be seen clearly and it is white"
+   },
+   "time_sec": 8372
+  },
+  {
+   "review_id": "230786a31f747447",
+   "source": "P02_FastWalk_Day_Trial01",
+   "unit": "P02_FastWalk_Day_Trial01 [360.0--420.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8374
+  },
+  {
+   "review_id": "a4020618c23ceb65",
+   "source": "P02_FastWalk_Day_Trial01",
+   "unit": "P02_FastWalk_Day_Trial01 [660.0--720.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "C": "supported",
+     "F": "supported",
+     "D": "supported",
+     "A": "ruled_out",
+     "E": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "D",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8378
+  },
+  {
+   "review_id": "f983b4728a182247",
+   "source": "P02_FastWalk_Day_Trial02",
+   "unit": "P02_FastWalk_Day_Trial02 [300.0--360.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "H": "undecidable",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "H"
+    ],
+    "verdict": "ambiguous",
+    "notes": "There are two men.(C the color of sneakers& the gender)"
+   },
+   "time_sec": 8738
+  },
+  {
+   "review_id": "d1dea46250ac2674",
+   "source": "P02_FastWalk_Day_Trial02",
+   "unit": "P02_FastWalk_Day_Trial02 [360.0--420.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "H": "supported",
+     "F": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "F",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8411
+  },
+  {
+   "review_id": "1a6bfc77560f532e",
+   "source": "P02_FastWalk_Day_Trial02",
+   "unit": "P02_FastWalk_Day_Trial02 [480.0--540.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8414
+  },
+  {
+   "review_id": "30dabc2ffc30aa25",
+   "source": "P02_FastWalk_Day_Trial02",
+   "unit": "P02_FastWalk_Day_Trial02 [540.0--600.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "H": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8424
+  },
+  {
+   "review_id": "b14cc1d0f9e9745e",
+   "source": "P02_FastWalk_Day_Trial02",
+   "unit": "P02_FastWalk_Day_Trial02 [660.0--720.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8427
+  },
+  {
+   "review_id": "6462d77260b5ae43",
+   "source": "P02_FastWalk_Day_Trial03",
+   "unit": "P02_FastWalk_Day_Trial03 [240.0--300.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "D": "supported",
+     "G": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "D",
+     "F",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8430
+  },
+  {
+   "review_id": "9504279e539a1bae",
+   "source": "P02_FastWalk_Day_Trial03",
+   "unit": "P02_FastWalk_Day_Trial03 [300.0--360.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "C": "supported",
+     "A": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8432
+  },
+  {
+   "review_id": "f59d0e5160f2ab86",
+   "source": "P02_FastWalk_Day_Trial03",
+   "unit": "P02_FastWalk_Day_Trial03 [360.0--420.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8436
+  },
+  {
+   "review_id": "f384218094398f4a",
+   "source": "P02_FastWalk_Day_Trial03",
+   "unit": "P02_FastWalk_Day_Trial03 [480.0--540.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "F": "supported",
+     "E": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "E",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8438
+  },
+  {
+   "review_id": "83522fb69d54fac0",
+   "source": "P02_FastWalk_Day_Trial03",
+   "unit": "P02_FastWalk_Day_Trial03 [900.0--948.359]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "cant_tell",
+    "notes": "completely blurry"
+   },
+   "time_sec": 8442
+  },
+  {
+   "review_id": "a93b5c23f0617ce5",
+   "source": "P02_FastWalk_Night_Trial01",
+   "unit": "P02_FastWalk_Night_Trial01 [60.0--120.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8445
+  },
+  {
+   "review_id": "de3f1e895df849ab",
+   "source": "P02_FastWalk_Night_Trial01",
+   "unit": "P02_FastWalk_Night_Trial01 [180.0--240.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "F": "supported",
+     "A": "undecidable",
+     "E": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "D",
+     "E",
+     "F"
+    ],
+    "verdict": "ambiguous",
+    "notes": ""
+   },
+   "time_sec": 8448
+  },
+  {
+   "review_id": "dc447c712cf3e70b",
+   "source": "P02_FastWalk_Night_Trial01",
+   "unit": "P02_FastWalk_Night_Trial01 [240.0--300.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8452
+  },
+  {
+   "review_id": "7b41f60cbe423cda",
+   "source": "P02_FastWalk_Night_Trial01",
+   "unit": "P02_FastWalk_Night_Trial01 [360.0--420.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8455
+  },
+  {
+   "review_id": "48b2f4930a9078c4",
+   "source": "P02_FastWalk_Night_Trial01",
+   "unit": "P02_FastWalk_Night_Trial01 [600.0--660.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "B"
+    ],
+    "verdict": "ambiguous",
+    "notes": ""
+   },
+   "time_sec": 8458
+  },
+  {
+   "review_id": "4141ab32b99cd6a9",
+   "source": "P02_FastWalk_Night_Trial01",
+   "unit": "P02_FastWalk_Night_Trial01 [780.0--840.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8462
+  },
+  {
+   "review_id": "01adcf9292dcf557",
+   "source": "P02_FastWalk_Night_Trial02",
+   "unit": "P02_FastWalk_Night_Trial02 [120.0--180.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8464
+  },
+  {
+   "review_id": "a3a823f2ba69f32c",
+   "source": "P02_FastWalk_Night_Trial02",
+   "unit": "P02_FastWalk_Night_Trial02 [240.0--300.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8468
+  },
+  {
+   "review_id": "88edf9bd2a887907",
+   "source": "P02_FastWalk_Night_Trial03",
+   "unit": "P02_FastWalk_Night_Trial03 [480.0--540.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "H": "supported",
+     "G": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8471
+  },
+  {
+   "review_id": "5781f2c6cf337478",
+   "source": "P02_Running_Day_Trial01",
+   "unit": "P02_Running_Day_Trial01 [180.0--240.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8475
+  },
+  {
+   "review_id": "8cb4ca58fea0a888",
+   "source": "P02_Running_Day_Trial01",
+   "unit": "P02_Running_Day_Trial01 [300.0--360.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8479
+  },
+  {
+   "review_id": "d512441b79464984",
+   "source": "P02_Running_Day_Trial01",
+   "unit": "P02_Running_Day_Trial01 [480.0--540.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "C": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8482
+  },
+  {
+   "review_id": "b72426c65337cf46",
+   "source": "P02_Running_Day_Trial02",
+   "unit": "P02_Running_Day_Trial02 [0.0--60.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8510
+  },
+  {
+   "review_id": "ab3df6ed72551f2d",
+   "source": "P02_Running_Day_Trial02",
+   "unit": "P02_Running_Day_Trial02 [300.0--360.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8517
+  },
+  {
+   "review_id": "176beeeb142b9b11",
+   "source": "P02_Running_Day_Trial02",
+   "unit": "P02_Running_Day_Trial02 [360.0--420.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "G": "supported",
+     "C": "supported",
+     "E": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "E",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8521
+  },
+  {
+   "review_id": "9f5ce4e811646ea4",
+   "source": "P02_Running_Day_Trial03",
+   "unit": "P02_Running_Day_Trial03 [240.0--300.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8524
+  },
+  {
+   "review_id": "36b3a335e15a4d37",
+   "source": "P02_Running_Day_Trial03",
+   "unit": "P02_Running_Day_Trial03 [600.0--642.35]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "F": "supported",
+     "E": "ruled_out",
+     "D": "supported",
+     "G": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "D",
+     "F",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8526
+  },
+  {
+   "review_id": "9acc1bd6dd2f7ec2",
+   "source": "P02_Running_Night_Trial01",
+   "unit": "P02_Running_Night_Trial01 [240.0--300.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8529
+  },
+  {
+   "review_id": "d83ba5220db4b560",
+   "source": "P02_Running_Night_Trial01",
+   "unit": "P02_Running_Night_Trial01 [360.0--420.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8531
+  },
+  {
+   "review_id": "638d59e5415110f4",
+   "source": "P02_Running_Night_Trial01",
+   "unit": "P02_Running_Night_Trial01 [420.0--480.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "G": "supported",
+     "H": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E",
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8534
+  },
+  {
+   "review_id": "9d9c81199a28e3af",
+   "source": "P02_Running_Night_Trial02",
+   "unit": "P02_Running_Night_Trial02 [60.0--120.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8537
+  },
+  {
+   "review_id": "41103f9bbc6fe1a0",
+   "source": "P02_Running_Night_Trial02",
+   "unit": "P02_Running_Night_Trial02 [300.0--360.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "C": "supported",
+     "F": "supported",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "C",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8540
+  },
+  {
+   "review_id": "c6450db7427d3dce",
+   "source": "P02_SlowWalk_Day_Trial01",
+   "unit": "P02_SlowWalk_Day_Trial01 [0.0--60.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8544
+  },
+  {
+   "review_id": "8c7bd7dec6af3702",
+   "source": "P02_SlowWalk_Day_Trial01",
+   "unit": "P02_SlowWalk_Day_Trial01 [180.0--240.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "supported",
+     "F": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "B",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8609
+  },
+  {
+   "review_id": "6874915f261c50c6",
+   "source": "P02_SlowWalk_Day_Trial01",
+   "unit": "P02_SlowWalk_Day_Trial01 [840.0--900.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "D": "supported",
+     "C": "supported",
+     "E": "supported",
+     "B": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "C",
+     "D",
+     "E"
+    ],
+    "verdict": "ambiguous",
+    "notes": ""
+   },
+   "time_sec": 8564
+  },
+  {
+   "review_id": "d127ff7d26684f6e",
+   "source": "P02_SlowWalk_Day_Trial02",
+   "unit": "P02_SlowWalk_Day_Trial02 [120.0--180.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "E": "supported",
+     "G": "supported",
+     "H": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "E",
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8569
+  },
+  {
+   "review_id": "2938b9e2beecc4e9",
+   "source": "P02_SlowWalk_Day_Trial02",
+   "unit": "P02_SlowWalk_Day_Trial02 [240.0--300.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8572
+  },
+  {
+   "review_id": "2573b59c2386c724",
+   "source": "P02_SlowWalk_Day_Trial02",
+   "unit": "P02_SlowWalk_Day_Trial02 [840.0--900.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8575
+  },
+  {
+   "review_id": "42a2c1d829d5b2c9",
+   "source": "P02_SlowWalk_Day_Trial02",
+   "unit": "P02_SlowWalk_Day_Trial02 [960.0--1016.427]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "C": "supported",
+     "D": "supported",
+     "B": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "C",
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8579
+  },
+  {
+   "review_id": "6dc30c241ef2e074",
+   "source": "P02_SlowWalk_Night_Trial01",
+   "unit": "P02_SlowWalk_Night_Trial01 [900.0--960.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8583
+  },
+  {
+   "review_id": "3dab7a440fc75965",
+   "source": "P02_SlowWalk_Night_Trial02",
+   "unit": "P02_SlowWalk_Night_Trial02 [0.0--60.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "C": "supported",
+     "D": "supported",
+     "B": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "C",
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8584
+  },
+  {
+   "review_id": "e8210c7d7963e333",
+   "source": "P02_SlowWalk_Night_Trial02",
+   "unit": "P02_SlowWalk_Night_Trial02 [240.0--300.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Yinhui Zhao",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8586
+  }
+ ]
+}

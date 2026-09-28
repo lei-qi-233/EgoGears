@@ -1,0 +1,32 @@
+{
+  "dataset": "single_567_human",
+  "questions": 567,
+  "media_available": 567,
+  "source": "/home/yuedong_tan/datasets/RunningBench/human_answer_repair_567/runningbench_567_human_usable.jsonl",
+  "source_sha256": "776820e6bdc741ceaf3b74d6a10478c2fc61cabdc6fed81827621158deb0ec55",
+  "corrected_698": "/home/yuedong_tan/datasets/RunningBench/human_answer_repair_567/runningbench_qa_human_corrected.jsonl",
+  "corrected_698_sha256": "bd58c8138acbacbafd455cb95c004d644bebf11b09353f6d2adb2ca30481055f",
+  "inclusion_ledger": "/home/yuedong_tan/datasets/RunningBench/human_answer_repair_567/runningbench_567_inclusion_ledger.csv",
+  "inclusion_ledger_sha256": "0aaced6ebda9ba9bfd09fb762279dd4c693f053a7e07692583b358ca5a7d4515",
+  "reference": "/home/yuedong_tan/datasets/RunningBench/segments_60s_gemini_verification/final/segments_700_verified.jsonl",
+  "reference_sha256": "d43bcb780123e4b607e792f899206db0ebfbb840395e45f8de205b06bd3e34fa",
+  "eval_jsonl": "/home/yuedong_tan/datasets/RunningBench/human_answer_repair_567/single_567_human_eval.jsonl",
+  "eval_sha256": "3723a5f11b3cdc9671809e0ba76773728bf673dfe04a975a0c54870e39b2cef6",
+  "usability_source_counts": {
+    "complete_clear_human_annotation": 562,
+    "repaired_incomplete_annotation": 5
+  },
+  "answer_count_distribution": {
+    "1": 325,
+    "2": 84,
+    "3": 107,
+    "4": 46,
+    "5": 5
+  },
+  "changes_from_original_698": {
+    "question_changed": 3,
+    "options_changed": 3,
+    "answer_changed": 120
+  },
+  "note": "Gold/question/options come from the human usable subset, not the original 698."
+}

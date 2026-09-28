@@ -1,0 +1,4325 @@
+{
+  "schema": "runningbench-annotation-v1",
+  "bundle": "bundle_10",
+  "annotator": "Yufan Chen",
+  "exported_at": "2026-09-10T16:15:13.568611+00:00",
+  "reviews": [
+    {
+      "review_id": "af918c5bb296d870",
+      "source": "excerpt",
+      "unit": "whole_video",
+      "question_type": "route-summary",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "supported",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "ruled_out"
+        },
+        "final_answer": [
+          "B"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 306
+    },
+    {
+      "review_id": "8570ade6fc0db010",
+      "source": "excerpt",
+      "unit": "whole_video",
+      "question_type": "route-summary",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "supported",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "ruled_out"
+        },
+        "final_answer": [
+          "B"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 270
+    },
+    {
+      "review_id": "ec9f5c56411f3de6",
+      "source": "excerpt",
+      "unit": "whole_video",
+      "question_type": "start-end-relation",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "supported"
+        },
+        "final_answer": [
+          "F"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 249
+    },
+    {
+      "review_id": "5828d8279ed14af8",
+      "source": "excerpt",
+      "unit": "whole_video",
+      "question_type": "environment-stages",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 4,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "supported",
+          "D": "supported",
+          "E": "supported",
+          "F": "supported",
+          "G": "ruled_out",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "C",
+          "D",
+          "E",
+          "F"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 195
+    },
+    {
+      "review_id": "8c277eb704cf0957",
+      "source": "excerpt",
+      "unit": "whole_video",
+      "question_type": "start-end-relation",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "supported",
+          "F": "supported",
+          "G": "supported",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "E",
+          "F",
+          "G"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 245
+    },
+    {
+      "review_id": "f9a16c48f2cb3e5c",
+      "source": "excerpt",
+      "unit": "whole_video",
+      "question_type": "landmark-revisit",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 2,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "supported",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "supported"
+        },
+        "final_answer": [
+          "C",
+          "H"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 243
+    },
+    {
+      "review_id": "b0fa02bd4fec567e",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "event-phase",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "supported",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "supported",
+          "E": "supported",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "A",
+          "D",
+          "E"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 353
+    },
+    {
+      "review_id": "7aa2d2ea6f77ff69",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "landmark-order",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "supported",
+          "C": "supported",
+          "D": "supported",
+          "E": "ruled_out",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "B",
+          "C",
+          "D"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 314
+    },
+    {
+      "review_id": "cd8b09f2d1f344cd",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "multi-step-turns",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "supported",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "ruled_out"
+        },
+        "final_answer": [
+          "B"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 291
+    },
+    {
+      "review_id": "146145832f0cf1bb",
+      "source": "fullvideo",
+      "unit": "cross_video",
+      "question_type": "landmark-visibility-comparison",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 2,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "supported",
+          "F": "ruled_out",
+          "G": "supported",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "E",
+          "G"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 228
+    },
+    {
+      "review_id": "dcc3bc8f0c5b7e9a",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "landmark-revisit",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "supported",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "ruled_out"
+        },
+        "final_answer": [
+          "A"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 348
+    },
+    {
+      "review_id": "8b5324f899dc9558",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "event-phase",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 2,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "supported",
+          "D": "ruled_out",
+          "E": "supported",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "C",
+          "E"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 200
+    },
+    {
+      "review_id": "8349eb96373b0ce9",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "multi-step-turns",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "supported"
+        },
+        "final_answer": [
+          "F"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 335
+    },
+    {
+      "review_id": "e27bb59d4c1d11f0",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "environment-stages",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "supported",
+          "F": "ruled_out"
+        },
+        "final_answer": [
+          "E"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 341
+    },
+    {
+      "review_id": "7e5729dd28b4d90e",
+      "source": "fullvideo",
+      "unit": "cross_video",
+      "question_type": "landmark-visibility-comparison",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "undecidable",
+          "C": "undecidable",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "ruled_out"
+        },
+        "final_answer": [
+          "C"
+        ],
+        "verdict": "ambiguous",
+        "notes": "VIDEO_A is missing; only VIDEO_B and VIDEO_C are provided. Options B and C cannot be fully verified without VIDEO_A. No option is fully supported for this one-answer question. C is retained as a provisional selection and is not confirmed correct. Please provide VIDEO_A."
+      },
+      "time_sec": 279
+    },
+    {
+      "review_id": "9429f3c74f974e04",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "landmark-revisit",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 2,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "supported",
+          "D": "supported",
+          "E": "ruled_out",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "C",
+          "D"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 187
+    },
+    {
+      "review_id": "b8ef9cf722e4c5b9",
+      "source": "fullvideo",
+      "unit": "cross_video",
+      "question_type": "unique-transient-obstacle",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "undecidable",
+          "B": "undecidable",
+          "C": "undecidable",
+          "D": "undecidable",
+          "E": "undecidable",
+          "F": "undecidable"
+        },
+        "final_answer": [
+          "F"
+        ],
+        "verdict": "ambiguous",
+        "notes": "VIDEO_A and VIDEO_C are missing; only VIDEO_B and VIDEO_D are provided. Pairings involving the missing recordings cannot be fully verified. All six options remain undecidable. F is retained as a provisional selection and is not confirmed correct. Please provide VIDEO_A and VIDEO_C."
+      },
+      "time_sec": 210
+    },
+    {
+      "review_id": "509951bb7ee10f6a",
+      "source": "fullvideo",
+      "unit": "cross_video",
+      "question_type": "landmark-visibility-comparison",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "supported"
+        },
+        "final_answer": [
+          "F"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 224
+    },
+    {
+      "review_id": "703e054f7a599128",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "landmark-order",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 2,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "supported",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "supported"
+        },
+        "final_answer": [
+          "A",
+          "H"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 253
+    },
+    {
+      "review_id": "a772abbdb6df8c5f",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "route-summary",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "supported",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "ruled_out"
+        },
+        "final_answer": [
+          "A"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 181
+    },
+    {
+      "review_id": "844ec114c6c0cfe9",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "landmark-order",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "supported",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "ruled_out"
+        },
+        "final_answer": [
+          "B"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 208
+    },
+    {
+      "review_id": "dd05c53dc16ca89d",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "landmark-order",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "supported",
+          "C": "supported",
+          "D": "supported",
+          "E": "ruled_out",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "B",
+          "C",
+          "D"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 186
+    },
+    {
+      "review_id": "752372320351d2f0",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "start-end-relation",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "supported",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "ruled_out"
+        },
+        "final_answer": [
+          "A"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 251
+    },
+    {
+      "review_id": "4a097e59d7371fb4",
+      "source": "fullvideo",
+      "unit": "cross_video",
+      "question_type": "reverse-view-recognition",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "supported",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "supported",
+          "F": "ruled_out",
+          "G": "supported",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "B",
+          "E",
+          "G"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 354
+    },
+    {
+      "review_id": "115b16762a810aab",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "multi-step-turns",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "supported",
+          "F": "ruled_out"
+        },
+        "final_answer": [
+          "E"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 210
+    },
+    {
+      "review_id": "78e27a28429c23cd",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "environment-stages",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 2,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "supported",
+          "E": "supported",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "D",
+          "E"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 208
+    },
+    {
+      "review_id": "bca0d623c079a4d5",
+      "source": "fullvideo",
+      "unit": "cross_video",
+      "question_type": "unique-transient-obstacle",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "supported",
+          "F": "supported",
+          "G": "ruled_out",
+          "H": "supported"
+        },
+        "final_answer": [
+          "E",
+          "F",
+          "H"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 181
+    },
+    {
+      "review_id": "9da4dc92fe822e99",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "landmark-order",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "supported",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "ruled_out"
+        },
+        "final_answer": [
+          "A"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 359
+    },
+    {
+      "review_id": "4939c4207e4132d2",
+      "source": "fullvideo",
+      "unit": "cross_video",
+      "question_type": "route-phase-alignment",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "supported"
+        },
+        "final_answer": [
+          "F"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 298
+    },
+    {
+      "review_id": "3187318997b67145",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "multi-step-turns",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "supported"
+        },
+        "final_answer": [
+          "F"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 330
+    },
+    {
+      "review_id": "0f5de27618526115",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "environment-stages",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "supported",
+          "E": "ruled_out",
+          "F": "ruled_out"
+        },
+        "final_answer": [
+          "D"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 271
+    },
+    {
+      "review_id": "07752e480a17016f",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "route-summary",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "supported",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "ruled_out"
+        },
+        "final_answer": [
+          "C"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 259
+    },
+    {
+      "review_id": "60dcf9e091c2f517",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "route-summary",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "supported",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "ruled_out"
+        },
+        "final_answer": [
+          "B"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 223
+    },
+    {
+      "review_id": "1c94ec1218f8b807",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "landmark-order",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "supported",
+          "F": "ruled_out",
+          "G": "supported",
+          "H": "supported"
+        },
+        "final_answer": [
+          "E",
+          "G",
+          "H"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 272
+    },
+    {
+      "review_id": "5c648843d422cd1d",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "landmark-order",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "supported",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "ruled_out"
+        },
+        "final_answer": [
+          "C"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 343
+    },
+    {
+      "review_id": "ae4230691cad4577",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "event-phase",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 2,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "supported",
+          "E": "supported",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "D",
+          "E"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 307
+    },
+    {
+      "review_id": "504a13c931c98c04",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "landmark-revisit",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "supported",
+          "F": "ruled_out"
+        },
+        "final_answer": [
+          "E"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 186
+    },
+    {
+      "review_id": "fee5672e046b7e12",
+      "source": "fullvideo",
+      "unit": "cross_video",
+      "question_type": "route-phase-alignment",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "supported",
+          "F": "ruled_out"
+        },
+        "final_answer": [
+          "E"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 311
+    },
+    {
+      "review_id": "fc577e39b82b9451",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "environment-stages",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "supported",
+          "B": "supported",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "supported",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "A",
+          "B",
+          "E"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 356
+    },
+    {
+      "review_id": "487ca3e02f12fc2e",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "landmark-order",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "supported",
+          "E": "ruled_out",
+          "F": "ruled_out"
+        },
+        "final_answer": [
+          "D"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 341
+    },
+    {
+      "review_id": "d32d754b5055fac1",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "landmark-order",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 2,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "supported",
+          "C": "ruled_out",
+          "D": "supported",
+          "E": "ruled_out",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "B",
+          "D"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 191
+    },
+    {
+      "review_id": "538fb35d43d9ab74",
+      "source": "fullvideo",
+      "unit": "cross_video",
+      "question_type": "description-matching",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "supported",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "ruled_out"
+        },
+        "final_answer": [
+          "A"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 210
+    },
+    {
+      "review_id": "f93d9538fd437fc3",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "landmark-order",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "supported",
+          "F": "ruled_out"
+        },
+        "final_answer": [
+          "E"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 215
+    },
+    {
+      "review_id": "acdd0aa653ec6e28",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "event-phase",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "supported",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "ruled_out"
+        },
+        "final_answer": [
+          "A"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 334
+    },
+    {
+      "review_id": "cec89890edd1718b",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "landmark-order",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "supported",
+          "C": "supported",
+          "D": "supported",
+          "E": "ruled_out",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "B",
+          "C",
+          "D"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 311
+    },
+    {
+      "review_id": "37024d9eab822b1e",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "start-end-relation",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 2,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "supported",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "supported"
+        },
+        "final_answer": [
+          "B",
+          "H"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 279
+    },
+    {
+      "review_id": "0da13bd8762cfe77",
+      "source": "fullvideo",
+      "unit": "cross_video",
+      "question_type": "unique-transient-obstacle",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 4,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "supported",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "supported",
+          "F": "ruled_out",
+          "G": "supported",
+          "H": "supported"
+        },
+        "final_answer": [
+          "A",
+          "E",
+          "G",
+          "H"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 275
+    },
+    {
+      "review_id": "3aad1f194b643861",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "landmark-order",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "supported",
+          "B": "supported",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "supported",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "A",
+          "B",
+          "E"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 285
+    },
+    {
+      "review_id": "6a1adc0615008a97",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "start-end-relation",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "supported",
+          "F": "ruled_out"
+        },
+        "final_answer": [
+          "E"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 281
+    },
+    {
+      "review_id": "6126bc18555ea696",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "landmark-order",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "supported",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "ruled_out"
+        },
+        "final_answer": [
+          "C"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 225
+    },
+    {
+      "review_id": "4ea8a7af4bf2f1f7",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "environment-stages",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "supported",
+          "C": "supported",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "supported"
+        },
+        "final_answer": [
+          "B",
+          "C",
+          "H"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 343
+    },
+    {
+      "review_id": "58150174ca72ae1b",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "multi-step-turns",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "supported",
+          "E": "ruled_out",
+          "F": "ruled_out"
+        },
+        "final_answer": [
+          "D"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 195
+    },
+    {
+      "review_id": "26f7b45c20b2c0a6",
+      "source": "fullvideo",
+      "unit": "cross_video",
+      "question_type": "route-phase-alignment",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "supported",
+          "E": "ruled_out",
+          "F": "ruled_out"
+        },
+        "final_answer": [
+          "D"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 222
+    },
+    {
+      "review_id": "ebd02e502bdb0c2f",
+      "source": "fullvideo",
+      "unit": "cross_video",
+      "question_type": "description-matching",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "supported"
+        },
+        "final_answer": [
+          "F"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 281
+    },
+    {
+      "review_id": "c9540f4696eb2666",
+      "source": "fullvideo",
+      "unit": "cross_video",
+      "question_type": "reverse-view-recognition",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "supported",
+          "B": "supported",
+          "C": "supported",
+          "D": "undecidable",
+          "E": "undecidable",
+          "F": "ruled_out",
+          "G": "undecidable",
+          "H": "undecidable"
+        },
+        "final_answer": [
+          "A",
+          "B",
+          "C"
+        ],
+        "verdict": "cant_tell",
+        "notes": "VIDEO_D, VIDEO_H and VIDEO_F are missing, corresponding to options D, G and H, respectively. Options A, B and C are supported, but D, E, G and H remain undecidable, so the three-answer set cannot be confirmed as unique. Please provide the missing recordings and sufficient footage to assess option E (VIDEO_A)."
+      },
+      "time_sec": 250
+    },
+    {
+      "review_id": "6668110235c070f9",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "start-end-relation",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "supported",
+          "E": "ruled_out",
+          "F": "ruled_out"
+        },
+        "final_answer": [
+          "D"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 199
+    },
+    {
+      "review_id": "26fe006581d59975",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "landmark-revisit",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "supported",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "ruled_out",
+          "G": "supported",
+          "H": "supported"
+        },
+        "final_answer": [
+          "C",
+          "G",
+          "H"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 346
+    },
+    {
+      "review_id": "9273cdd9a4d3ee4d",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "route-summary",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "supported",
+          "F": "ruled_out"
+        },
+        "final_answer": [
+          "E"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 318
+    },
+    {
+      "review_id": "2e765438e46fc11b",
+      "source": "fullvideo",
+      "unit": "cross_video",
+      "question_type": "landmark-visibility-comparison",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "supported",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "ruled_out"
+        },
+        "final_answer": [
+          "C"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 237
+    },
+    {
+      "review_id": "51069d4187d33bde",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "route-summary",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "supported",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "ruled_out"
+        },
+        "final_answer": [
+          "A"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 318
+    },
+    {
+      "review_id": "8a1a72ead6c5f9ba",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "route-summary",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "supported",
+          "E": "ruled_out",
+          "F": "ruled_out"
+        },
+        "final_answer": [
+          "D"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 232
+    },
+    {
+      "review_id": "6fa7aa11782050f4",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "multi-step-turns",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "supported",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "ruled_out"
+        },
+        "final_answer": [
+          "C"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 187
+    },
+    {
+      "review_id": "539436b0253bdae7",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "route-summary",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "supported"
+        },
+        "final_answer": [
+          "F"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 273
+    },
+    {
+      "review_id": "6ecd9a14961bf214",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "multi-step-turns",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "supported",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "ruled_out"
+        },
+        "final_answer": [
+          "A"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 261
+    },
+    {
+      "review_id": "bc0a68c047a00489",
+      "source": "fullvideo",
+      "unit": "cross_video",
+      "question_type": "description-matching",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "supported"
+        },
+        "final_answer": [
+          "F"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 343
+    },
+    {
+      "review_id": "91dfcac1f23fd062",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "event-phase",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "supported",
+          "F": "ruled_out"
+        },
+        "final_answer": [
+          "E"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 357
+    },
+    {
+      "review_id": "1e7877d7bb6c8692",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "landmark-order",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "supported",
+          "E": "ruled_out",
+          "F": "ruled_out"
+        },
+        "final_answer": [
+          "D"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 247
+    },
+    {
+      "review_id": "ed37489908ac804b",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "event-phase",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "supported"
+        },
+        "final_answer": [
+          "F"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 206
+    },
+    {
+      "review_id": "953e4bcfcf919c0c",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "landmark-order",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "supported",
+          "C": "supported",
+          "D": "supported",
+          "E": "ruled_out",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "B",
+          "C",
+          "D"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 211
+    },
+    {
+      "review_id": "0dacb0b6823ee3c6",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "multi-step-turns",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "supported",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "ruled_out"
+        },
+        "final_answer": [
+          "C"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 282
+    },
+    {
+      "review_id": "79a1483b4afa43ed",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "multi-step-turns",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "supported",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "ruled_out"
+        },
+        "final_answer": [
+          "B"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 329
+    },
+    {
+      "review_id": "dc73a9be0198d3a4",
+      "source": "fullvideo",
+      "unit": "cross_video",
+      "question_type": "landmark-visibility-comparison",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "supported"
+        },
+        "final_answer": [
+          "F"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 263
+    },
+    {
+      "review_id": "6b8784f86d6e54e4",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "landmark-revisit",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "supported",
+          "F": "ruled_out"
+        },
+        "final_answer": [
+          "E"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 211
+    },
+    {
+      "review_id": "2ef06fbc66d3fb91",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "landmark-order",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "supported",
+          "F": "ruled_out"
+        },
+        "final_answer": [
+          "E"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 295
+    },
+    {
+      "review_id": "06a38245d85df000",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "event-phase",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "supported",
+          "C": "supported",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "ruled_out",
+          "G": "supported",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "B",
+          "C",
+          "G"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 317
+    },
+    {
+      "review_id": "2044f13bbbfd310e",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "landmark-order",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 4,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "supported",
+          "B": "supported",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "supported",
+          "F": "ruled_out",
+          "G": "supported",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "A",
+          "B",
+          "E",
+          "G"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 248
+    },
+    {
+      "review_id": "e5b0df3c55cf9d8a",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "route-summary",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "supported",
+          "E": "ruled_out",
+          "F": "ruled_out"
+        },
+        "final_answer": [
+          "D"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 327
+    },
+    {
+      "review_id": "c7e006c4768b443c",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "environment-stages",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "supported",
+          "F": "ruled_out"
+        },
+        "final_answer": [
+          "E"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 242
+    },
+    {
+      "review_id": "1a4c15f96a469b48",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "landmark-order",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 4,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "supported",
+          "B": "supported",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "ruled_out",
+          "G": "supported",
+          "H": "supported"
+        },
+        "final_answer": [
+          "A",
+          "B",
+          "G",
+          "H"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 275
+    },
+    {
+      "review_id": "96243fe3b0e17d14",
+      "source": "fullvideo",
+      "unit": "cross_video",
+      "question_type": "unique-transient-obstacle",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 1,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "supported",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "ruled_out"
+        },
+        "final_answer": [
+          "A"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 268
+    },
+    {
+      "review_id": "75d2c9220e6002f1",
+      "source": "fullvideo",
+      "unit": "whole_video",
+      "question_type": "event-phase",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "supported",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "supported",
+          "G": "supported",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "C",
+          "F",
+          "G"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 304
+    },
+    {
+      "review_id": "a425fd4613b5d89e",
+      "source": "p01ma_gdrive",
+      "unit": "cross_recording",
+      "question_type": "shared-landmark-identification",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "supported",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "supported",
+          "F": "supported",
+          "G": "ruled_out",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "B",
+          "E",
+          "F"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 235
+    },
+    {
+      "review_id": "d76425f7e6ea2014",
+      "source": "p01ma_gdrive",
+      "unit": "cross_recording",
+      "question_type": "route-identity-discrimination",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "supported",
+          "C": "ruled_out",
+          "D": "supported",
+          "E": "ruled_out",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "supported"
+        },
+        "final_answer": [
+          "B",
+          "D",
+          "H"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 342
+    },
+    {
+      "review_id": "626313ebec7d9f1f",
+      "source": "p01ma_gdrive",
+      "unit": "multi_caption_multi_clip",
+      "question_type": "landmark-cooccurrence",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "supported",
+          "E": "supported",
+          "F": "ruled_out",
+          "G": "supported",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "D",
+          "E",
+          "G"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 273
+    },
+    {
+      "review_id": "1f490a1ecd254272",
+      "source": "p01ma_gdrive",
+      "unit": "cross_recording",
+      "question_type": "environment-difference-across-recordings",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "supported",
+          "C": "ruled_out",
+          "D": "supported",
+          "E": "ruled_out",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "supported"
+        },
+        "final_answer": [
+          "B",
+          "D",
+          "H"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 342
+    },
+    {
+      "review_id": "75f93a4c4609e0a7",
+      "source": "p01ma_gdrive",
+      "unit": "cross_recording",
+      "question_type": "shared-landmark-identification",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "supported",
+          "E": "supported",
+          "F": "ruled_out",
+          "G": "supported",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "D",
+          "E",
+          "G"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 319
+    },
+    {
+      "review_id": "bf03993441e858d1",
+      "source": "p01ma_gdrive",
+      "unit": "multi_caption_multi_clip",
+      "question_type": "event-order",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "supported",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "supported",
+          "G": "ruled_out",
+          "H": "supported"
+        },
+        "final_answer": [
+          "B",
+          "F",
+          "H"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 296
+    },
+    {
+      "review_id": "9f9c92407213284a",
+      "source": "p01ma_gdrive",
+      "unit": "cross_recording",
+      "question_type": "same-place-different-recording",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "supported",
+          "F": "supported",
+          "G": "supported",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "E",
+          "F",
+          "G"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 265
+    },
+    {
+      "review_id": "91fbb892035114ee",
+      "source": "p01ma_gdrive",
+      "unit": "cross_recording",
+      "question_type": "route-identity-discrimination",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "supported",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "supported",
+          "G": "supported",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "A",
+          "F",
+          "G"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 225
+    },
+    {
+      "review_id": "ff8a9c25fe88f717",
+      "source": "p01ma_gdrive",
+      "unit": "cross_recording",
+      "question_type": "shared-landmark-identification",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "supported",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "supported",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "supported"
+        },
+        "final_answer": [
+          "B",
+          "E",
+          "H"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 272
+    },
+    {
+      "review_id": "ef5b3cd484c86455",
+      "source": "p01ma_gdrive",
+      "unit": "multi_caption_multi_clip",
+      "question_type": "cross-segment-revisit",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "supported",
+          "D": "ruled_out",
+          "E": "supported",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "supported"
+        },
+        "final_answer": [
+          "C",
+          "E",
+          "H"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 215
+    },
+    {
+      "review_id": "f469cc3ffcc02fb2",
+      "source": "p01ma_gdrive",
+      "unit": "multi_caption_multi_clip",
+      "question_type": "landmark-cooccurrence",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "supported",
+          "B": "ruled_out",
+          "C": "supported",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "supported",
+          "G": "ruled_out",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "A",
+          "C",
+          "F"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 232
+    },
+    {
+      "review_id": "c8f7462804a737a7",
+      "source": "p01ma_gdrive",
+      "unit": "multi_caption_multi_clip",
+      "question_type": "turn-pattern-comparison",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "supported",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "supported",
+          "E": "ruled_out",
+          "F": "ruled_out",
+          "G": "supported",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "A",
+          "D",
+          "G"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 312
+    },
+    {
+      "review_id": "f4c6492bd7f4e6ad",
+      "source": "p01ma_gdrive",
+      "unit": "multi_caption_multi_clip",
+      "question_type": "turn-pattern-comparison",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "supported",
+          "E": "supported",
+          "F": "supported",
+          "G": "ruled_out",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "D",
+          "E",
+          "F"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 296
+    },
+    {
+      "review_id": "a258f878d7d31588",
+      "source": "p01ma_gdrive",
+      "unit": "cross_recording",
+      "question_type": "same-place-different-recording",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "supported",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "supported",
+          "G": "ruled_out",
+          "H": "supported"
+        },
+        "final_answer": [
+          "C",
+          "F",
+          "H"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 229
+    },
+    {
+      "review_id": "da41a837ee17da16",
+      "source": "p01ma_gdrive",
+      "unit": "multi_caption_multi_clip",
+      "question_type": "landmark-cooccurrence",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "supported",
+          "E": "ruled_out",
+          "F": "supported",
+          "G": "ruled_out",
+          "H": "supported"
+        },
+        "final_answer": [
+          "D",
+          "F",
+          "H"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 297
+    },
+    {
+      "review_id": "f77892c6c60b8fd4",
+      "source": "p01ma_gdrive",
+      "unit": "multi_caption_multi_clip",
+      "question_type": "turn-pattern-comparison",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "supported",
+          "C": "ruled_out",
+          "D": "supported",
+          "E": "ruled_out",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "supported"
+        },
+        "final_answer": [
+          "B",
+          "D",
+          "H"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 222
+    },
+    {
+      "review_id": "0e4296c7e0ee7228",
+      "source": "p01ma_gdrive",
+      "unit": "cross_recording",
+      "question_type": "environment-difference-across-recordings",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "supported",
+          "B": "supported",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "supported",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "A",
+          "B",
+          "E"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 254
+    },
+    {
+      "review_id": "f7ebf5c626d0b161",
+      "source": "p01ma_gdrive",
+      "unit": "multi_caption_multi_clip",
+      "question_type": "route-phase-discrimination",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "supported",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "supported",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "supported"
+        },
+        "final_answer": [
+          "B",
+          "E",
+          "H"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 189
+    },
+    {
+      "review_id": "204eb3f40f31ff35",
+      "source": "p01ma_gdrive",
+      "unit": "multi_caption_multi_clip",
+      "question_type": "event-order",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "supported",
+          "B": "supported",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "supported"
+        },
+        "final_answer": [
+          "A",
+          "B",
+          "H"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 316
+    },
+    {
+      "review_id": "eb7b37749b00e9ac",
+      "source": "p01ma_gdrive",
+      "unit": "multi_caption_multi_clip",
+      "question_type": "spatial-consistency",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "supported",
+          "B": "supported",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "supported"
+        },
+        "final_answer": [
+          "A",
+          "B",
+          "H"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 335
+    },
+    {
+      "review_id": "d5cd1fb42c6730fd",
+      "source": "p01ma_gdrive",
+      "unit": "multi_caption_multi_clip",
+      "question_type": "event-order",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "supported",
+          "C": "supported",
+          "D": "supported",
+          "E": "ruled_out",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "B",
+          "C",
+          "D"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 216
+    },
+    {
+      "review_id": "e651a49fe4eb546e",
+      "source": "p01ma_gdrive",
+      "unit": "multi_caption_multi_clip",
+      "question_type": "turn-pattern-comparison",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "supported",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "B",
+          "D",
+          "F"
+        ],
+        "verdict": "ambiguous",
+        "notes": "Only option B is supported: CLIP_D shows a right turn at approximately 00:10. The question requires three answers, but no additional options are supported. B, D and F are retained to meet the required selection count; D and F remain ruled out and must not be treated as correct. Please revise the question, options or required number of selections."
+      },
+      "time_sec": 263
+    },
+    {
+      "review_id": "51c1054ead99dd96",
+      "source": "p01ma_gdrive",
+      "unit": "multi_caption_multi_clip",
+      "question_type": "event-order",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "supported",
+          "C": "supported",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "supported"
+        },
+        "final_answer": [
+          "B",
+          "C",
+          "H"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 305
+    },
+    {
+      "review_id": "471cf98401597835",
+      "source": "p01ma_gdrive",
+      "unit": "cross_recording",
+      "question_type": "route-identity-discrimination",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "supported",
+          "D": "supported",
+          "E": "ruled_out",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "supported"
+        },
+        "final_answer": [
+          "C",
+          "D",
+          "H"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 200
+    },
+    {
+      "review_id": "34b321ea659ac0ff",
+      "source": "p01ma_gdrive",
+      "unit": "multi_caption_multi_clip",
+      "question_type": "route-phase-discrimination",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "supported",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "supported",
+          "E": "supported",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "A",
+          "D",
+          "E"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 287
+    },
+    {
+      "review_id": "35cf6221947725de",
+      "source": "p01ma_gdrive",
+      "unit": "multi_caption_multi_clip",
+      "question_type": "event-order",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "supported",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "supported",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "supported"
+        },
+        "final_answer": [
+          "B",
+          "E",
+          "H"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 223
+    },
+    {
+      "review_id": "e81d8c4173082e54",
+      "source": "p01ma_hf",
+      "unit": "multi_caption_multi_clip",
+      "question_type": "route-phase-discrimination",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "supported",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "ruled_out",
+          "G": "supported",
+          "H": "supported"
+        },
+        "final_answer": [
+          "A",
+          "G",
+          "H"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 285
+    },
+    {
+      "review_id": "25013a17f3f89331",
+      "source": "p01ma_hf",
+      "unit": "multi_caption_multi_clip",
+      "question_type": "turn-pattern-comparison",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "supported",
+          "D": "ruled_out",
+          "E": "supported",
+          "F": "supported",
+          "G": "ruled_out",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "C",
+          "E",
+          "F"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 292
+    },
+    {
+      "review_id": "a1fa0e1072be8a1a",
+      "source": "p01ma_hf",
+      "unit": "multi_caption_multi_clip",
+      "question_type": "event-order",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "supported",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "supported",
+          "G": "supported",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "B",
+          "F",
+          "G"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 217
+    },
+    {
+      "review_id": "af84f33bd3178d17",
+      "source": "p01ma_hf",
+      "unit": "multi_caption_multi_clip",
+      "question_type": "turn-pattern-comparison",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "supported",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "supported",
+          "G": "supported",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "B",
+          "F",
+          "G"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 336
+    },
+    {
+      "review_id": "5be24b44d2fe1ebe",
+      "source": "p01ma_hf",
+      "unit": "multi_caption_multi_clip",
+      "question_type": "environment-transition",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "supported",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "ruled_out",
+          "G": "supported",
+          "H": "supported"
+        },
+        "final_answer": [
+          "C",
+          "G",
+          "H"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 266
+    },
+    {
+      "review_id": "bc554343081471cf",
+      "source": "p01ma_hf",
+      "unit": "cross_recording",
+      "question_type": "same-place-different-recording",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "supported",
+          "D": "ruled_out",
+          "E": "supported",
+          "F": "supported",
+          "G": "ruled_out",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "C",
+          "E",
+          "F"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 188
+    },
+    {
+      "review_id": "effe17329b110580",
+      "source": "p01ma_hf",
+      "unit": "multi_caption_multi_clip",
+      "question_type": "turn-pattern-comparison",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "supported",
+          "C": "supported",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "supported",
+          "G": "ruled_out",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "B",
+          "C",
+          "F"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 257
+    },
+    {
+      "review_id": "c9130eed52d9d706",
+      "source": "p01ma_hf",
+      "unit": "multi_caption_multi_clip",
+      "question_type": "environment-transition",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "supported",
+          "E": "supported",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "supported"
+        },
+        "final_answer": [
+          "D",
+          "E",
+          "H"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 277
+    },
+    {
+      "review_id": "486d5baa32e25578",
+      "source": "p01ma_hf",
+      "unit": "multi_caption_multi_clip",
+      "question_type": "route-phase-discrimination",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "supported",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "supported",
+          "E": "ruled_out",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "supported"
+        },
+        "final_answer": [
+          "A",
+          "D",
+          "H"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 307
+    },
+    {
+      "review_id": "c3bedbe360f508b3",
+      "source": "p01ma_hf",
+      "unit": "multi_caption_multi_clip",
+      "question_type": "event-order",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "supported",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "supported",
+          "G": "supported",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "C",
+          "F",
+          "G"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 193
+    },
+    {
+      "review_id": "de6226bbc604a5a1",
+      "source": "p01ma_hf",
+      "unit": "multi_caption_multi_clip",
+      "question_type": "event-order",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "supported",
+          "B": "supported",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "supported",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "A",
+          "B",
+          "E"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 259
+    },
+    {
+      "review_id": "ccdeb0366cf1700a",
+      "source": "p01ma_hf",
+      "unit": "multi_caption_multi_clip",
+      "question_type": "event-order",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "supported",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "supported",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "supported"
+        },
+        "final_answer": [
+          "A",
+          "E",
+          "H"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 345
+    },
+    {
+      "review_id": "816835b0e35142b5",
+      "source": "p01ma_hf",
+      "unit": "cross_recording",
+      "question_type": "shared-landmark-identification",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "supported",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "supported",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "supported"
+        },
+        "final_answer": [
+          "A",
+          "E",
+          "H"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 319
+    },
+    {
+      "review_id": "c6ddecec522f2c78",
+      "source": "p01ma_hf",
+      "unit": "multi_caption_multi_clip",
+      "question_type": "environment-transition",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "supported",
+          "F": "supported",
+          "G": "supported",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "E",
+          "F",
+          "G"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 234
+    },
+    {
+      "review_id": "ed2cc151e9bd5c2a",
+      "source": "p01ma_hf",
+      "unit": "multi_caption_multi_clip",
+      "question_type": "route-phase-discrimination",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "supported",
+          "B": "ruled_out",
+          "C": "supported",
+          "D": "ruled_out",
+          "E": "supported",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "A",
+          "C",
+          "E"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 197
+    },
+    {
+      "review_id": "f89c32e187edca87",
+      "source": "p01ma_hf",
+      "unit": "multi_caption_multi_clip",
+      "question_type": "environment-transition",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "supported",
+          "F": "supported",
+          "G": "supported",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "E",
+          "F",
+          "G"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 215
+    },
+    {
+      "review_id": "58c44182190775d8",
+      "source": "p01ma_hf",
+      "unit": "multi_caption_multi_clip",
+      "question_type": "turn-pattern-comparison",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "supported",
+          "B": "supported",
+          "C": "supported",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "A",
+          "B",
+          "C"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 309
+    },
+    {
+      "review_id": "RBMA-0082",
+      "source": "rbma273",
+      "unit": "anonymous_multi_clip",
+      "question_type": "spatial-consistency",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "supported",
+          "E": "ruled_out",
+          "F": "supported",
+          "G": "supported",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "D",
+          "F",
+          "G"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 272
+    },
+    {
+      "review_id": "RBMA-0248",
+      "source": "rbma273",
+      "unit": "anonymous_multi_clip",
+      "question_type": "environment-transition",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "supported",
+          "B": "ruled_out",
+          "C": "supported",
+          "D": "supported",
+          "E": "ruled_out",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "A",
+          "C",
+          "D"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 332
+    },
+    {
+      "review_id": "RBMA-0190",
+      "source": "rbma273",
+      "unit": "anonymous_multi_clip",
+      "question_type": "landmark-cooccurrence",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "supported",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "supported",
+          "E": "ruled_out",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "supported"
+        },
+        "final_answer": [
+          "A",
+          "D",
+          "H"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 345
+    },
+    {
+      "review_id": "RBMA-0189",
+      "source": "rbma273",
+      "unit": "anonymous_multi_clip",
+      "question_type": "landmark-cooccurrence",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "supported",
+          "B": "supported",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "ruled_out",
+          "G": "supported",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "A",
+          "B",
+          "G"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 359
+    },
+    {
+      "review_id": "RBMA-0048",
+      "source": "rbma273",
+      "unit": "anonymous_multi_clip",
+      "question_type": "turn-pattern-comparison",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "supported",
+          "F": "ruled_out",
+          "G": "supported",
+          "H": "supported"
+        },
+        "final_answer": [
+          "E",
+          "G",
+          "H"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 207
+    },
+    {
+      "review_id": "RBMA-0303",
+      "source": "rbma273",
+      "unit": "anonymous_multi_clip",
+      "question_type": "spatial-consistency",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "supported",
+          "F": "supported",
+          "G": "ruled_out",
+          "H": "supported"
+        },
+        "final_answer": [
+          "E",
+          "F",
+          "H"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 281
+    },
+    {
+      "review_id": "RBMA-0258",
+      "source": "rbma273",
+      "unit": "anonymous_multi_clip",
+      "question_type": "spatial-consistency",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "supported",
+          "B": "supported",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "supported",
+          "G": "ruled_out",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "A",
+          "B",
+          "F"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 266
+    },
+    {
+      "review_id": "RBMA-0283",
+      "source": "rbma273",
+      "unit": "anonymous_multi_clip",
+      "question_type": "spatial-consistency",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "supported",
+          "E": "supported",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "supported"
+        },
+        "final_answer": [
+          "D",
+          "E",
+          "H"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 352
+    },
+    {
+      "review_id": "RBMA-0035",
+      "source": "rbma273",
+      "unit": "anonymous_multi_clip",
+      "question_type": "landmark-cooccurrence",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "supported",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "supported",
+          "F": "ruled_out",
+          "G": "supported",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "B",
+          "E",
+          "G"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 314
+    },
+    {
+      "review_id": "RBMA-0116",
+      "source": "rbma273",
+      "unit": "anonymous_multi_clip",
+      "question_type": "spatial-consistency",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "supported",
+          "F": "supported",
+          "G": "ruled_out",
+          "H": "supported"
+        },
+        "final_answer": [
+          "E",
+          "F",
+          "H"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 201
+    },
+    {
+      "review_id": "RBMA-0174",
+      "source": "rbma273",
+      "unit": "anonymous_multi_clip",
+      "question_type": "turn-pattern-comparison",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "supported",
+          "F": "ruled_out",
+          "G": "supported",
+          "H": "supported"
+        },
+        "final_answer": [
+          "E",
+          "G",
+          "H"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 326
+    },
+    {
+      "review_id": "RBMA-0226",
+      "source": "rbma273",
+      "unit": "anonymous_multi_clip",
+      "question_type": "spatial-consistency",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "supported",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "supported",
+          "G": "ruled_out",
+          "H": "supported"
+        },
+        "final_answer": [
+          "B",
+          "F",
+          "H"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 296
+    },
+    {
+      "review_id": "RBMA-0144",
+      "source": "rbma273",
+      "unit": "anonymous_multi_clip",
+      "question_type": "spatial-consistency",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "supported",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "supported",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "supported"
+        },
+        "final_answer": [
+          "B",
+          "E",
+          "H"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 275
+    },
+    {
+      "review_id": "RBMA-0155",
+      "source": "rbma273",
+      "unit": "anonymous_multi_clip",
+      "question_type": "turn-pattern-comparison",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "supported",
+          "D": "supported",
+          "E": "ruled_out",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "supported"
+        },
+        "final_answer": [
+          "C",
+          "D",
+          "H"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 191
+    },
+    {
+      "review_id": "RBMA-0004",
+      "source": "rbma273",
+      "unit": "anonymous_multi_clip",
+      "question_type": "spatial-consistency",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "supported",
+          "F": "supported",
+          "G": "ruled_out",
+          "H": "supported"
+        },
+        "final_answer": [
+          "E",
+          "F",
+          "H"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 235
+    },
+    {
+      "review_id": "RBMA-0186",
+      "source": "rbma273",
+      "unit": "anonymous_multi_clip",
+      "question_type": "turn-pattern-comparison",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "supported",
+          "B": "ruled_out",
+          "C": "supported",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "ruled_out",
+          "G": "supported",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "A",
+          "C",
+          "G"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 352
+    },
+    {
+      "review_id": "RBMA-0173",
+      "source": "rbma273",
+      "unit": "anonymous_multi_clip",
+      "question_type": "spatial-consistency",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "supported",
+          "F": "supported",
+          "G": "supported",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "E",
+          "F",
+          "G"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 318
+    },
+    {
+      "review_id": "RBMA-0132",
+      "source": "rbma273",
+      "unit": "anonymous_multi_clip",
+      "question_type": "landmark-cooccurrence",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "supported",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "supported",
+          "E": "ruled_out",
+          "F": "supported",
+          "G": "ruled_out",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "A",
+          "D",
+          "F"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 215
+    },
+    {
+      "review_id": "RBMA-0119",
+      "source": "rbma273",
+      "unit": "anonymous_multi_clip",
+      "question_type": "route-phase-discrimination",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "supported",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "ruled_out",
+          "G": "supported",
+          "H": "supported"
+        },
+        "final_answer": [
+          "A",
+          "G",
+          "H"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 245
+    },
+    {
+      "review_id": "RBMA-0075",
+      "source": "rbma273",
+      "unit": "anonymous_multi_clip",
+      "question_type": "turn-pattern-comparison",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "supported",
+          "D": "supported",
+          "E": "ruled_out",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "supported"
+        },
+        "final_answer": [
+          "C",
+          "D",
+          "H"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 227
+    },
+    {
+      "review_id": "RBMA-0260",
+      "source": "rbma273",
+      "unit": "anonymous_multi_clip",
+      "question_type": "spatial-consistency",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "supported",
+          "C": "ruled_out",
+          "D": "supported",
+          "E": "ruled_out",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "supported"
+        },
+        "final_answer": [
+          "B",
+          "D",
+          "H"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 312
+    },
+    {
+      "review_id": "RBMA-0025",
+      "source": "rbma273",
+      "unit": "anonymous_multi_clip",
+      "question_type": "turn-pattern-comparison",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "supported",
+          "D": "supported",
+          "E": "ruled_out",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "supported"
+        },
+        "final_answer": [
+          "C",
+          "D",
+          "H"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 188
+    },
+    {
+      "review_id": "RBMA-0013",
+      "source": "rbma273",
+      "unit": "anonymous_multi_clip",
+      "question_type": "turn-pattern-comparison",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "supported",
+          "C": "ruled_out",
+          "D": "supported",
+          "E": "supported",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "B",
+          "D",
+          "E"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 221
+    },
+    {
+      "review_id": "RBMA-0064",
+      "source": "rbma273",
+      "unit": "anonymous_multi_clip",
+      "question_type": "turn-pattern-comparison",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "supported",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "supported",
+          "F": "supported",
+          "G": "ruled_out",
+          "H": "ruled_out"
+        },
+        "final_answer": [
+          "B",
+          "E",
+          "F"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 215
+    },
+    {
+      "review_id": "RBMA-0194",
+      "source": "rbma273",
+      "unit": "anonymous_multi_clip",
+      "question_type": "environment-transition",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "supported",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "ruled_out",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "supported"
+        },
+        "final_answer": [
+          "A",
+          "E",
+          "H"
+        ],
+        "verdict": "ambiguous",
+        "notes": "Only options A and H are supported, while the question requires three answers. A, E and H are retained to meet the required selection count; E remains ruled out and must not be treated as correct. Please revise the question, options or required number of selections."
+      },
+      "time_sec": 350
+    },
+    {
+      "review_id": "RBMA-0072",
+      "source": "rbma273",
+      "unit": "anonymous_multi_clip",
+      "question_type": "spatial-consistency",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "supported",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "ruled_out",
+          "E": "supported",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "supported"
+        },
+        "final_answer": [
+          "A",
+          "E",
+          "H"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 313
+    },
+    {
+      "review_id": "RBMA-0149",
+      "source": "rbma273",
+      "unit": "anonymous_multi_clip",
+      "question_type": "spatial-consistency",
+      "annotator": "Yufan Chen",
+      "tool": "web",
+      "n_select": 3,
+      "complete": true,
+      "human_checks": {
+        "per_option": {
+          "A": "ruled_out",
+          "B": "ruled_out",
+          "C": "ruled_out",
+          "D": "supported",
+          "E": "supported",
+          "F": "ruled_out",
+          "G": "ruled_out",
+          "H": "supported"
+        },
+        "final_answer": [
+          "D",
+          "E",
+          "H"
+        ],
+        "verdict": "clear",
+        "notes": ""
+      },
+      "time_sec": 273
+    }
+  ]
+}

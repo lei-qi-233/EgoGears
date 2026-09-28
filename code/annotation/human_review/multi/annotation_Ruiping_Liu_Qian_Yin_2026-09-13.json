@@ -1,0 +1,4320 @@
+{
+ "schema": "runningbench-annotation-v1",
+ "bundle": "bundle_06",
+ "annotator": "Ruiping Liu/ Qian Yin",
+ "exported_at": "2026-09-13T20:52:26.234Z",
+ "reviews": [
+  {
+   "review_id": "ff140091d82b6669",
+   "source": "excerpt",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "undecidable",
+     "B": "undecidable",
+     "C": "undecidable",
+     "D": "undecidable",
+     "E": "undecidable",
+     "F": "undecidable",
+     "G": "undecidable",
+     "H": "undecidable"
+    },
+    "final_answer": [],
+    "verdict": "cant_tell",
+    "notes": "The video does not show any turning and completely fails to match the required time segment."
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "af93f215af8a19c6",
+   "source": "excerpt",
+   "unit": "whole_video",
+   "question_type": "multi-step-turns",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 1543
+  },
+  {
+   "review_id": "5ddaf88f1135ade4",
+   "source": "excerpt",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "E",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 2109
+  },
+  {
+   "review_id": "63ec482654a83faf",
+   "source": "excerpt",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 2482
+  },
+  {
+   "review_id": "c6bb766d51e73082",
+   "source": "excerpt",
+   "unit": "whole_video",
+   "question_type": "start-end-relation",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "D": "supported",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "D",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 2964
+  },
+  {
+   "review_id": "cb74d80a63636f20",
+   "source": "excerpt",
+   "unit": "whole_video",
+   "question_type": "start-end-relation",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 3567
+  },
+  {
+   "review_id": "92058c5a02440922",
+   "source": "excerpt",
+   "unit": "whole_video",
+   "question_type": "event-phase",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "undecidable",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "undecidable"
+    },
+    "final_answer": [
+     "D",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 4840
+  },
+  {
+   "review_id": "17d082f60672a938",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "start-end-relation",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 2,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "undecidable",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "undecidable",
+     "F": "undecidable",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "cant_tell",
+    "notes": "can not tell clearly what it is in the background"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "a346be86dd5dc956",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "event-phase",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "undecidable",
+     "B": "supported",
+     "E": "supported",
+     "H": "supported",
+     "C": "ruled_out",
+     "D": "undecidable",
+     "F": "undecidable",
+     "G": "undecidable"
+    },
+    "final_answer": [
+     "B",
+     "E",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 5644
+  },
+  {
+   "review_id": "a1325c6c4f93bf26",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "undecidable",
+     "A": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 5937
+  },
+  {
+   "review_id": "f86fa5e72783cb36",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "route-summary",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "undecidable",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 6098
+  },
+  {
+   "review_id": "2dd38bd59b84d99f",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "event-phase",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "undecidable",
+     "D": "undecidable",
+     "F": "ruled_out",
+     "E": "undecidable"
+    },
+    "final_answer": [],
+    "verdict": "ambiguous",
+    "notes": "The camera holder is standing but others move and not int a grassy area."
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "b24bd8507a008a3d",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "E": "supported",
+     "C": "supported",
+     "H": "ruled_out",
+     "F": "ruled_out",
+     "G": "undecidable",
+     "D": "undecidable"
+    },
+    "final_answer": [
+     "A",
+     "C",
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 6674
+  },
+  {
+   "review_id": "92c96d13c5f2bed1",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "event-phase",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [],
+    "verdict": "cant_tell",
+    "notes": "Can't find the person"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "706d6230ed519bd6",
+   "source": "fullvideo",
+   "unit": "cross_video",
+   "question_type": "reverse-view-recognition",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "D": "supported",
+     "E": "supported",
+     "G": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "F": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "D",
+     "E",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 7538
+  },
+  {
+   "review_id": "602693801b1e4981",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 9612
+  },
+  {
+   "review_id": "870e5ecc1c8cf9f2",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "multi-step-turns",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [],
+    "verdict": "ambiguous",
+    "notes": "I can only tell that the person goes straight and then makes two turns."
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "f7a78e9b1a500d4f",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "multi-step-turns",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8399
+  },
+  {
+   "review_id": "57779cc19266dc98",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "multi-step-turns",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 9073
+  },
+  {
+   "review_id": "89fdba80839f6373",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "environment-stages",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "undecidable",
+     "F": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 9311
+  },
+  {
+   "review_id": "701e0203a1a7d25a",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "start-end-relation",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 81224
+  },
+  {
+   "review_id": "169df13efe0edce4",
+   "source": "fullvideo",
+   "unit": "cross_video",
+   "question_type": "description-matching",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "H": "ruled_out",
+     "F": "ruled_out",
+     "D": "supported",
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "undecidable",
+     "G": "undecidable"
+    },
+    "final_answer": [
+     "A",
+     "D"
+    ],
+    "verdict": "cant_tell",
+    "notes": "It is too dark and I can not tell what the object is."
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "be28b3fb8d821e9b",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "start-end-relation",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "C": "supported",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 81770
+  },
+  {
+   "review_id": "e62e7bcd96e731b1",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "event-phase",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [],
+    "verdict": "cant_tell",
+    "notes": "None of the options can be found"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "234669224152bb7c",
+   "source": "fullvideo",
+   "unit": "cross_video",
+   "question_type": "different-start-shared-path",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 82182
+  },
+  {
+   "review_id": "33bd337d8be98af5",
+   "source": "fullvideo",
+   "unit": "cross_video",
+   "question_type": "description-matching",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "supported",
+     "H": "ruled_out",
+     "G": "supported"
+    },
+    "final_answer": [
+     "B",
+     "E",
+     "F",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 83434
+  },
+  {
+   "review_id": "ba88f275e222b2c5",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "environment-stages",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 84103
+  },
+  {
+   "review_id": "596a50726f99a3ad",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-revisit",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 84296
+  },
+  {
+   "review_id": "fdc26f772136506a",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "event-phase",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [],
+    "verdict": "cant_tell",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "f82117a787d1ed32",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "start-end-relation",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "undecidable"
+    },
+    "final_answer": [
+     "B",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 128131
+  },
+  {
+   "review_id": "e4094c886ad00ea2",
+   "source": "fullvideo",
+   "unit": "cross_video",
+   "question_type": "different-start-shared-path",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "db194cc1ce3671c3",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "route-summary",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 128729
+  },
+  {
+   "review_id": "d436f63701cf9d0c",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "environment-stages",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "ruled_out",
+     "C": "supported",
+     "A": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "ambiguous",
+    "notes": "hard to tell where the mix is \n"
+   },
+   "time_sec": 130616
+  },
+  {
+   "review_id": "ee03113f252b23b6",
+   "source": "fullvideo",
+   "unit": "cross_video",
+   "question_type": "description-matching",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "F": "ruled_out",
+     "E": "supported",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 131100
+  },
+  {
+   "review_id": "8b0e17bdb4b77bb4",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "environment-stages",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "undecidable",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "undecidable",
+     "H": "supported"
+    },
+    "final_answer": [
+     "A",
+     "E",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 131384
+  },
+  {
+   "review_id": "cb0fd51206da86e6",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "event-phase",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "undecidable",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "undecidable"
+    },
+    "final_answer": [
+     "A",
+     "B"
+    ],
+    "verdict": "ambiguous",
+    "notes": ""
+   },
+   "time_sec": 132923
+  },
+  {
+   "review_id": "3452ebb264c5dfeb",
+   "source": "fullvideo",
+   "unit": "cross_video",
+   "question_type": "description-matching",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "ruled_out",
+     "A": "ruled_out",
+     "F": "supported",
+     "E": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 133197
+  },
+  {
+   "review_id": "817769c82e023dd3",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "D": "supported",
+     "G": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "D",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 133376
+  },
+  {
+   "review_id": "5c45bcc4f280ce6d",
+   "source": "fullvideo",
+   "unit": "cross_video",
+   "question_type": "route-phase-alignment",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "E": "supported",
+     "F": "supported",
+     "H": "supported",
+     "A": "undecidable",
+     "B": "undecidable",
+     "C": "undecidable",
+     "G": "undecidable"
+    },
+    "final_answer": [
+     "D",
+     "E",
+     "F"
+    ],
+    "verdict": "ambiguous",
+    "notes": "It is the camera's turn or the human turn? I supposed that the human walks always straight."
+   },
+   "time_sec": 133752
+  },
+  {
+   "review_id": "4efd06fb7d4eeb53",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "environment-stages",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "G": "supported",
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 134192
+  },
+  {
+   "review_id": "b864521cbe9702dd",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 134779
+  },
+  {
+   "review_id": "992c706c9bf0d0ff",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "multi-step-turns",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 134865
+  },
+  {
+   "review_id": "9045a713d381e00c",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "route-summary",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "F": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "ambiguous",
+    "notes": "CLIP1 1m23s can man both see the two options"
+   },
+   "time_sec": 134980
+  },
+  {
+   "review_id": "a539915f2b3b3804",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-revisit",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "E": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 135622
+  },
+  {
+   "review_id": "3dd1a365eeda9d2d",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "multi-step-turns",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 135825
+  },
+  {
+   "review_id": "d7b51694e5100304",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-revisit",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 136265
+  },
+  {
+   "review_id": "1336986d9d96c12b",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "multi-step-turns",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "ambiguous",
+    "notes": ""
+   },
+   "time_sec": 136411
+  },
+  {
+   "review_id": "af8d8bb466f5ad89",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "start-end-relation",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 136505
+  },
+  {
+   "review_id": "6a0785dc7fab8c1c",
+   "source": "fullvideo",
+   "unit": "cross_video",
+   "question_type": "unique-transient-obstacle",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "G": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "G"
+    ],
+    "verdict": "ambiguous",
+    "notes": "A中15s有树干，B 20s。A中出现的汽车除了灰色和黑色停止（19s)，白色的都在移动A1-13,A2-18。B当中没有看到车"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "535f2c3783954f0a",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 137103
+  },
+  {
+   "review_id": "3d94abc90a539a04",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-revisit",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 137856
+  },
+  {
+   "review_id": "060d045cf9b6bd71",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "cant_tell",
+    "notes": "我不知道几个画面之间的顺序，假设是一个环形路线是这样的"
+   },
+   "time_sec": 137989
+  },
+  {
+   "review_id": "d552ed9ea4a83653",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-revisit",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "C": "supported",
+     "F": "supported",
+     "A": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 138319
+  },
+  {
+   "review_id": "872f09886dc4f63f",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "environment-stages",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 138394
+  },
+  {
+   "review_id": "c8ffcb6d762c8b94",
+   "source": "fullvideo",
+   "unit": "cross_video",
+   "question_type": "different-start-shared-path",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "B": "ruled_out",
+     "A": "undecidable",
+     "C": "undecidable",
+     "D": "undecidable",
+     "E": "undecidable",
+     "F": "undecidable"
+    },
+    "final_answer": [],
+    "verdict": "ambiguous",
+    "notes": "两个视频路线是一样的，只不过一个是晚上一个是白天，并不存在题干要求的starts on a different side road and turns right at an intersection"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "6bc13d2d5a193a45",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 138604
+  },
+  {
+   "review_id": "c72222c09d2d0ec8",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "event-phase",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "D": "supported",
+     "H": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "D",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 138837
+  },
+  {
+   "review_id": "be97d40835353e9a",
+   "source": "fullvideo",
+   "unit": "cross_video",
+   "question_type": "divergence-point",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "A": "undecidable",
+     "B": "undecidable",
+     "D": "undecidable",
+     "C": "undecidable",
+     "E": "undecidable"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 138961
+  },
+  {
+   "review_id": "e27a203ca44b22e4",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "multi-step-turns",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 139081
+  },
+  {
+   "review_id": "fb801a8910deddd5",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "environment-stages",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "A": "supported",
+     "B": "ruled_out",
+     "G": "ruled_out",
+     "H": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "C",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 139318
+  },
+  {
+   "review_id": "39dade7890a80185",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "environment-stages",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 162957
+  },
+  {
+   "review_id": "4da4d43f6ed890e8",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "environment-stages",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "ruled_out",
+     "A": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 163153
+  },
+  {
+   "review_id": "ce2c3dee67d5a727",
+   "source": "fullvideo",
+   "unit": "cross_video",
+   "question_type": "unique-transient-obstacle",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "D": "ruled_out",
+     "B": "supported"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 163366
+  },
+  {
+   "review_id": "84d995f716dccdc8",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "event-phase",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "B",
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 163447
+  },
+  {
+   "review_id": "62c145080b685406",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "environment-stages",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "E": "ruled_out",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "D",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 163894
+  },
+  {
+   "review_id": "65e62763f842e06b",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "C": "supported",
+     "A": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "supported"
+    },
+    "final_answer": [
+     "C",
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 164746
+  },
+  {
+   "review_id": "cfa9201a430fb5d0",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "event-phase",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 4,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "G": "supported",
+     "H": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "undecidable",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "undecidable"
+    },
+    "final_answer": [
+     "G",
+     "H"
+    ],
+    "verdict": "cant_tell",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "e1a54c84808a0e0c",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "environment-stages",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "ruled_out",
+     "F": "supported",
+     "G": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "F",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 165554
+  },
+  {
+   "review_id": "881144dbe44bcf3d",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "event-phase",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "H": "supported",
+     "G": "undecidable",
+     "B": "undecidable"
+    },
+    "final_answer": [
+     "D",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 165845
+  },
+  {
+   "review_id": "9be3a2d475a47a55",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "B": "supported",
+     "A": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 166107
+  },
+  {
+   "review_id": "1e787ba8bed8f293",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "environment-stages",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "D": "ruled_out",
+     "G": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 166320
+  },
+  {
+   "review_id": "091aa36d082f513f",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "route-summary",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 166497
+  },
+  {
+   "review_id": "a8944b01fa328e90",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "event-phase",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "supported",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "D",
+     "E",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 166731
+  },
+  {
+   "review_id": "85c49264a3784125",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "multi-step-turns",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "E": "undecidable",
+     "F": "ruled_out",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [],
+    "verdict": "cant_tell",
+    "notes": "看不见怎么转弯离开湖边的"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "82bf10587cf43258",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "event-phase",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "E": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "E"
+    ],
+    "verdict": "ambiguous",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "c7809a18e54327c7",
+   "source": "fullvideo",
+   "unit": "cross_video",
+   "question_type": "different-start-shared-path",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 167340
+  },
+  {
+   "review_id": "d37680f9a0e123ea",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "C": "supported",
+     "E": "supported",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out",
+     "H": "ruled_out",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "C",
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 167515
+  },
+  {
+   "review_id": "aed75c23ef0cdb45",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "environment-stages",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 167650
+  },
+  {
+   "review_id": "33fd8eb500b90ac2",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "E": "supported",
+     "G": "supported",
+     "A": "ruled_out",
+     "C": "undecidable",
+     "D": "undecidable",
+     "F": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "E",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 168018
+  },
+  {
+   "review_id": "9c91961384c3f1f6",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "6c8139741921155a",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "multi-step-turns",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "undecidable",
+     "B": "undecidable",
+     "D": "undecidable",
+     "C": "undecidable",
+     "E": "undecidable",
+     "F": "undecidable"
+    },
+    "final_answer": [],
+    "verdict": "cant_tell",
+    "notes": "看不见the concrete ring"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "1645a36e4680ec0c",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "event-phase",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 168505
+  },
+  {
+   "review_id": "eddc0c3ca7c5ca20",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "route-phase-discrimination",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "C": "undecidable",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "H": "ruled_out",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "G": "supported"
+    },
+    "final_answer": [
+     "E",
+     "G"
+    ],
+    "verdict": "cant_tell",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "2a1fb4c800bf6c5f",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out",
+     "G": "supported",
+     "B": "supported",
+     "C": "supported",
+     "E": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 169164
+  },
+  {
+   "review_id": "ad3535118a0f3ae4",
+   "source": "p01ma_gdrive",
+   "unit": "cross_recording",
+   "question_type": "same-place-different-recording",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "supported"
+    },
+    "final_answer": [
+     "A",
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 170543
+  },
+  {
+   "review_id": "f142e97801e0eeda",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "undecidable",
+     "C": "undecidable",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "H": "undecidable",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "cant_tell",
+    "notes": "HAG找不到"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "5b63a7ca520e5e8e",
+   "source": "p01ma_gdrive",
+   "unit": "cross_recording",
+   "question_type": "route-identity-discrimination",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "D": "supported",
+     "H": "supported",
+     "G": "ruled_out",
+     "F": "ruled_out",
+     "E": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "D",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 171247
+  },
+  {
+   "review_id": "d1e91df032c712e8",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "cant_tell",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "938b00e94bd1a209",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "G": "ruled_out",
+     "E": "supported",
+     "C": "ruled_out",
+     "F": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "E",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 183377
+  },
+  {
+   "review_id": "3b499cbaa690d2fc",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "A": "supported",
+     "E": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "D",
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 184344
+  },
+  {
+   "review_id": "48e1bda4a9bfc626",
+   "source": "p01ma_gdrive",
+   "unit": "cross_recording",
+   "question_type": "shared-landmark-identification",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "F",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": "0.55/56都能看见深色桩，"
+   },
+   "time_sec": 184585
+  },
+  {
+   "review_id": "8484d43c41f97b4d",
+   "source": "p01ma_gdrive",
+   "unit": "cross_recording",
+   "question_type": "shared-landmark-identification",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "supported"
+    },
+    "final_answer": [
+     "C",
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 184951
+  },
+  {
+   "review_id": "cdd7822fa92088d3",
+   "source": "p01ma_gdrive",
+   "unit": "cross_recording",
+   "question_type": "environment-difference-across-recordings",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "supported"
+    },
+    "final_answer": [
+     "B",
+     "E",
+     "G"
+    ],
+    "verdict": "ambiguous",
+    "notes": "H这个人在主视角转弯前确实是在右侧，但是转弯之后就是在左侧"
+   },
+   "time_sec": 185437
+  },
+  {
+   "review_id": "5fd24635933dfc9b",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "F",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 186000
+  },
+  {
+   "review_id": "e4184b703dc7cc5d",
+   "source": "p01ma_gdrive",
+   "unit": "cross_recording",
+   "question_type": "environment-difference-across-recordings",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "E",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 186227
+  },
+  {
+   "review_id": "112482e43b68df80",
+   "source": "p01ma_gdrive",
+   "unit": "cross_recording",
+   "question_type": "shared-landmark-identification",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "B",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 186361
+  },
+  {
+   "review_id": "a3cfb9d262bbf44b",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "route-phase-discrimination",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "G": "ruled_out",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "H": "supported"
+    },
+    "final_answer": [
+     "A",
+     "E",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 186714
+  },
+  {
+   "review_id": "7828a7e522c5414a",
+   "source": "p01ma_gdrive",
+   "unit": "cross_recording",
+   "question_type": "same-place-different-recording",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "E",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 186856
+  },
+  {
+   "review_id": "fed0efbf1fc940c6",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "undecidable",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "D"
+    ],
+    "verdict": "ambiguous",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "c4135df8f465c25d",
+   "source": "p01ma_gdrive",
+   "unit": "cross_recording",
+   "question_type": "route-identity-discrimination",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "supported",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 187422
+  },
+  {
+   "review_id": "d6dd64e4c1cd7974",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "supported"
+    },
+    "final_answer": [
+     "A",
+     "E",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 188287
+  },
+  {
+   "review_id": "71b35a2eb46a0b46",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "route-phase-discrimination",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 188766
+  },
+  {
+   "review_id": "28380dd0288f6f68",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "supported"
+    },
+    "final_answer": [
+     "E",
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 189153
+  },
+  {
+   "review_id": "ce1c7d25ba5afb97",
+   "source": "p01ma_gdrive",
+   "unit": "cross_recording",
+   "question_type": "route-identity-discrimination",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "C",
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 189704
+  },
+  {
+   "review_id": "e63b500c85ac0507",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "D",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 189903
+  },
+  {
+   "review_id": "0c1260ab8051cbc1",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "undecidable",
+     "G": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "E",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 190533
+  },
+  {
+   "review_id": "ab039cc8e4ea3e0f",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "route-phase-discrimination",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "H": "supported",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "D",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 191117
+  },
+  {
+   "review_id": "3700ac739b52c0f8",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "route-phase-discrimination",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "ruled_out",
+     "C": "supported",
+     "E": "supported",
+     "G": "ruled_out",
+     "A": "ruled_out",
+     "F": "supported",
+     "H": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "E",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 191455
+  },
+  {
+   "review_id": "47cd97ac1989d031",
+   "source": "p01ma_hf",
+   "unit": "cross_recording",
+   "question_type": "same-place-different-recording",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "ruled_out",
+     "G": "ruled_out",
+     "F": "ruled_out",
+     "H": "supported"
+    },
+    "final_answer": [
+     "A",
+     "D",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 191833
+  },
+  {
+   "review_id": "1e386b70205ad5bf",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "environment-transition",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "D": "supported",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "supported"
+    },
+    "final_answer": [
+     "B",
+     "D",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 192033
+  },
+  {
+   "review_id": "b66fa3b1062aa0d1",
+   "source": "p01ma_hf",
+   "unit": "cross_recording",
+   "question_type": "route-identity-discrimination",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "F": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported",
+     "A": "supported",
+     "D": "ruled_out",
+     "G": "ruled_out",
+     "H": "undecidable"
+    },
+    "final_answer": [
+     "A",
+     "C",
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 192295
+  },
+  {
+   "review_id": "96000fd9bea609f2",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "landmark-cooccurrence",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "D": "ruled_out",
+     "F": "supported",
+     "B": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out",
+     "C": "supported",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "F",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 192467
+  },
+  {
+   "review_id": "d5acca1a6254ab76",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "undecidable",
+     "E": "undecidable",
+     "F": "supported",
+     "H": "ruled_out",
+     "G": "supported"
+    },
+    "final_answer": [
+     "C",
+     "F",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 192644
+  },
+  {
+   "review_id": "3230f749bd16a14c",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "route-phase-discrimination",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "ruled_out",
+     "G": "ruled_out",
+     "H": "supported",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "F": "supported",
+     "C": "ruled_out",
+     "A": "supported"
+    },
+    "final_answer": [
+     "A",
+     "F",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 204849
+  },
+  {
+   "review_id": "f90c95a69d438d12",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "F": "ruled_out",
+     "C": "supported",
+     "G": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 205232
+  },
+  {
+   "review_id": "980003ff7e2998cf",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "route-phase-discrimination",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "F": "supported",
+     "D": "supported",
+     "E": "ruled_out",
+     "B": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "D",
+     "F",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 208907
+  },
+  {
+   "review_id": "73334e463c42e98e",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "supported",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 209193
+  },
+  {
+   "review_id": "a97cf8240383a8af",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out",
+     "A": "ruled_out",
+     "C": "supported",
+     "G": "ruled_out",
+     "H": "supported"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 209445
+  },
+  {
+   "review_id": "bdaf8570420c2c56",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "F": "ruled_out",
+     "H": "ruled_out",
+     "A": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "supported",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "B",
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 209847
+  },
+  {
+   "review_id": "9667f18f0da79bdd",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "route-phase-discrimination",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "H": "supported",
+     "A": "supported",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "B",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 210099
+  },
+  {
+   "review_id": "2a5995e270ca320c",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "ruled_out",
+     "D": "supported",
+     "G": "supported",
+     "H": "ruled_out",
+     "B": "supported",
+     "A": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "D",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 210416
+  },
+  {
+   "review_id": "28d5f145637b885a",
+   "source": "p01ma_hf",
+   "unit": "cross_recording",
+   "question_type": "same-place-different-recording",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "F": "supported",
+     "E": "ruled_out",
+     "G": "ruled_out",
+     "H": "supported"
+    },
+    "final_answer": [
+     "A",
+     "F",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 210722
+  },
+  {
+   "review_id": "ed579ab9412540a2",
+   "source": "p01ma_hf",
+   "unit": "cross_recording",
+   "question_type": "route-identity-discrimination",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "C": "supported",
+     "B": "ruled_out",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "undecidable",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "D"
+    ],
+    "verdict": "ambiguous",
+    "notes": "A是跑步上坡然后下坡，这样才是铺装到土路到铺装"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "accdf75f087c1656",
+   "source": "p01ma_hf",
+   "unit": "cross_recording",
+   "question_type": "environment-difference-across-recordings",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "C",
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 211238
+  },
+  {
+   "review_id": "c0106f8ea9b363ab",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "route-phase-discrimination",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "C": "ruled_out",
+     "G": "ruled_out",
+     "H": "supported",
+     "A": "supported",
+     "B": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "E",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 211517
+  },
+  {
+   "review_id": "RBMA-0047",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "E",
+     "G"
+    ],
+    "verdict": "ambiguous",
+    "notes": "急转弯这个有点模糊，U形掉头是急转弯吗?"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "RBMA-0006",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "landmark-cooccurrence",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "supported",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "G": "ruled_out",
+     "D": "ruled_out",
+     "H": "supported",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "B",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 212543
+  },
+  {
+   "review_id": "RBMA-0250",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "undecidable"
+    },
+    "final_answer": [
+     "A",
+     "C",
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 212808
+  },
+  {
+   "review_id": "RBMA-0287",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "landmark-cooccurrence",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "ruled_out",
+     "F": "ruled_out",
+     "E": "supported",
+     "G": "supported",
+     "H": "ruled_out",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported"
+    },
+    "final_answer": [
+     "C",
+     "E",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 212945
+  },
+  {
+   "review_id": "RBMA-0136",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 213140
+  },
+  {
+   "review_id": "RBMA-0153",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "undecidable",
+     "D": "ruled_out",
+     "F": "supported",
+     "H": "ruled_out",
+     "A": "supported",
+     "C": "ruled_out",
+     "E": "supported",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "E",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 213311
+  },
+  {
+   "review_id": "RBMA-0192",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "E": "supported",
+     "F": "supported",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "E",
+     "F",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 213781
+  },
+  {
+   "review_id": "RBMA-0145",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "ambiguous",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "RBMA-0002",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "B": "ruled_out",
+     "C": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "A": "ruled_out",
+     "D": "supported",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "RBMA-0135",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "D": "supported",
+     "F": "ruled_out",
+     "C": "supported",
+     "E": "supported",
+     "B": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "D",
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 214727
+  },
+  {
+   "review_id": "RBMA-0292",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "D": "supported",
+     "E": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "F": "ruled_out",
+     "H": "supported",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "D",
+     "E",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 215197
+  },
+  {
+   "review_id": "RBMA-0291",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "F",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 215445
+  },
+  {
+   "review_id": "RBMA-0229",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "G": "supported",
+     "F": "supported",
+     "H": "ruled_out",
+     "A": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "F",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 215682
+  },
+  {
+   "review_id": "RBMA-0261",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported",
+     "E": "ruled_out",
+     "G": "supported",
+     "D": "ruled_out",
+     "F": "ruled_out",
+     "H": "undecidable"
+    },
+    "final_answer": [
+     "C",
+     "G"
+    ],
+    "verdict": "ambiguous",
+    "notes": "H 的near不知道有多接近，但看着感觉有点距离"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "RBMA-0156",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "landmark-cooccurrence",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "F": "ruled_out",
+     "G": "supported",
+     "B": "ruled_out",
+     "D": "supported",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "H": "supported"
+    },
+    "final_answer": [
+     "D",
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 216218
+  },
+  {
+   "review_id": "RBMA-0154",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "A": "ruled_out",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "supported"
+    },
+    "final_answer": [
+     "C",
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 216393
+  },
+  {
+   "review_id": "RBMA-0007",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "supported",
+     "F": "ruled_out",
+     "A": "ruled_out",
+     "E": "ruled_out",
+     "G": "ruled_out",
+     "H": "supported"
+    },
+    "final_answer": [
+     "D",
+     "H"
+    ],
+    "verdict": "ambiguous",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "RBMA-0269",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "environment-transition",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "C": "ruled_out",
+     "H": "ruled_out",
+     "G": "supported",
+     "E": "ruled_out",
+     "F": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "F",
+     "G"
+    ],
+    "verdict": "ambiguous",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "RBMA-0138",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "ruled_out",
+     "H": "supported",
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "F",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 217400
+  },
+  {
+   "review_id": "RBMA-0305",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "H": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "supported"
+    },
+    "final_answer": [
+     "C",
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 217581
+  },
+  {
+   "review_id": "RBMA-0080",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "D": "ruled_out",
+     "G": "ruled_out",
+     "F": "supported",
+     "H": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "F",
+     "H"
+    ],
+    "verdict": "ambiguous",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "RBMA-0265",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "supported",
+     "A": "supported",
+     "D": "ruled_out",
+     "B": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "C",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 218010
+  },
+  {
+   "review_id": "RBMA-0314",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "H": "ruled_out",
+     "A": "supported",
+     "D": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "ambiguous",
+    "notes": "C是浅色衣服但是在阴影里"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "RBMA-0117",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "supported"
+    },
+    "final_answer": [
+     "A",
+     "C",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 218418
+  },
+  {
+   "review_id": "RBMA-0010",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported",
+     "B": "ruled_out",
+     "G": "ruled_out",
+     "H": "supported"
+    },
+    "final_answer": [
+     "A",
+     "F",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 218632
+  },
+  {
+   "review_id": "RBMA-0290",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "supported"
+    },
+    "final_answer": [
+     "E",
+     "F",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 218867
+  },
+  {
+   "review_id": "RBMA-0244",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Ruiping Liu/ Qian Yin",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "D": "ruled_out",
+     "E": "supported",
+     "G": "ruled_out",
+     "H": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "E"
+    ],
+    "verdict": "ambiguous",
+    "notes": "F的on the left side是右侧"
+   },
+   "time_sec": 0
+  }
+ ]
+}

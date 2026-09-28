@@ -1,0 +1,35 @@
+config_id,display_name,model_id,backend,thinking,max_tokens,reasoning_parser,suggested_tp,notes
+internvl3_5-241b-a28b,InternVL3.5-241B-A28B,OpenGVLab/InternVL3_5-241B-A28B,vllm,auto,2048,,8,
+qwen3-vl-30b-a3b-thinking,Qwen3-VL-30B-A3B-Thinking,Qwen/Qwen3-VL-30B-A3B-Thinking,vllm,auto,16384,qwen3,2,fixed Thinking checkpoint
+gemini-2.5-pro,gemini-2.5-pro,gemini-2.5-pro,provider,auto,16384,,,Google API via OpenAI-compatible endpoint; always thinks
+qwen3-vl-235b-a22b-instruct,Qwen3-VL-235B-A22B-Instruct,Qwen/Qwen3-VL-235B-A22B-Instruct,vllm,auto,2048,,8,fixed Instruct checkpoint
+glm-4.6v-nothink,GLM-4.6V (thinking off),zai-org/GLM-4.6V,vllm,false,2048,,8,switchable
+glm-4.6v-think,GLM-4.6V (thinking on),zai-org/GLM-4.6V,vllm,true,16384,,8,switchable
+qwen3.5-27b-nothink,Qwen3.5-27B (thinking off),Qwen/Qwen3.5-27B,vllm,false,2048,qwen3,2,switchable
+qwen3.5-27b-think,Qwen3.5-27B (thinking on),Qwen/Qwen3.5-27B,vllm,true,16384,qwen3,2,switchable
+internvl3_5-20b-a4b,InternVL3.5-20B-A4B,OpenGVLab/InternVL3_5-GPT-OSS-20B-A4B-Preview,vllm,auto,2048,,2,HF repo name differs from display name
+kimi-vl-a3b-thinking-2506,Kimi-VL-A3B-Thinking-2506,moonshotai/Kimi-VL-A3B-Thinking-2506,vllm,auto,16384,,1,fixed Thinking checkpoint
+gemma-3n-e4b-it,Gemma-3n-E4B-it,google/gemma-3n-E4B-it,vllm,auto,2048,,1,gated on HF: accept the license first; 32K context so set MAX_MODEL_LEN=32768
+internvl3_5-14b,InternVL3.5-14B,OpenGVLab/InternVL3_5-14B,vllm,auto,2048,,1,
+qwen3.5-35b-a3b-nothink,Qwen3.5-35B-A3B (thinking off),Qwen/Qwen3.5-35B-A3B,vllm,false,2048,qwen3,2,switchable
+qwen3.5-35b-a3b-think,Qwen3.5-35B-A3B (thinking on),Qwen/Qwen3.5-35B-A3B,vllm,true,16384,qwen3,2,switchable
+gemma-4-31b-it-nothink,Gemma-4-31B-it (thinking off),google/gemma-4-31B-it,vllm,false,2048,,2,switchable
+gemma-4-31b-it-think,Gemma-4-31B-it (thinking on),google/gemma-4-31B-it,vllm,true,16384,,2,switchable
+gemini-3.1-pro-preview,gemini-3.1-pro-preview,gemini-3.1-pro-preview,provider,auto,16384,,,Google API via OpenAI-compatible endpoint; always thinks
+qwen2.5-vl-7b-instruct,Qwen2.5-VL-7B,Qwen/Qwen2.5-VL-7B-Instruct,vllm,auto,2048,,1,
+qwen3-vl-8b-instruct,Qwen3-VL-8B-Instruct,Qwen/Qwen3-VL-8B-Instruct,vllm,auto,2048,,1,fixed Instruct checkpoint
+qwen3-vl-8b-thinking,Qwen3-VL-8B-Thinking,Qwen/Qwen3-VL-8B-Thinking,vllm,auto,16384,qwen3,1,fixed Thinking checkpoint
+glm-4.1v-9b-thinking,GLM-4.1V-9B-Thinking,zai-org/GLM-4.1V-9B-Thinking,vllm,auto,16384,,1,fixed Thinking checkpoint
+internvl3_5-38b,InternVL3.5-38B,OpenGVLab/InternVL3_5-38B,vllm,auto,2048,,2,
+qwen3.5-9b-nothink,Qwen3.5-9B (thinking off),Qwen/Qwen3.5-9B,vllm,false,2048,qwen3,1,switchable
+qwen3.5-9b-think,Qwen3.5-9B (thinking on),Qwen/Qwen3.5-9B,vllm,true,16384,qwen3,1,switchable
+qwen2.5-vl-72b-instruct,Qwen2.5-VL-72B-Instruct,Qwen/Qwen2.5-VL-72B-Instruct,vllm,auto,2048,,4,
+internvl3_5-8b,InternVL3.5-8B,OpenGVLab/InternVL3_5-8B,vllm,auto,2048,,1,
+qwen3-vl-235b-a22b-thinking,Qwen3-VL-235B-A22B-Thinking,Qwen/Qwen3-VL-235B-A22B-Thinking,vllm,auto,16384,qwen3,8,fixed Thinking checkpoint
+internvl3_5-30b-a3b,InternVL3.5-30B-A3B,OpenGVLab/InternVL3_5-30B-A3B,vllm,auto,2048,,2,
+gemma-4-26b-a4b-it,Gemma-4-26B-A4B-it,google/gemma-4-26B-A4B-it,vllm,auto,2048,,2,
+gemini-3.8-flash,gemini-3.8-flash,gemini-3.8-flash,provider,auto,16384,,,Google API via OpenAI-compatible endpoint; always thinks
+qwen3.5-122b-a10b-nothink,Qwen3.5-122B-A10B (thinking off),Qwen/Qwen3.5-122B-A10B,vllm,false,2048,qwen3,4,switchable
+qwen3.5-122b-a10b-think,Qwen3.5-122B-A10B (thinking on),Qwen/Qwen3.5-122B-A10B,vllm,true,16384,qwen3,4,switchable
+ernie-4.5-vl-28b-a3b-nothink,ERNIE-4.5-VL-28B-A3B (thinking off),baidu/ERNIE-4.5-VL-28B-A3B-PT,vllm,false,2048,,2,switchable
+ernie-4.5-vl-28b-a3b-think,ERNIE-4.5-VL-28B-A3B (thinking on),baidu/ERNIE-4.5-VL-28B-A3B-PT,vllm,true,16384,,2,switchable

@@ -1,0 +1,86 @@
+{
+  "available_clips": 698,
+  "missing_questions": 0,
+  "parts": [
+    {
+      "part": 1,
+      "bundle": "runningbench_part01",
+      "archive": "runningbench_clips_part01.tar.gz",
+      "questions": 70,
+      "bytes": 1067904564,
+      "sha256": "d4516fdf54d67901b9ae29f42db55c6b99b60fb5a0e23448c12b8b1b66ed3e5e"
+    },
+    {
+      "part": 2,
+      "bundle": "runningbench_part02",
+      "archive": "runningbench_clips_part02.tar.gz",
+      "questions": 70,
+      "bytes": 928699567,
+      "sha256": "afe3ba8177d4011e5965c707df525f34f958d9ffb07fb3767c19e7a6ff06243f"
+    },
+    {
+      "part": 3,
+      "bundle": "runningbench_part03",
+      "archive": "runningbench_clips_part03.tar.gz",
+      "questions": 70,
+      "bytes": 1009841141,
+      "sha256": "e83fe9547ddff3c07d023d929d34999882d3d467aa3a0172ffc679151edf1f41"
+    },
+    {
+      "part": 4,
+      "bundle": "runningbench_part04",
+      "archive": "runningbench_clips_part04.tar.gz",
+      "questions": 70,
+      "bytes": 1133240348,
+      "sha256": "44e9b5ceff7e97af0270bbd74489aa18b4fbec46688bfb8c23e1881cff5048cf"
+    },
+    {
+      "part": 5,
+      "bundle": "runningbench_part05",
+      "archive": "runningbench_clips_part05.tar.gz",
+      "questions": 70,
+      "bytes": 925587913,
+      "sha256": "d495dc76bf840ef20a4a55bae78fa945cd0428ad523a4c82d5f8fc4dbfcd082b"
+    },
+    {
+      "part": 6,
+      "bundle": "runningbench_part06",
+      "archive": "runningbench_clips_part06.tar.gz",
+      "questions": 70,
+      "bytes": 1050654511,
+      "sha256": "b2a401ef45309e1d4caf74b17790f1c59d3888de570d23302646e72ee7b1c5c3"
+    },
+    {
+      "part": 7,
+      "bundle": "runningbench_part07",
+      "archive": "runningbench_clips_part07.tar.gz",
+      "questions": 70,
+      "bytes": 1072686856,
+      "sha256": "b81dd9941d20f04117365e96eb79618ac0aa5258a46cfc102a22866df2a62bce"
+    },
+    {
+      "part": 8,
+      "bundle": "runningbench_part08",
+      "archive": "runningbench_clips_part08.tar.gz",
+      "questions": 70,
+      "bytes": 1181974232,
+      "sha256": "6e40fac6a23ade7523f78d4121dfcfe377977d90a7bd96c5cb34a1391d02d76c"
+    },
+    {
+      "part": 9,
+      "bundle": "runningbench_part09",
+      "archive": "runningbench_clips_part09.tar.gz",
+      "questions": 70,
+      "bytes": 927640277,
+      "sha256": "8d1845a1e1b0949f2206b3721667a5d26139ee1152894cbc26380111bedefe93"
+    },
+    {
+      "part": 10,
+      "bundle": "runningbench_part10",
+      "archive": "runningbench_clips_part10.tar.gz",
+      "questions": 68,
+      "bytes": 1176512051,
+      "sha256": "b36ba7d65b44bbb5645484351c7f441d4fb842acb85678deda504b730779172f"
+    }
+  ]
+}

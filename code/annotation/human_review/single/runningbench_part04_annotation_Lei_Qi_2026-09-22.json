@@ -1,0 +1,1760 @@
+{
+ "schema": "runningbench-annotation-v1",
+ "bundle": "runningbench_part04",
+ "annotator": "Lei Qi",
+ "exported_at": "2026-09-22T00:17:57.086Z",
+ "reviews": [
+  {
+   "review_id": "06d0733ee9770557",
+   "source": "P03_Running_Night_Traj01_Trial01",
+   "unit": "P03_Running_Night_Traj01_Trial01 [240.0--300.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 4,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out",
+     "B": "ruled_out"
+    },
+    "final_answer": [
+     "D",
+     "G"
+    ],
+    "verdict": "ambiguous",
+    "notes": "A：墙体在时间内并非一直连续 B:路灯在广场上 C：人行道右侧 E：摄像机右侧 F：银色货车停着 H：没有深色金属柱"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "c6803537db091952",
+   "source": "P03_Running_Night_Traj01_Trial01",
+   "unit": "P03_Running_Night_Traj01_Trial01 [480.0--540.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "B",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 584
+  },
+  {
+   "review_id": "abdfe9ac1cffaa5c",
+   "source": "P03_Running_Night_Traj03_Trial01",
+   "unit": "P03_Running_Night_Traj03_Trial01 [120.0--180.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "G": "ruled_out",
+     "F": "supported",
+     "E": "supported",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "E",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 741
+  },
+  {
+   "review_id": "aa56cdc4001f1d84",
+   "source": "P03_Running_Night_Traj03_Trial01",
+   "unit": "P03_Running_Night_Traj03_Trial01 [360.0--420.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "H": "supported",
+     "G": "ruled_out",
+     "F": "ruled_out",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "supported"
+    },
+    "final_answer": [
+     "D",
+     "E",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 892
+  },
+  {
+   "review_id": "3745d2edc6b9e1eb",
+   "source": "P03_SlowWalk_Day_Traj01_Trial01",
+   "unit": "P03_SlowWalk_Day_Traj01_Trial01 [360.0--420.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 1157
+  },
+  {
+   "review_id": "ba45582e562e35b5",
+   "source": "P03_SlowWalk_Day_Traj01_Trial01",
+   "unit": "P03_SlowWalk_Day_Traj01_Trial01 [720.0--780.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 11355
+  },
+  {
+   "review_id": "83d104b5e5dce4bf",
+   "source": "P03_SlowWalk_Day_Traj02_Trial01",
+   "unit": "P03_SlowWalk_Day_Traj02_Trial01 [180.0--240.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "supported",
+     "B": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "F",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 1439
+  },
+  {
+   "review_id": "adac85406948ea5a",
+   "source": "P03_SlowWalk_Day_Traj02_Trial01",
+   "unit": "P03_SlowWalk_Day_Traj02_Trial01 [420.0--480.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 11373
+  },
+  {
+   "review_id": "e365753191f59346",
+   "source": "P03_SlowWalk_Day_Traj02_Trial01",
+   "unit": "P03_SlowWalk_Day_Traj02_Trial01 [540.0--600.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 11377
+  },
+  {
+   "review_id": "4e871d88718a5a2d",
+   "source": "P03_SlowWalk_Day_Traj03_Trial01",
+   "unit": "P03_SlowWalk_Day_Traj03_Trial01 [420.0--480.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "B": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 11381
+  },
+  {
+   "review_id": "2063ccb43a2e7492",
+   "source": "P03_SlowWalk_Night_Traj01_Trial01",
+   "unit": "P03_SlowWalk_Night_Traj01_Trial01 [60.0--120.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 11386
+  },
+  {
+   "review_id": "1daa684ff1a5858d",
+   "source": "P03_SlowWalk_Night_Traj01_Trial01",
+   "unit": "P03_SlowWalk_Night_Traj01_Trial01 [600.0--660.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 11389
+  },
+  {
+   "review_id": "ede335258b82ed98",
+   "source": "P03_SlowWalk_Night_Traj01_Trial01",
+   "unit": "P03_SlowWalk_Night_Traj01_Trial01 [900.0--960.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 11394
+  },
+  {
+   "review_id": "f51e3a182d5624c5",
+   "source": "P03_SlowWalk_Night_Traj02_Trial01",
+   "unit": "P03_SlowWalk_Night_Traj02_Trial01 [600.0--660.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "H": "ruled_out",
+     "G": "supported",
+     "F": "ruled_out",
+     "E": "supported",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "E",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 2259
+  },
+  {
+   "review_id": "7d201f13d4a2e5e2",
+   "source": "P03_SlowWalk_Night_Traj02_Trial01",
+   "unit": "P03_SlowWalk_Night_Traj02_Trial01 [780.0--840.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "H": "supported",
+     "G": "supported",
+     "F": "ruled_out",
+     "E": "supported",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "E",
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 2492
+  },
+  {
+   "review_id": "d983760974a2ab23",
+   "source": "P03_SlowWalk_Night_Traj03_Trial01",
+   "unit": "P03_SlowWalk_Night_Traj03_Trial01 [300.0--360.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "F": "supported",
+     "H": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "E",
+     "F",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 2688
+  },
+  {
+   "review_id": "47c3d669d948055b",
+   "source": "P03_SlowWalk_Night_Traj03_Trial01",
+   "unit": "P03_SlowWalk_Night_Traj03_Trial01 [480.0--540.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "C": "ruled_out",
+     "B": "supported",
+     "D": "ruled_out",
+     "A": "ruled_out",
+     "E": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 2777
+  },
+  {
+   "review_id": "da2296bf2728a29f",
+   "source": "SB-BLB_Walk_260505_193813",
+   "unit": "SB-BLB_Walk_260505_193813 [60.0--120.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "ruled_out",
+     "D": "supported",
+     "F": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "E": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "D",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 11402
+  },
+  {
+   "review_id": "d832f6ab18547d03",
+   "source": "ZumWald_Walk",
+   "unit": "ZumWald_Walk [60.0--120.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": "initial marks具体指的是什么"
+   },
+   "time_sec": 11405
+  },
+  {
+   "review_id": "04f79719ecc92b29",
+   "source": "ZumWald_Walk_260515_163801",
+   "unit": "ZumWald_Walk_260515_163801 [180.0--240.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "B": "supported",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 3164
+  },
+  {
+   "review_id": "c1e0a4e5b4578bc1",
+   "source": "airport_walk_fast",
+   "unit": "airport_walk_fast [300.0--360.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out",
+     "A": "supported"
+    },
+    "final_answer": [
+     "A",
+     "C",
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 3258
+  },
+  {
+   "review_id": "2d723ad53a56669c",
+   "source": "airport_walk_normal",
+   "unit": "airport_walk_normal [480.0--497.38]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 2,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "ambiguous",
+    "notes": "A：只有一侧有高大植物 B：最后一帧没有铺设道路 C：并非沙漠小径 D：没有灰色铺设路面 F：没有暴雨 G：天空多云 H：没有铺设道路"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "5bac0bd697f17358",
+   "source": "airport_walk_slow",
+   "unit": "airport_walk_slow [420.0--480.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "E",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 3673
+  },
+  {
+   "review_id": "e3337706e5329a8b",
+   "source": "airport_walk_slow",
+   "unit": "airport_walk_slow [480.0--540.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 11419
+  },
+  {
+   "review_id": "cad3957a059a6b03",
+   "source": "gravel_plant_fast",
+   "unit": "gravel_plant_fast [0.0--60.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 11421
+  },
+  {
+   "review_id": "7e1d79f4c47ce608",
+   "source": "gravel_plant_normal",
+   "unit": "gravel_plant_normal [0.0--60.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {},
+    "final_answer": [],
+    "verdict": "cant_tell",
+    "notes": "所有标志都在道路右侧，题干有问题"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "2bb9a3c20e59e790",
+   "source": "gravel_plant_normal",
+   "unit": "gravel_plant_normal [120.0--180.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "C": "ruled_out",
+     "B": "supported",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 4992
+  },
+  {
+   "review_id": "990fc6c1f7e2cc6f",
+   "source": "gravel_plant_normal",
+   "unit": "gravel_plant_normal [300.0--360.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "D": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 5106
+  },
+  {
+   "review_id": "0f7a28c34eed687b",
+   "source": "gravel_plant_slow",
+   "unit": "gravel_plant_slow [120.0--180.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "F": "supported",
+     "H": "ruled_out",
+     "G": "ruled_out",
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 5217
+  },
+  {
+   "review_id": "7c58a6c77c6c25c9",
+   "source": "gravel_plant_slow",
+   "unit": "gravel_plant_slow [540.0--600.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 5333
+  },
+  {
+   "review_id": "8b3264410641891a",
+   "source": "kit_hochhaus_informatikom_normal",
+   "unit": "kit_hochhaus_informatikom_normal [0.0--60.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 2,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "B": "supported"
+    },
+    "final_answer": [
+     "B",
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "7571415c6c07c577",
+   "source": "kit_hochhaus_informatikom_normal",
+   "unit": "kit_hochhaus_informatikom_normal [120.0--180.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "H": "ruled_out",
+     "G": "supported",
+     "F": "ruled_out",
+     "E": "supported",
+     "D": "supported",
+     "C": "ruled_out",
+     "B": "supported",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "D",
+     "E",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 6759
+  },
+  {
+   "review_id": "7fc9459d37c26d59",
+   "source": "kit_hochhaus_informatikom_normal",
+   "unit": "kit_hochhaus_informatikom_normal [180.0--240.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "H": "supported",
+     "G": "ruled_out",
+     "F": "ruled_out",
+     "E": "supported",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "supported",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "E",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 7319
+  },
+  {
+   "review_id": "25face5d2be21eb9",
+   "source": "kit_hochhaus_informatikom_slow",
+   "unit": "kit_hochhaus_informatikom_slow [540.0--600.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 7368
+  },
+  {
+   "review_id": "e59128572d366382",
+   "source": "kit_informatikom_schloss_normal",
+   "unit": "kit_informatikom_schloss_normal [180.0--240.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "B": "supported"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "7aaf8a1aa200a884",
+   "source": "kit_mensa_scc_normal",
+   "unit": "kit_mensa_scc_normal [0.0--60.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "E": "supported"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "2206da424017a172",
+   "source": "kit_mensa_scc_normal",
+   "unit": "kit_mensa_scc_normal [120.0--180.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "E": "supported"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "4e6e640f91a5bd71",
+   "source": "kit_scc_hochhaus_fast",
+   "unit": "kit_scc_hochhaus_fast [300.0--360.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "D"
+    ],
+    "verdict": "ambiguous",
+    "notes": "A：没有儿童穿着红色上衣 C：两名行人从镜头右侧走来 E：骑行者穿的黑色上衣。"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "d560e62030f6fcde",
+   "source": "rhein_fast",
+   "unit": "rhein_fast [60.0--120.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "F": "supported"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "6bf18b2b9fb02433",
+   "source": "rhein_normal",
+   "unit": "rhein_normal [180.0--240.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 2,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "C": "undecidable",
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "ambiguous",
+    "notes": "C：应该是红白相间，黄色底座"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "469c3bdb86ab4120",
+   "source": "rhein_slow",
+   "unit": "rhein_slow [120.0--180.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 2,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "C": "supported"
+    },
+    "final_answer": [
+     "C",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "5cbae8a1e8f806ee",
+   "source": "rhein_slow",
+   "unit": "rhein_slow [300.0--360.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "H": "supported",
+     "G": "supported",
+     "F": "ruled_out",
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "A": "supported",
+     "B": "supported"
+    },
+    "final_answer": [
+     "A",
+     "B",
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8379
+  },
+  {
+   "review_id": "ec1cb28ec7d6980f",
+   "source": "rhein_slow",
+   "unit": "rhein_slow [480.0--540.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "C": "supported"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "c43c36a83abc69d5",
+   "source": "sinzheim_city_fast",
+   "unit": "sinzheim_city_fast [0.0--60.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "C": "supported",
+     "B": "ruled_out",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "C",
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8525
+  },
+  {
+   "review_id": "ad899316db65917f",
+   "source": "sinzheim_city_fast",
+   "unit": "sinzheim_city_fast [240.0--300.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "F": "supported"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "8f5ded8fd4bcc894",
+   "source": "sinzheim_city_fast",
+   "unit": "sinzheim_city_fast [300.0--360.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 2,
+   "complete": false,
+   "human_checks": {
+    "per_option": {},
+    "final_answer": [],
+    "verdict": "ambiguous",
+    "notes": "拍摄者在视频片段过程中一直在直走，没有转弯，只有摄像头拍摄方向移动了，但是脚步方向一直是直行"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "81e0981e95fb5897",
+   "source": "sinzheim_city_fast",
+   "unit": "sinzheim_city_fast [360.0--420.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "G": "supported",
+     "H": "ruled_out",
+     "D": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "D",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8875
+  },
+  {
+   "review_id": "547fb9e7082a1603",
+   "source": "sinzheim_city_slow",
+   "unit": "sinzheim_city_slow [360.0--420.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "D": "supported",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "D",
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8944
+  },
+  {
+   "review_id": "f18711e1be2f3241",
+   "source": "weinreben_slow",
+   "unit": "weinreben_slow [120.0--180.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "B",
+     "D",
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 9044
+  },
+  {
+   "review_id": "a0c0e84ea1b959f2",
+   "source": "weinreben_slow",
+   "unit": "weinreben_slow [300.0--360.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 2,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "H": "supported",
+     "G": "ruled_out",
+     "F": "ruled_out",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "H"
+    ],
+    "verdict": "ambiguous",
+    "notes": "A：在左侧森林 B：小径有分叉和弯道 C：小径向右弯曲 D：葡萄园一开始左右都有，后期只在右边。 E：树木也在小径左侧 F：在小径左侧。 G：丛葡萄园过度为森林"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "be7d0938a1c3dcc4",
+   "source": "Hohenheim_2_langsam_1",
+   "unit": "Hohenheim_2_langsam_1 [600.0--660.0]",
+   "question_type": "Event Sequencing",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [],
+    "verdict": "ambiguous",
+    "notes": "拍摄者在视频片段中没有转弯。"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "33f32cdce5ae9522",
+   "source": "Hohenheim_joggen_1",
+   "unit": "Hohenheim_joggen_1 [1080.0--1140.0]",
+   "question_type": "Event Sequencing",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "undecidable",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [],
+    "verdict": "ambiguous",
+    "notes": "该人从00:00 到00:42直行，00:42到00:50之间右转而不是左转，随后继续直行"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "24594aaec443515f",
+   "source": "Hohenheim_laufen_schnell",
+   "unit": "Hohenheim_laufen_schnell [540.0--600.0]",
+   "question_type": "Event Sequencing",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "D": "supported"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "abb55da039249ae5",
+   "source": "P01_FastWalk_Day_Traj01",
+   "unit": "P01_FastWalk_Day_Traj01 [120.0--180.0]",
+   "question_type": "Event Sequencing",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "supported"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "f50f59fc230966cc",
+   "source": "P01_FastWalk_Night_Traj02",
+   "unit": "P01_FastWalk_Night_Traj02 [540.0--600.0]",
+   "question_type": "Event Sequencing",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "B": "supported"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "a5afd80989adc3d7",
+   "source": "P01_Running_Night_Traj02",
+   "unit": "P01_Running_Night_Traj02 [540.0--600.0]",
+   "question_type": "Event Sequencing",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "E": "undecidable",
+     "B": "undecidable",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [],
+    "verdict": "cant_tell",
+    "notes": "B和E都可能正确，取决于第一段路是沥青人行道还是宽阔的铺面步行道，画面无法判断。"
+   },
+   "time_sec": 10212
+  },
+  {
+   "review_id": "794311585a2b5e25",
+   "source": "P01_SlowWalk_Day_Traj01",
+   "unit": "P01_SlowWalk_Day_Traj01 [240.0--300.0]",
+   "question_type": "Event Sequencing",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "B": "supported"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "d55216ef3007e25a",
+   "source": "P01_SlowWalk_Day_Traj02",
+   "unit": "P01_SlowWalk_Day_Traj02 [540.0--600.0]",
+   "question_type": "Event Sequencing",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "E": "supported"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "78e8d76792a4de4b",
+   "source": "P01_SlowWalk_Day_Traj03",
+   "unit": "P01_SlowWalk_Day_Traj03 [720.0--780.0]",
+   "question_type": "Event Sequencing",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "supported"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "343da7df3e54794b",
+   "source": "P01_SlowWalk_Day_Traj03",
+   "unit": "P01_SlowWalk_Day_Traj03 [840.0--900.0]",
+   "question_type": "Event Sequencing",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "B": "supported"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "9910e49a384ecdcc",
+   "source": "P02_FastWalk_Night_Trial02",
+   "unit": "P02_FastWalk_Night_Trial02 [360.0--420.0]",
+   "question_type": "Event Sequencing",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "E": "supported"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "bf0406cc88950e38",
+   "source": "P02_FastWalk_Night_Trial03",
+   "unit": "P02_FastWalk_Night_Trial03 [840.0--900.0]",
+   "question_type": "Event Sequencing",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "C": "supported"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "6cdd9f39cc00a2dc",
+   "source": "P02_Running_Day_Trial02",
+   "unit": "P02_Running_Day_Trial02 [120.0--180.0]",
+   "question_type": "Event Sequencing",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "F": "supported"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "579142eb14dfa816",
+   "source": "P02_Running_Day_Trial02",
+   "unit": "P02_Running_Day_Trial02 [540.0--600.0]",
+   "question_type": "Event Sequencing",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "B": "supported"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "a4a38d5cf9e9da65",
+   "source": "P03_FastWalk_Day_Traj01_Trial01",
+   "unit": "P03_FastWalk_Day_Traj01_Trial01 [720.0--780.0]",
+   "question_type": "Event Sequencing",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [],
+    "verdict": "ambiguous",
+    "notes": "先sharp right turn ，再 smooth left turn"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "2fc69cd240b2843b",
+   "source": "P03_SlowWalk_Day_Traj01_Trial01",
+   "unit": "P03_SlowWalk_Day_Traj01_Trial01 [180.0--240.0]",
+   "question_type": "Event Sequencing",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "C": "supported"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "6edb9ef1870c036e",
+   "source": "P03_SlowWalk_Day_Traj02_Trial01",
+   "unit": "P03_SlowWalk_Day_Traj02_Trial01 [480.0--540.0]",
+   "question_type": "Event Sequencing",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "C": "supported"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "344cb6b10c70ccae",
+   "source": "kit_informatikom_schloss_slow",
+   "unit": "kit_informatikom_schloss_slow [480.0--540.0]",
+   "question_type": "Event Sequencing",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "F": "supported"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "c37f23049b104d28",
+   "source": "kit_scc_hochhaus_fast",
+   "unit": "kit_scc_hochhaus_fast [60.0--120.0]",
+   "question_type": "Event Sequencing",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "B": "supported"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "bb88beed6315b2fd",
+   "source": "sinzheim_city_slow",
+   "unit": "sinzheim_city_slow [0.0--60.0]",
+   "question_type": "Event Sequencing",
+   "annotator": "Lei Qi",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "B": "supported"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  }
+ ]
+}

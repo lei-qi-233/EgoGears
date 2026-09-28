@@ -1,0 +1,1953 @@
+{
+ "schema": "runningbench-annotation-v1",
+ "bundle": "runningbench_part03",
+ "annotator": "Haiwen Sun",
+ "exported_at": "2026-09-22T15:41:04.954Z",
+ "reviews": [
+  {
+   "review_id": "764f86edae2b4456",
+   "source": "P01_SlowWalk_Night_Traj01",
+   "unit": "P01_SlowWalk_Night_Traj01 [540.0--600.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "ruled_out",
+     "B": "supported",
+     "A": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "C": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 41358
+  },
+  {
+   "review_id": "5e2980cca491f86c",
+   "source": "P01_SlowWalk_Night_Traj01",
+   "unit": "P01_SlowWalk_Night_Traj01 [720.0--780.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 41408
+  },
+  {
+   "review_id": "42bd674e594a179f",
+   "source": "P01_SlowWalk_Night_Traj01",
+   "unit": "P01_SlowWalk_Night_Traj01 [900.0--960.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 41462
+  },
+  {
+   "review_id": "44ab65d0c34ff316",
+   "source": "P01_SlowWalk_Night_Traj02",
+   "unit": "P01_SlowWalk_Night_Traj02 [480.0--540.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "D": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "supported"
+    },
+    "final_answer": [
+     "C",
+     "D",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 41592
+  },
+  {
+   "review_id": "ab568f1d8f2d259c",
+   "source": "P01_SlowWalk_Night_Traj03",
+   "unit": "P01_SlowWalk_Night_Traj03 [240.0--300.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "G": "supported",
+     "H": "ruled_out",
+     "F": "ruled_out",
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 41656
+  },
+  {
+   "review_id": "3432ff3f7a2f9bab",
+   "source": "P01_SlowWalk_Night_Traj03",
+   "unit": "P01_SlowWalk_Night_Traj03 [420.0--480.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "C": "supported",
+     "A": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "G": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 41738
+  },
+  {
+   "review_id": "cca868c2caa64ee5",
+   "source": "P01_SlowWalk_Night_Traj03",
+   "unit": "P01_SlowWalk_Night_Traj03 [720.0--780.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "D": "ruled_out",
+     "G": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 41823
+  },
+  {
+   "review_id": "9ffb66dbc805bc38",
+   "source": "P02_FastWalk_Day_Trial01",
+   "unit": "P02_FastWalk_Day_Trial01 [0.0--60.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out",
+     "E": "ruled_out",
+     "B": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 41869
+  },
+  {
+   "review_id": "48d78b147fc6827f",
+   "source": "P02_FastWalk_Day_Trial01",
+   "unit": "P02_FastWalk_Day_Trial01 [120.0--180.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 51752
+  },
+  {
+   "review_id": "4dbf8687b8e87799",
+   "source": "P02_FastWalk_Day_Trial01",
+   "unit": "P02_FastWalk_Day_Trial01 [600.0--660.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 51756
+  },
+  {
+   "review_id": "f37243194d77cbd1",
+   "source": "P02_FastWalk_Day_Trial01",
+   "unit": "P02_FastWalk_Day_Trial01 [900.0--924.592]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "G": "supported",
+     "F": "supported",
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "F",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 51734
+  },
+  {
+   "review_id": "def321b1043904de",
+   "source": "P02_FastWalk_Day_Trial02",
+   "unit": "P02_FastWalk_Day_Trial02 [240.0--300.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "G": "supported",
+     "E": "ruled_out",
+     "F": "supported",
+     "H": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "F",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 51913
+  },
+  {
+   "review_id": "3834f71d60de68c9",
+   "source": "P02_FastWalk_Day_Trial02",
+   "unit": "P02_FastWalk_Day_Trial02 [720.0--780.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported",
+     "G": "ruled_out",
+     "H": "supported",
+     "A": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 52158
+  },
+  {
+   "review_id": "b806fb47cbda8327",
+   "source": "P02_FastWalk_Day_Trial02",
+   "unit": "P02_FastWalk_Day_Trial02 [780.0--818.255]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out",
+     "A": "ruled_out",
+     "F": "supported",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "F",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 52343
+  },
+  {
+   "review_id": "d19b2c8e6dd7c471",
+   "source": "P02_FastWalk_Day_Trial03",
+   "unit": "P02_FastWalk_Day_Trial03 [60.0--120.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "H": "ruled_out",
+     "G": "ruled_out",
+     "F": "supported",
+     "E": "ruled_out",
+     "B": "ruled_out",
+     "A": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 52630
+  },
+  {
+   "review_id": "fcefa09eebec8941",
+   "source": "P02_FastWalk_Night_Trial01",
+   "unit": "P02_FastWalk_Night_Trial01 [0.0--60.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported",
+     "A": "ruled_out",
+     "G": "supported",
+     "H": "supported",
+     "F": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 52925
+  },
+  {
+   "review_id": "cc6db00b6359baf1",
+   "source": "P02_FastWalk_Night_Trial01",
+   "unit": "P02_FastWalk_Night_Trial01 [120.0--180.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "A": "ruled_out",
+     "C": "supported",
+     "B": "supported",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 53083
+  },
+  {
+   "review_id": "0d315bfcaa7afcb2",
+   "source": "P02_FastWalk_Night_Trial01",
+   "unit": "P02_FastWalk_Night_Trial01 [480.0--540.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "H": "supported",
+     "E": "supported",
+     "D": "ruled_out",
+     "A": "ruled_out",
+     "G": "ruled_out",
+     "C": "supported",
+     "F": "ruled_out",
+     "B": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "E",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 53212
+  },
+  {
+   "review_id": "61ab96150b0b8487",
+   "source": "P02_FastWalk_Night_Trial01",
+   "unit": "P02_FastWalk_Night_Trial01 [840.0--897.9]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "C": "supported",
+     "A": "ruled_out",
+     "F": "supported",
+     "E": "ruled_out",
+     "G": "ruled_out",
+     "B": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "D",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 53305
+  },
+  {
+   "review_id": "f9ffdbce6d618128",
+   "source": "P02_FastWalk_Night_Trial03",
+   "unit": "P02_FastWalk_Night_Trial03 [660.0--720.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "G": "ruled_out",
+     "F": "supported",
+     "E": "supported",
+     "H": "ruled_out",
+     "C": "ruled_out",
+     "A": "ruled_out",
+     "D": "ruled_out",
+     "B": "ruled_out"
+    },
+    "final_answer": [
+     "E",
+     "F"
+    ],
+    "verdict": "ambiguous",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "afb9285bad149056",
+   "source": "P02_FastWalk_Night_Trial03",
+   "unit": "P02_FastWalk_Night_Trial03 [780.0--840.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out",
+     "B": "supported",
+     "D": "ruled_out",
+     "F": "supported",
+     "E": "ruled_out",
+     "C": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "F",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 53731
+  },
+  {
+   "review_id": "0d51734a928c0fe7",
+   "source": "P02_Running_Day_Trial01",
+   "unit": "P02_Running_Day_Trial01 [240.0--300.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "G": "supported",
+     "C": "ruled_out",
+     "B": "supported",
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "F": "supported",
+     "A": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "B",
+     "F",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 53826
+  },
+  {
+   "review_id": "82128c755a15c7f2",
+   "source": "P02_Running_Day_Trial01",
+   "unit": "P02_Running_Day_Trial01 [600.0--660.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 54151
+  },
+  {
+   "review_id": "cfb20ad2df569419",
+   "source": "P02_Running_Day_Trial02",
+   "unit": "P02_Running_Day_Trial02 [60.0--120.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 54055
+  },
+  {
+   "review_id": "33cc129dfbb41629",
+   "source": "P02_Running_Day_Trial02",
+   "unit": "P02_Running_Day_Trial02 [240.0--300.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "D": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out",
+     "F": "ruled_out",
+     "E": "ruled_out",
+     "C": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 54127
+  },
+  {
+   "review_id": "00f1642b54c2159f",
+   "source": "P02_Running_Day_Trial02",
+   "unit": "P02_Running_Day_Trial02 [420.0--480.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 54259
+  },
+  {
+   "review_id": "f2684efe46254427",
+   "source": "P02_Running_Day_Trial03",
+   "unit": "P02_Running_Day_Trial03 [60.0--120.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 54311
+  },
+  {
+   "review_id": "50881f67b14b3058",
+   "source": "P02_Running_Day_Trial03",
+   "unit": "P02_Running_Day_Trial03 [120.0--180.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "F": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 54378
+  },
+  {
+   "review_id": "9949f7e304651286",
+   "source": "P02_Running_Day_Trial03",
+   "unit": "P02_Running_Day_Trial03 [180.0--240.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "G": "supported",
+     "C": "supported",
+     "D": "ruled_out",
+     "H": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "B": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "E",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 54523
+  },
+  {
+   "review_id": "34a79a721700e6e8",
+   "source": "P02_Running_Night_Trial01",
+   "unit": "P02_Running_Night_Trial01 [300.0--360.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 54595
+  },
+  {
+   "review_id": "65d4ae4f872fabe5",
+   "source": "P02_Running_Night_Trial01",
+   "unit": "P02_Running_Night_Trial01 [480.0--540.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "F": "ruled_out",
+     "E": "supported",
+     "D": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 54677
+  },
+  {
+   "review_id": "5543a4dd544be2bc",
+   "source": "P02_Running_Night_Trial02",
+   "unit": "P02_Running_Night_Trial02 [180.0--240.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "C": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 54737
+  },
+  {
+   "review_id": "d10f4204e59fb3e4",
+   "source": "P02_Running_Night_Trial02",
+   "unit": "P02_Running_Night_Trial02 [240.0--300.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "undecidable",
+     "B": "undecidable",
+     "C": "undecidable",
+     "D": "undecidable",
+     "E": "undecidable",
+     "F": "undecidable",
+     "G": "undecidable"
+    },
+    "final_answer": [],
+    "verdict": "cant_tell",
+    "notes": "the camera holder only turns left"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "4e4a9415c949e79a",
+   "source": "P02_Running_Night_Trial02",
+   "unit": "P02_Running_Night_Trial02 [360.0--420.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 5,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "supported",
+     "H": "supported",
+     "F": "supported",
+     "G": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "B",
+     "F",
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 55077
+  },
+  {
+   "review_id": "7c03067fe863c34b",
+   "source": "P02_Running_Night_Trial02",
+   "unit": "P02_Running_Night_Trial02 [480.0--540.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 55155
+  },
+  {
+   "review_id": "a692fda7ae031707",
+   "source": "P02_SlowWalk_Day_Trial01",
+   "unit": "P02_SlowWalk_Day_Trial01 [120.0--180.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "ruled_out",
+     "D": "supported",
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "F": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 55243
+  },
+  {
+   "review_id": "e2429c2fc4679583",
+   "source": "P02_SlowWalk_Day_Trial01",
+   "unit": "P02_SlowWalk_Day_Trial01 [480.0--540.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "F": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 55305
+  },
+  {
+   "review_id": "fddbbf18d3453c26",
+   "source": "P02_SlowWalk_Day_Trial02",
+   "unit": "P02_SlowWalk_Day_Trial02 [60.0--120.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 55334
+  },
+  {
+   "review_id": "e895151a2a0c7a4e",
+   "source": "P02_SlowWalk_Day_Trial02",
+   "unit": "P02_SlowWalk_Day_Trial02 [540.0--600.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "C": "supported",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 55386
+  },
+  {
+   "review_id": "8eb00b671f419f6f",
+   "source": "P02_SlowWalk_Day_Trial02",
+   "unit": "P02_SlowWalk_Day_Trial02 [600.0--660.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "A": "ruled_out",
+     "C": "supported",
+     "B": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 55481
+  },
+  {
+   "review_id": "94119be7bc975a29",
+   "source": "P02_SlowWalk_Day_Trial03",
+   "unit": "P02_SlowWalk_Day_Trial03 [600.0--660.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 55567
+  },
+  {
+   "review_id": "0942a35142bad8e3",
+   "source": "P02_SlowWalk_Night_Trial01",
+   "unit": "P02_SlowWalk_Night_Trial01 [0.0--60.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 55649
+  },
+  {
+   "review_id": "d6e917b3c872a04d",
+   "source": "P02_SlowWalk_Night_Trial01",
+   "unit": "P02_SlowWalk_Night_Trial01 [120.0--180.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "H": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "E",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 55813
+  },
+  {
+   "review_id": "a836b70f2efbb2c2",
+   "source": "P02_SlowWalk_Night_Trial01",
+   "unit": "P02_SlowWalk_Night_Trial01 [240.0--300.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "H": "supported",
+     "G": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "F": "supported",
+     "E": "ruled_out",
+     "D": "supported"
+    },
+    "final_answer": [
+     "D",
+     "F",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 55954
+  },
+  {
+   "review_id": "01cd165b655bbb6d",
+   "source": "P02_SlowWalk_Night_Trial02",
+   "unit": "P02_SlowWalk_Night_Trial02 [120.0--180.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "supported",
+     "B": "supported",
+     "H": "supported",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "D",
+     "F",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 56094
+  },
+  {
+   "review_id": "bdc27b4bfb575a1b",
+   "source": "P02_SlowWalk_Night_Trial02",
+   "unit": "P02_SlowWalk_Night_Trial02 [840.0--900.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "C": "supported",
+     "D": "supported",
+     "B": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 56191
+  },
+  {
+   "review_id": "54e8a7afebd75f3a",
+   "source": "P02_SlowWalk_Night_Trial03",
+   "unit": "P02_SlowWalk_Night_Trial03 [120.0--180.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "supported",
+     "D": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "E",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 56373
+  },
+  {
+   "review_id": "3fc4456996af5184",
+   "source": "P02_SlowWalk_Night_Trial03",
+   "unit": "P02_SlowWalk_Night_Trial03 [300.0--360.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "D": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 56458
+  },
+  {
+   "review_id": "39721de1650ec618",
+   "source": "P02_SlowWalk_Night_Trial03",
+   "unit": "P02_SlowWalk_Night_Trial03 [360.0--420.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "supported",
+     "C": "ruled_out",
+     "F": "ruled_out",
+     "E": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "ambiguous",
+    "notes": ""
+   },
+   "time_sec": 56536
+  },
+  {
+   "review_id": "985b9faad245f7ca",
+   "source": "P02_SlowWalk_Night_Trial03",
+   "unit": "P02_SlowWalk_Night_Trial03 [420.0--480.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "F": "ruled_out",
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 56635
+  },
+  {
+   "review_id": "a8f14e9485f7c2d4",
+   "source": "P02_SlowWalk_Night_Trial03",
+   "unit": "P02_SlowWalk_Night_Trial03 [660.0--720.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "H": "ruled_out",
+     "G": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported",
+     "D": "ruled_out",
+     "B": "supported",
+     "C": "supported",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 56723
+  },
+  {
+   "review_id": "9c6b25858882ee2f",
+   "source": "P03_FastWalk_Day_Traj01_Trial01",
+   "unit": "P03_FastWalk_Day_Traj01_Trial01 [0.0--60.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "F": "supported",
+     "D": "supported",
+     "E": "ruled_out",
+     "C": "ruled_out"
+    },
+    "final_answer": [
+     "D",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 56860
+  },
+  {
+   "review_id": "acf8c83f283328ec",
+   "source": "P03_FastWalk_Day_Traj01_Trial01",
+   "unit": "P03_FastWalk_Day_Traj01_Trial01 [540.0--600.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "H": "ruled_out",
+     "G": "supported",
+     "D": "supported"
+    },
+    "final_answer": [
+     "A",
+     "D",
+     "E",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 57059
+  },
+  {
+   "review_id": "6a044847a160eb32",
+   "source": "P03_FastWalk_Day_Traj02_Trial01",
+   "unit": "P03_FastWalk_Day_Traj02_Trial01 [0.0--60.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 5,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "F": "supported",
+     "H": "ruled_out",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "supported",
+     "C": "supported",
+     "G": "supported"
+    },
+    "final_answer": [
+     "C",
+     "D",
+     "E",
+     "F",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 57284
+  },
+  {
+   "review_id": "7e667d53bfc7677e",
+   "source": "P03_FastWalk_Day_Traj02_Trial01",
+   "unit": "P03_FastWalk_Day_Traj02_Trial01 [780.0--840.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "supported"
+    },
+    "final_answer": [
+     "C",
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 57403
+  },
+  {
+   "review_id": "31659d903f905169",
+   "source": "P03_FastWalk_Day_Traj03_Trial01",
+   "unit": "P03_FastWalk_Day_Traj03_Trial01 [420.0--480.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "H": "ruled_out",
+     "G": "ruled_out",
+     "A": "supported",
+     "C": "supported",
+     "D": "supported",
+     "F": "ruled_out",
+     "B": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "C",
+     "D",
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 57492
+  },
+  {
+   "review_id": "2020158548b96ddd",
+   "source": "P03_FastWalk_Day_Traj03_Trial01",
+   "unit": "P03_FastWalk_Day_Traj03_Trial01 [600.0--660.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "G": "supported",
+     "C": "ruled_out",
+     "F": "ruled_out",
+     "E": "ruled_out",
+     "H": "ruled_out",
+     "D": "supported"
+    },
+    "final_answer": [
+     "D",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 57646
+  },
+  {
+   "review_id": "1f54d2cb83c2b229",
+   "source": "P03_FastWalk_Night_Traj01_Trial01",
+   "unit": "P03_FastWalk_Night_Traj01_Trial01 [120.0--180.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "ruled_out",
+     "C": "supported",
+     "F": "supported",
+     "E": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out",
+     "A": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "F",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 57821
+  },
+  {
+   "review_id": "a12d85feb0db083a",
+   "source": "P03_FastWalk_Night_Traj01_Trial01",
+   "unit": "P03_FastWalk_Night_Traj01_Trial01 [660.0--720.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "ruled_out",
+     "E": "supported",
+     "G": "ruled_out",
+     "F": "supported",
+     "H": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "supported"
+    },
+    "final_answer": [
+     "D",
+     "E",
+     "F",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 58002
+  },
+  {
+   "review_id": "730c6f00475ac445",
+   "source": "P03_FastWalk_Night_Traj01_Trial01",
+   "unit": "P03_FastWalk_Night_Traj01_Trial01 [780.0--825.286667]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 58068
+  },
+  {
+   "review_id": "15dca1a8ea323110",
+   "source": "P03_FastWalk_Night_Traj02_Trial01",
+   "unit": "P03_FastWalk_Night_Traj02_Trial01 [60.0--120.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out",
+     "E": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [],
+    "verdict": "ambiguous",
+    "notes": "One person is wearing a white shirt and light-colored pants while walking, and the other is wearing dark clothing while walking."
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "9d9ff84466e0881f",
+   "source": "P03_FastWalk_Night_Traj02_Trial01",
+   "unit": "P03_FastWalk_Night_Traj02_Trial01 [180.0--240.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 5,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "supported",
+     "G": "supported",
+     "H": "ruled_out",
+     "F": "supported",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "B",
+     "C",
+     "F",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 58429
+  },
+  {
+   "review_id": "a17f244c560973dc",
+   "source": "P03_FastWalk_Night_Traj02_Trial01",
+   "unit": "P03_FastWalk_Night_Traj02_Trial01 [720.0--780.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "C": "supported",
+     "D": "supported",
+     "E": "ruled_out",
+     "B": "ruled_out",
+     "H": "supported",
+     "G": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "D",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 58687
+  },
+  {
+   "review_id": "4f6c3430008d77da",
+   "source": "P03_FastWalk_Night_Traj03_Trial01",
+   "unit": "P03_FastWalk_Night_Traj03_Trial01 [540.0--600.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "supported"
+    },
+    "final_answer": [
+     "E",
+     "F",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 58756
+  },
+  {
+   "review_id": "d902bbf764c3b45e",
+   "source": "P03_Running_Day_Traj02_Trial01",
+   "unit": "P03_Running_Day_Traj02_Trial01 [240.0--300.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 58822
+  },
+  {
+   "review_id": "ade95c09a95c571f",
+   "source": "P03_Running_Day_Traj03_Trial01",
+   "unit": "P03_Running_Day_Traj03_Trial01 [360.0--420.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 58868
+  },
+  {
+   "review_id": "157b8b50fe2cb65e",
+   "source": "P03_Running_Day_Traj03_Trial01",
+   "unit": "P03_Running_Day_Traj03_Trial01 [480.0--540.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "E": "ruled_out",
+     "C": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 58999
+  },
+  {
+   "review_id": "fa224d5c6c2ec26d",
+   "source": "P03_Running_Day_Traj03_Trial01",
+   "unit": "P03_Running_Day_Traj03_Trial01 [540.0--600.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 59085
+  },
+  {
+   "review_id": "743566f2fc101c2c",
+   "source": "P03_Running_Day_Traj03_Trial01",
+   "unit": "P03_Running_Day_Traj03_Trial01 [600.0--619.2567]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out",
+     "D": "supported",
+     "E": "supported",
+     "C": "ruled_out",
+     "B": "ruled_out"
+    },
+    "final_answer": [
+     "D",
+     "E",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 59279
+  },
+  {
+   "review_id": "4441a457613c1c77",
+   "source": "P03_Running_Night_Traj01_Trial01",
+   "unit": "P03_Running_Night_Traj01_Trial01 [60.0--120.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "supported",
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 59356
+  }
+ ]
+}

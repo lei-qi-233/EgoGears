@@ -1,0 +1,6 @@
+{"id": "0649b6a5aed3cc80", "types": [{"category": "Action and event QA", "sub_category": "Ego-action Recognition"}, {"category": "Temporal reasoning QA", "sub_category": "Event Sequencing"}]}
+{"id": "8ea7b087dbf0d18e", "types": [{"category": "Object and attribute QA", "sub_category": "Visual Attributes"}, {"category": "Object and attribute QA", "sub_category": "Scene and Place QA"}]}
+{"id": "c02d5b42ecefed24", "types": [{"category": "Trajectory and location-aware QA", "sub_category": "Trajectory-grounded QA"}, {"category": "Trajectory and location-aware QA", "sub_category": "Spatial Relation QA"}]}
+{"id": "0d4346876be529e4", "types": [{"category": "Trajectory and location-aware QA", "sub_category": "Ego-motion Navigation"}]}
+{"id": "9685603de43de171", "types": [{"category": "Trajectory and location-aware QA", "sub_category": "Spatial Relation QA"}, {"category": "Trajectory and location-aware QA", "sub_category": "Ego-motion Navigation"}]}
+{"id": "e7ffe559f7e159c9", "types": [{"category": "Object and attribute QA", "sub_category": "Visual Attributes"}]}

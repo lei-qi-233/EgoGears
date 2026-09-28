@@ -1,0 +1,1832 @@
+{
+ "schema": "runningbench-annotation-v1",
+ "bundle": "runningbench_part01",
+ "annotator": "Di",
+ "exported_at": "2026-09-22T17:08:40.646Z",
+ "reviews": [
+  {
+   "review_id": "ec9933176eaa2e28",
+   "source": "Asemwald_laufen_2",
+   "unit": "Asemwald_laufen_2 [240.0--300.0]",
+   "question_type": "Actor Action and Motion",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "C",
+     "E",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 1
+  },
+  {
+   "review_id": "ca791cfbc0e9f17a",
+   "source": "BLB-SB_Walk_260505_193245",
+   "unit": "BLB-SB_Walk_260505_193245 [0.0--60.0]",
+   "question_type": "Actor Action and Motion",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "ambiguous",
+    "notes": "The options use inconsistent vehicle categories: the observed vehicles appear to be a mini-SUV and a van."
+   },
+   "time_sec": 203
+  },
+  {
+   "review_id": "1609a6821ff6180b",
+   "source": "Hohenheim_laufen_schnell",
+   "unit": "Hohenheim_laufen_schnell [120.0--180.0]",
+   "question_type": "Actor Action and Motion",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 308
+  },
+  {
+   "review_id": "10887065359ba065",
+   "source": "P01_Running_Day_Traj01",
+   "unit": "P01_Running_Day_Traj01 [360.0--420.0]",
+   "question_type": "Actor Action and Motion",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [],
+    "verdict": "cant_tell",
+    "notes": "The cyclist approaches and passes the camera; none of the listed interaction sequences matches the video."
+   },
+   "time_sec": 5884
+  },
+  {
+   "review_id": "a608bbb200fb53b7",
+   "source": "P01_Running_Night_Traj03",
+   "unit": "P01_Running_Night_Traj03 [0.0--60.0]",
+   "question_type": "Actor Action and Motion",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 5954
+  },
+  {
+   "review_id": "f4653ae453ca8f2a",
+   "source": "P01_Running_Night_Traj03",
+   "unit": "P01_Running_Night_Traj03 [120.0--180.0]",
+   "question_type": "Actor Action and Motion",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 6067
+  },
+  {
+   "review_id": "2312d04ed6b3a150",
+   "source": "P02_FastWalk_Night_Trial03",
+   "unit": "P02_FastWalk_Night_Trial03 [720.0--780.0]",
+   "question_type": "Actor Action and Motion",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 6131
+  },
+  {
+   "review_id": "619f1d0a98231cd9",
+   "source": "P02_Running_Day_Trial01",
+   "unit": "P02_Running_Day_Trial01 [540.0--600.0]",
+   "question_type": "Actor Action and Motion",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [],
+    "verdict": "cant_tell",
+    "notes": "There is no fork, the beginning includes a left turn, and the path type cannot be identified reliably as a bicycle lane. None of the options fully matches."
+   },
+   "time_sec": 6192
+  },
+  {
+   "review_id": "bf8c76ea64602b81",
+   "source": "P02_Running_Night_Trial03",
+   "unit": "P02_Running_Night_Trial03 [0.0--60.0]",
+   "question_type": "Actor Action and Motion",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [],
+    "verdict": "cant_tell",
+    "notes": "None of the listed sequences fully matches the video."
+   },
+   "time_sec": 6302
+  },
+  {
+   "review_id": "5031244016ab2844",
+   "source": "P02_Running_Night_Trial03",
+   "unit": "P02_Running_Night_Trial03 [180.0--240.0]",
+   "question_type": "Actor Action and Motion",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [],
+    "verdict": "clear",
+    "notes": "The route is not primarily straight and the pedestrian is not passed at the start; another person runs alongside the camera and the route turns right. None of the options fully matches."
+   },
+   "time_sec": 6390
+  },
+  {
+   "review_id": "4657bd2e91686117",
+   "source": "P02_SlowWalk_Day_Trial02",
+   "unit": "P02_SlowWalk_Day_Trial02 [420.0--480.0]",
+   "question_type": "Actor Action and Motion",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [],
+    "verdict": "clear",
+    "notes": "No option was selected because none could be confirmed as a complete match."
+   },
+   "time_sec": 6469
+  },
+  {
+   "review_id": "03752bc1c909866d",
+   "source": "P02_SlowWalk_Night_Trial01",
+   "unit": "P02_SlowWalk_Night_Trial01 [600.0--660.0]",
+   "question_type": "Actor Action and Motion",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 2,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "cant_tell",
+    "notes": "The phrase 'metal bicycles' is unclear. Only option C could be confirmed reliably."
+   },
+   "time_sec": 6557
+  },
+  {
+   "review_id": "242baf1947bcf3ce",
+   "source": "P03_FastWalk_Day_Traj03_Trial01",
+   "unit": "P03_FastWalk_Day_Traj03_Trial01 [480.0--540.0]",
+   "question_type": "Actor Action and Motion",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": "Only option D could be confirmed reliably from the provided clip."
+   },
+   "time_sec": 6645
+  },
+  {
+   "review_id": "7fbccd2a8cf10531",
+   "source": "P03_FastWalk_Night_Traj03_Trial01",
+   "unit": "P03_FastWalk_Night_Traj03_Trial01 [240.0--300.0]",
+   "question_type": "Actor Action and Motion",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": "The object appears to be a building exhaust structure; the phrase 'dark building structure' is too ambiguous."
+   },
+   "time_sec": 6712
+  },
+  {
+   "review_id": "f945f9d08e3a5940",
+   "source": "P03_Running_Day_Traj01_Trial01",
+   "unit": "P03_Running_Day_Traj01_Trial01 [480.0--540.0]",
+   "question_type": "Actor Action and Motion",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 6827
+  },
+  {
+   "review_id": "a74e42963ed502c9",
+   "source": "P03_SlowWalk_Night_Traj03_Trial01",
+   "unit": "P03_SlowWalk_Night_Traj03_Trial01 [60.0--120.0]",
+   "question_type": "Actor Action and Motion",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "ambiguous",
+    "notes": "The video does not label the pedestrians as Person 1 and Person 2, making the requested correspondence ambiguous."
+   },
+   "time_sec": 6852
+  },
+  {
+   "review_id": "4336b9a547804599",
+   "source": "gravel_plant_fast",
+   "unit": "gravel_plant_fast [300.0--360.0]",
+   "question_type": "Actor Action and Motion",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "cant_tell",
+    "notes": "The camera turns left twice, and the passing car is dark-colored."
+   },
+   "time_sec": 6916
+  },
+  {
+   "review_id": "74b169d34143f886",
+   "source": "kit_hochhaus_informatikom_fast",
+   "unit": "kit_hochhaus_informatikom_fast [120.0--180.0]",
+   "question_type": "Actor Action and Motion",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 7003
+  },
+  {
+   "review_id": "2f8fa16376c0f0fb",
+   "source": "kit_informatikom_schloss_slow",
+   "unit": "kit_informatikom_schloss_slow [0.0--60.0]",
+   "question_type": "Actor Action and Motion",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 7078
+  },
+  {
+   "review_id": "4324d4d145f590d4",
+   "source": "kit_scc_hochhaus_slow",
+   "unit": "kit_scc_hochhaus_slow [300.0--360.0]",
+   "question_type": "Actor Action and Motion",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "ambiguous",
+    "notes": "The provided clip ends before the camera comes to a stop; option F appears most plausible for the complete sequence."
+   },
+   "time_sec": 7098
+  },
+  {
+   "review_id": "0a9fca3883ed57ce",
+   "source": "sinzheim_city_normal",
+   "unit": "sinzheim_city_normal [420.0--480.0]",
+   "question_type": "Actor Action and Motion",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [],
+    "verdict": "cant_tell",
+    "notes": "The left/right direction in the options could not be determined reliably from the clip."
+   },
+   "time_sec": 7164
+  },
+  {
+   "review_id": "757823eacdc86d40",
+   "source": "Asemwald_joggen",
+   "unit": "Asemwald_joggen [540.0--600.0]",
+   "question_type": "Ego-motion Recognition",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 7198
+  },
+  {
+   "review_id": "1a7a67c6b0308dcb",
+   "source": "Bruecke_Walk_260512_121834",
+   "unit": "Bruecke_Walk_260512_121834 [60.0--120.0]",
+   "question_type": "Ego-motion Recognition",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 7213
+  },
+  {
+   "review_id": "786f00b77571807d",
+   "source": "Euro-BLB_260512_124125",
+   "unit": "Euro-BLB_260512_124125 [360.0--420.0]",
+   "question_type": "Ego-motion Recognition",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 7268
+  },
+  {
+   "review_id": "2eae943b00df527f",
+   "source": "Hohenheim_laufen_schnell",
+   "unit": "Hohenheim_laufen_schnell [960.0--1020.0]",
+   "question_type": "Ego-motion Recognition",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 7307
+  },
+  {
+   "review_id": "690348b2b2149383",
+   "source": "Kiesweg_Fast_260518_202851",
+   "unit": "Kiesweg_Fast_260518_202851 [120.0--180.0]",
+   "question_type": "Ego-motion Recognition",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "supported"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 7344
+  },
+  {
+   "review_id": "44fb4fba53ea99e8",
+   "source": "Kiesweg_Walk_260506_213534",
+   "unit": "Kiesweg_Walk_260506_213534 [120.0--180.0]",
+   "question_type": "Ego-motion Recognition",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "ambiguous",
+    "notes": "Options C and D both appear consistent with the observed camera motion."
+   },
+   "time_sec": 7427
+  },
+  {
+   "review_id": "5dcb37df6fbbc1eb",
+   "source": "Oberreut_260512_120332",
+   "unit": "Oberreut_260512_120332 [0.0--60.0]",
+   "question_type": "Ego-motion Recognition",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 7489
+  },
+  {
+   "review_id": "75d0e9790e8ce01e",
+   "source": "P01_FastWalk_Day_Traj02",
+   "unit": "P01_FastWalk_Day_Traj02 [240.0--300.0]",
+   "question_type": "Ego-motion Recognition",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 4,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": "Only option E could be confirmed reliably from the provided clip."
+   },
+   "time_sec": 7524
+  },
+  {
+   "review_id": "3da1c484e6bea230",
+   "source": "P01_FastWalk_Night_Traj02",
+   "unit": "P01_FastWalk_Night_Traj02 [60.0--120.0]",
+   "question_type": "Ego-motion Recognition",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 7593
+  },
+  {
+   "review_id": "5e15479b89e336b6",
+   "source": "P01_Running_Night_Traj02",
+   "unit": "P01_Running_Night_Traj02 [180.0--240.0]",
+   "question_type": "Ego-motion Recognition",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 7616
+  },
+  {
+   "review_id": "738fd42b91816a1f",
+   "source": "P01_Running_Night_Traj02",
+   "unit": "P01_Running_Night_Traj02 [420.0--480.0]",
+   "question_type": "Ego-motion Recognition",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [],
+    "verdict": "clear",
+    "notes": "The turn does not occur near parked cars, so none of the listed sequences fully matches."
+   },
+   "time_sec": 7643
+  },
+  {
+   "review_id": "d4970d75ddabfc15",
+   "source": "P01_SlowWalk_Day_Traj02",
+   "unit": "P01_SlowWalk_Day_Traj02 [60.0--120.0]",
+   "question_type": "Ego-motion Recognition",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 7725
+  },
+  {
+   "review_id": "7fbebde9b0cd683d",
+   "source": "P01_SlowWalk_Day_Traj02",
+   "unit": "P01_SlowWalk_Day_Traj02 [420.0--480.0]",
+   "question_type": "Ego-motion Recognition",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 7745
+  },
+  {
+   "review_id": "645ba266aebc5327",
+   "source": "P01_SlowWalk_Day_Traj03",
+   "unit": "P01_SlowWalk_Day_Traj03 [540.0--600.0]",
+   "question_type": "Ego-motion Recognition",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 7778
+  },
+  {
+   "review_id": "0f90c8d1a45aee7c",
+   "source": "P01_SlowWalk_Night_Traj01",
+   "unit": "P01_SlowWalk_Night_Traj01 [420.0--480.0]",
+   "question_type": "Ego-motion Recognition",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 7812
+  },
+  {
+   "review_id": "926235bc6c3d3209",
+   "source": "P02_FastWalk_Night_Trial03",
+   "unit": "P02_FastWalk_Night_Trial03 [300.0--360.0]",
+   "question_type": "Ego-motion Recognition",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 7903
+  },
+  {
+   "review_id": "bf4f3e27b64047b4",
+   "source": "P02_Running_Night_Trial03",
+   "unit": "P02_Running_Night_Trial03 [600.0--656.667]",
+   "question_type": "Ego-motion Recognition",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 7918
+  },
+  {
+   "review_id": "a8076223e374edca",
+   "source": "P02_SlowWalk_Day_Trial03",
+   "unit": "P02_SlowWalk_Day_Trial03 [720.0--780.0]",
+   "question_type": "Ego-motion Recognition",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 7931
+  },
+  {
+   "review_id": "c449daedd56bd8d7",
+   "source": "P02_SlowWalk_Night_Trial01",
+   "unit": "P02_SlowWalk_Night_Trial01 [780.0--840.0]",
+   "question_type": "Ego-motion Recognition",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 7965
+  },
+  {
+   "review_id": "8a25d3b9362ae14d",
+   "source": "P02_SlowWalk_Night_Trial03",
+   "unit": "P02_SlowWalk_Night_Trial03 [0.0--60.0]",
+   "question_type": "Ego-motion Recognition",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "cant_tell",
+    "notes": "The question asks about pavement material, but no clear material change is visible."
+   },
+   "time_sec": 8007
+  },
+  {
+   "review_id": "9576ae90ded7102c",
+   "source": "P02_SlowWalk_Night_Trial03",
+   "unit": "P02_SlowWalk_Night_Trial03 [900.0--960.0]",
+   "question_type": "Ego-motion Recognition",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [],
+    "verdict": "clear",
+    "notes": "The camera moves forward through the bollards toward a large stone building, but it does not clearly cross a wide plaza. None of the options fully matches."
+   },
+   "time_sec": 8047
+  },
+  {
+   "review_id": "ec4fc8ca7c10663c",
+   "source": "P03_FastWalk_Day_Traj03_Trial01",
+   "unit": "P03_FastWalk_Day_Traj03_Trial01 [720.0--780.0]",
+   "question_type": "Ego-motion Recognition",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "ambiguous",
+    "notes": "The visible surface changes from grey to dark red."
+   },
+   "time_sec": 8106
+  },
+  {
+   "review_id": "725ded87e87b96a2",
+   "source": "P03_FastWalk_Night_Traj02_Trial01",
+   "unit": "P03_FastWalk_Night_Traj02_Trial01 [240.0--300.0]",
+   "question_type": "Ego-motion Recognition",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8153
+  },
+  {
+   "review_id": "d04f59deace66402",
+   "source": "P03_Running_Night_Traj01_Trial01",
+   "unit": "P03_Running_Night_Traj01_Trial01 [600.0--625.768333]",
+   "question_type": "Ego-motion Recognition",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "B",
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8170
+  },
+  {
+   "review_id": "b4daeb55c4363cf3",
+   "source": "P03_SlowWalk_Day_Traj01_Trial01",
+   "unit": "P03_SlowWalk_Day_Traj01_Trial01 [540.0--600.0]",
+   "question_type": "Ego-motion Recognition",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "supported"
+    },
+    "final_answer": [
+     "C",
+     "D",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8206
+  },
+  {
+   "review_id": "9f32783cc46ad855",
+   "source": "P03_SlowWalk_Day_Traj02_Trial01",
+   "unit": "P03_SlowWalk_Day_Traj02_Trial01 [60.0--120.0]",
+   "question_type": "Ego-motion Recognition",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8302
+  },
+  {
+   "review_id": "1bf0fb9a2eecc738",
+   "source": "P03_SlowWalk_Day_Traj03_Trial01",
+   "unit": "P03_SlowWalk_Day_Traj03_Trial01 [660.0--720.0]",
+   "question_type": "Ego-motion Recognition",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": "Only options C and G could be confirmed reliably from the provided clip."
+   },
+   "time_sec": 8331
+  },
+  {
+   "review_id": "72d452e338f362ce",
+   "source": "P03_SlowWalk_Night_Traj02_Trial01",
+   "unit": "P03_SlowWalk_Night_Traj02_Trial01 [60.0--120.0]",
+   "question_type": "Ego-motion Recognition",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "C",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": "Option F is implied by the event described in the question and is not independently discriminative from the video."
+   },
+   "time_sec": 8419
+  },
+  {
+   "review_id": "e85c27a3888301a9",
+   "source": "P03_SlowWalk_Night_Traj02_Trial01",
+   "unit": "P03_SlowWalk_Night_Traj02_Trial01 [420.0--480.0]",
+   "question_type": "Ego-motion Recognition",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [],
+    "verdict": "ambiguous",
+    "notes": "The cyclist approaches and turns right rather than following any of the listed trajectories."
+   },
+   "time_sec": 8485
+  },
+  {
+   "review_id": "32241227f6967cd5",
+   "source": "P03_SlowWalk_Night_Traj03_Trial01",
+   "unit": "P03_SlowWalk_Night_Traj03_Trial01 [0.0--60.0]",
+   "question_type": "Ego-motion Recognition",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 4,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [],
+    "verdict": "clear",
+    "notes": "The left/right relations in the options could not be determined reliably."
+   },
+   "time_sec": 8519
+  },
+  {
+   "review_id": "44d75c432cb98655",
+   "source": "VomWald_Walk_260515_165904",
+   "unit": "VomWald_Walk_260515_165904 [480.0--540.0]",
+   "question_type": "Ego-motion Recognition",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "ambiguous",
+    "notes": "The camera motion in the clip does not appear to be a clear pan to the right."
+   },
+   "time_sec": 8595
+  },
+  {
+   "review_id": "c4fb230f827606a0",
+   "source": "ZumWald_Walk_260515_163801",
+   "unit": "ZumWald_Walk_260515_163801 [360.0--420.0]",
+   "question_type": "Ego-motion Recognition",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [],
+    "verdict": "cant_tell",
+    "notes": "The location of the bushes and the action immediately before the turn could not be determined reliably."
+   },
+   "time_sec": 8655
+  },
+  {
+   "review_id": "0691325d7af6e749",
+   "source": "gravel_plant_normal",
+   "unit": "gravel_plant_normal [540.0--565.058333]",
+   "question_type": "Ego-motion Recognition",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 2,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": "Only option G could be confirmed; the left/right panning direction could not be determined reliably."
+   },
+   "time_sec": 8804
+  },
+  {
+   "review_id": "39a681e5869870b9",
+   "source": "kit_hochhaus_informatikom_fast",
+   "unit": "kit_hochhaus_informatikom_fast [420.0--462.376667]",
+   "question_type": "Ego-motion Recognition",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [],
+    "verdict": "cant_tell",
+    "notes": "The camera does not pause; it looks toward the glass-fronted building on the right. None of the options fully matches."
+   },
+   "time_sec": 8855
+  },
+  {
+   "review_id": "d3b539dd9c2c4074",
+   "source": "kit_mensa_scc_fast",
+   "unit": "kit_mensa_scc_fast [0.0--60.0]",
+   "question_type": "Ego-motion Recognition",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "cant_tell",
+    "notes": "The first action is moving straight forward, which is not represented accurately by the options."
+   },
+   "time_sec": 8954
+  },
+  {
+   "review_id": "9ce2c11c67f46573",
+   "source": "kit_mensa_scc_fast",
+   "unit": "kit_mensa_scc_fast [300.0--360.0]",
+   "question_type": "Ego-motion Recognition",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [],
+    "verdict": "cant_tell",
+    "notes": "Camera shaking is visible, but no clear initial tilt or pan matching the options can be identified."
+   },
+   "time_sec": 9004
+  },
+  {
+   "review_id": "60be157a9d425772",
+   "source": "kit_mensa_scc_slow",
+   "unit": "kit_mensa_scc_slow [480.0--540.0]",
+   "question_type": "Ego-motion Recognition",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 4,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out"
+    },
+    "final_answer": [],
+    "verdict": "cant_tell",
+    "notes": "The left/right spatial relations in the options could not be determined reliably."
+   },
+   "time_sec": 9069
+  },
+  {
+   "review_id": "236167507da6e01c",
+   "source": "plane_starting",
+   "unit": "plane_starting [0.0--60.0]",
+   "question_type": "Ego-motion Recognition",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "D",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 9133
+  },
+  {
+   "review_id": "90f0177d7530ad05",
+   "source": "rhein_normal",
+   "unit": "rhein_normal [360.0--420.0]",
+   "question_type": "Ego-motion Recognition",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [],
+    "verdict": "clear",
+    "notes": "The distinct mid-video camera movement could not be identified reliably from the provided clip."
+   },
+   "time_sec": 9187
+  },
+  {
+   "review_id": "05791a2977a2289d",
+   "source": "sinzheim_city_slow",
+   "unit": "sinzheim_city_slow [180.0--240.0]",
+   "question_type": "Ego-motion Recognition",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 9225
+  },
+  {
+   "review_id": "2501fc83822cb4f2",
+   "source": "sinzheim_city_slow",
+   "unit": "sinzheim_city_slow [600.0--644.593333]",
+   "question_type": "Ego-motion Recognition",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "supported"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 9275
+  },
+  {
+   "review_id": "1a3ebb8f8572f660",
+   "source": "weinreben_fast",
+   "unit": "weinreben_fast [240.0--300.0]",
+   "question_type": "Ego-motion Recognition",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 2,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [],
+    "verdict": "cant_tell",
+    "notes": "The two required end-of-video actions could not be confirmed reliably."
+   },
+   "time_sec": 9294
+  },
+  {
+   "review_id": "e8182848b0f1986c",
+   "source": "weinreben_slow",
+   "unit": "weinreben_slow [420.0--480.0]",
+   "question_type": "Ego-motion Recognition",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 9330
+  },
+  {
+   "review_id": "d4c9ca20cd049f13",
+   "source": "weinreben_slow",
+   "unit": "weinreben_slow [540.0--600.0]",
+   "question_type": "Ego-motion Recognition",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 9375
+  },
+  {
+   "review_id": "2d60708866df79de",
+   "source": "Asemwald_joggen",
+   "unit": "Asemwald_joggen [60.0--120.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "supported",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "D",
+     "E",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 9416
+  },
+  {
+   "review_id": "d1fcab748e50d1cd",
+   "source": "Asemwald_joggen",
+   "unit": "Asemwald_joggen [900.0--960.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 2,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": "Only option C could be confirmed reliably; the second required feature could not be identified."
+   },
+   "time_sec": 9500
+  },
+  {
+   "review_id": "e678de979c2941c9",
+   "source": "Asemwald_laufen_1",
+   "unit": "Asemwald_laufen_1 [0.0--60.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 2,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": "Only option E could be confirmed reliably; the second required right-side object could not be identified."
+   },
+   "time_sec": 9545
+  },
+  {
+   "review_id": "56f0e3fd4007d932",
+   "source": "Asemwald_laufen_1",
+   "unit": "Asemwald_laufen_1 [240.0--300.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "supported"
+    },
+    "final_answer": [
+     "A",
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 9602
+  },
+  {
+   "review_id": "5eb65f8dd13c43cf",
+   "source": "Asemwald_laufen_langsam",
+   "unit": "Asemwald_laufen_langsam [120.0--180.0]",
+   "question_type": "Ego-relative Spatial Relation",
+   "annotator": "Di",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "supported"
+    },
+    "final_answer": [
+     "B",
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 9620
+  }
+ ]
+}

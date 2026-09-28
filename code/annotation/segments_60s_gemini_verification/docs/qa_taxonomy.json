@@ -1,0 +1,52 @@
+{
+  "dataset_taxonomy": [
+    {
+      "category": "Object and attribute QA",
+      "description": "Basic perception of entities, attributes, and short-lived visual evidence despite blur, short appearances, and unstable viewpoints.",
+      "sub_categories": [
+        { "name": "Object Existence", "description": "Identify whether a specific object exists in the current frame despite unstable viewpoints." },
+        { "name": "Counting QA", "description": "Evaluate small-range counting of pedestrians or objects under clutter and shake, which is harder than in stable videos." },
+        { "name": "Visual Attributes", "description": "Recognize visible properties (e.g., color, shape) of entities despite blur and short appearances." },
+        { "name": "Scene and Place QA", "description": "Target coarse environment understanding such as identifying a sidewalk, park path, crossing, residential street, or main road." },
+        { "name": "Negative or Absence QA", "description": "Useful for hallucination analysis by asking whether a specific object (e.g., a bicycle) is present at all when it is not." }
+      ]
+    },
+    {
+      "category": "Action and event QA",
+      "description": "Recognition of human, vehicle, and ego actions under motion-heavy conditions.",
+      "sub_categories": [
+        { "name": "Ego-action Recognition", "description": "Focuses on what the runner (or ego-subject) is doing at a moment or across a short segment." },
+        { "name": "Pedestrian and Cyclist Action", "description": "Identify what pedestrians, cyclists, or other active human subjects are doing in the scene." },
+        { "name": "Vehicle and Agent Action", "description": "Recognize the movement or state of vehicles (e.g., cars, buses) interacting with the environment." }
+      ]
+    },
+    {
+      "category": "Temporal reasoning QA",
+      "description": "Ordering, transitions, memory, and event localization over time.",
+      "sub_categories": [
+        { "name": "Event Sequencing", "description": "Requires understanding event order (e.g., did an event happen before or after passing a landmark)." },
+        { "name": "Event Memory QA", "description": "Tests recall of something seen earlier in the clip after camera motion and scene changes." },
+        { "name": "Action Repetition", "description": "Reason about repetitions of specific actions or events across time." },
+        { "name": "State Transitions", "description": "Track how the state of the environment or objects changes over a specific time segment." }
+      ]
+    },
+    {
+      "category": "Trajectory and location-aware QA",
+      "description": "Joint reasoning over video content and route traces.",
+      "sub_categories": [
+        { "name": "Trajectory-grounded QA", "description": "Combines video with recorded routes to test turn awareness, route stage, loops, or visual-trajectory alignment." },
+        { "name": "Spatial Relation QA", "description": "Checks whether the model understands left/right, front/behind, near/far, and object-to-object relations within unstable scenes." },
+        { "name": "Ego-motion Navigation", "description": "Determine if the runner is moving along a straight segment or making a turn." }
+      ]
+    },
+    {
+      "category": "Robustness QA",
+      "description": "Performance under shake, blur, occlusion, darkness, glare, and ambiguity.",
+      "sub_categories": [
+        { "name": "Day-vs-night Robustness QA", "description": "Measures whether the model remains reliable under low light, glare, shadows, and reduced visibility." },
+        { "name": "Ambiguity-aware QA", "description": "Allows the correct output to be uncertainty rather than a forced answer when evidence is too blurred or incomplete." },
+        { "name": "Unanswerable / Insufficient Evidence QA", "description": "Evaluates if the model correctly responds with 'insufficient evidence' instead of hallucinating when clip data is completely missing or unidentifiable due to severe motion." }
+      ]
+    }
+  ]
+}

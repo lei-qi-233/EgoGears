@@ -1,0 +1,4101 @@
+{
+ "schema": "runningbench-annotation-v1",
+ "bundle": "bundle_04",
+ "annotator": "Lei",
+ "exported_at": "2026-09-13T00:46:12.811Z",
+ "reviews": [
+  {
+   "review_id": "fd3526cc7eefe343",
+   "source": "excerpt",
+   "unit": "whole_video",
+   "question_type": "environment-stages",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "undecidable",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "D",
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": "我觉得这里不算商业街，但是商业街的定义存疑，是否有商店在路边就算商业街？"
+   },
+   "time_sec": 320
+  },
+  {
+   "review_id": "1d0925d0d64ebea5",
+   "source": "excerpt",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "A": "undecidable",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "G": "supported",
+     "H": "supported",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E",
+     "G",
+     "H"
+    ],
+    "verdict": "ambiguous",
+    "notes": "无法确认垃圾桶是否生锈"
+   },
+   "time_sec": 5654
+  },
+  {
+   "review_id": "bb2a77070d96a876",
+   "source": "excerpt",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 2,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported",
+     "E": "supported",
+     "H": "supported",
+     "D": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "E",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 5933
+  },
+  {
+   "review_id": "03ba053c58a1255f",
+   "source": "excerpt",
+   "unit": "whole_video",
+   "question_type": "event-phase",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "F": "supported",
+     "H": "supported",
+     "G": "ruled_out",
+     "E": "ruled_out",
+     "D": "undecidable",
+     "C": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "F"
+    ],
+    "verdict": "ambiguous",
+    "notes": "我觉得D也正确 ，CLIP_2 9:00"
+   },
+   "time_sec": 6137
+  },
+  {
+   "review_id": "cd238b58efbbe4d8",
+   "source": "excerpt",
+   "unit": "whole_video",
+   "question_type": "event-phase",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "H": "supported",
+     "D": "supported",
+     "F": "ruled_out",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "D",
+     "H"
+    ],
+    "verdict": "ambiguous",
+    "notes": "首先，视频中是十字路口，不是分叉路口，拍摄者继续往前行进，而不是走左边。其次，大部分选项都不符合。"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "b5722ebc27f7b799",
+   "source": "excerpt",
+   "unit": "whole_video",
+   "question_type": "start-end-relation",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "F": "supported"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "7eb70c561543ccfa",
+   "source": "excerpt",
+   "unit": "whole_video",
+   "question_type": "route-summary",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "E": "ruled_out",
+     "F": "undecidable",
+     "D": "undecidable",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out"
+    },
+    "final_answer": [
+     "D",
+     "F"
+    ],
+    "verdict": "ambiguous",
+    "notes": "E和F都可能。这个位置感觉是校园，但是建筑不好说算是现代建筑还是历史建筑。感觉不新不老。"
+   },
+   "time_sec": 6971
+  },
+  {
+   "review_id": "f04749def05bce9f",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "environment-stages",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "D": "supported",
+     "A": "ruled_out",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out",
+     "C": "ruled_out",
+     "E": "supported"
+    },
+    "final_answer": [
+     "B",
+     "D",
+     "E",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 7508
+  },
+  {
+   "review_id": "03050cc254394642",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "event-phase",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "H": "supported",
+     "A": "supported",
+     "E": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "undecidable",
+     "F": "ruled_out",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "H"
+    ],
+    "verdict": "ambiguous",
+    "notes": "既然视频标签顺序不代表时间顺序，不是很好区分哪段是去程，哪段是返程。我认为长椅上有人的为去程。"
+   },
+   "time_sec": 8329
+  },
+  {
+   "review_id": "60121876a25432f6",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "start-end-relation",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 2,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported"
+    },
+    "final_answer": [
+     "C",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "47f6c71d4c658a87",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "route-summary",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "B": "ruled_out",
+     "C": "undecidable",
+     "E": "supported"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "eed96748663f7dc6",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "route-summary",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 2,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "H": "supported",
+     "B": "supported"
+    },
+    "final_answer": [
+     "B",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "dab3d9f04f161ad2",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "environment-stages",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "supported"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "384908ac4c50c8a0",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "G": "supported",
+     "H": "ruled_out",
+     "A": "supported",
+     "B": "supported",
+     "F": "supported",
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "B",
+     "F",
+     "G"
+    ],
+    "verdict": "ambiguous",
+    "notes": "不是很确定哪里是折返点"
+   },
+   "time_sec": 10630
+  },
+  {
+   "review_id": "be70f2c6f15ac315",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "event-phase",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "C": "supported",
+     "G": "supported"
+    },
+    "final_answer": [
+     "C",
+     "E",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "f7e3594b91d641a4",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "event-phase",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "F": "supported"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "824447dbe6f55397",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "route-summary",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "D": "supported"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 11158
+  },
+  {
+   "review_id": "1398226937211ecc",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "supported"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "edf46327959c1a55",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-revisit",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "E",
+     "F"
+    ],
+    "verdict": "ambiguous",
+    "notes": "没看到其他的东西，选不出三个"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "a05f90001d27f066",
+   "source": "fullvideo",
+   "unit": "cross_video",
+   "question_type": "description-matching",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 12531
+  },
+  {
+   "review_id": "8b5f9f50809c70f8",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "H": "ruled_out",
+     "G": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "undecidable",
+     "F": "undecidable",
+     "B": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "C"
+    ],
+    "verdict": "cant_tell",
+    "notes": "没看到混凝土盖板"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "6a4cfdb27ff03418",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "event-phase",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 4,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "A": "supported",
+     "B": "supported",
+     "D": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "C": "supported"
+    },
+    "final_answer": [
+     "A",
+     "B",
+     "C",
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "0e828b5dbb5faf86",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 2,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "G": "supported"
+    },
+    "final_answer": [
+     "B",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "ef8897944b787144",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "H": "ruled_out",
+     "A": "supported",
+     "G": "supported",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "F": "supported"
+    },
+    "final_answer": [
+     "A",
+     "F",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 14028
+  },
+  {
+   "review_id": "f788b62593a5c363",
+   "source": "fullvideo",
+   "unit": "cross_video",
+   "question_type": "unique-transient-obstacle",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "B": "supported"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "ambiguous",
+    "notes": "感觉唯一可能的答案是B，但是并不是在dirt path上行走而是水泥路。"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "49e8cf7496ba9a43",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "environment-stages",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 4,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "B": "ruled_out"
+    },
+    "final_answer": [],
+    "verdict": "cant_tell",
+    "notes": "四个视频加一起一共八十秒，这些二三百秒的选项都对不上。"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "538e8c5038844c68",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "start-end-relation",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [],
+    "verdict": "cant_tell",
+    "notes": "感觉答案都不对。起点应该是在与主干道垂直的有飞机的土路。终点应该是主干道旁边的沥青/水泥人行道。"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "d998ae9acdae5e71",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "event-phase",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "C": "supported",
+     "B": "ruled_out",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "C",
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 17782
+  },
+  {
+   "review_id": "d093c7f843ac010b",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-revisit",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 4,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "B",
+     "D"
+    ],
+    "verdict": "ambiguous",
+    "notes": "没有桥，没有购物车，没有木楼梯"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "be7f25b532c8aa77",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "event-phase",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "B": "supported"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "9ad4717d80562f45",
+   "source": "fullvideo",
+   "unit": "cross_video",
+   "question_type": "unique-transient-obstacle",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "H": "supported",
+     "G": "supported"
+    },
+    "final_answer": [
+     "F",
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "f939e196d52aa546",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "event-phase",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "H": "supported",
+     "G": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "H"
+    ],
+    "verdict": "ambiguous",
+    "notes": "没有警车，没有地下通道"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "1a3c9f0431e6bc39",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "event-phase",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "H": "ruled_out",
+     "G": "ruled_out",
+     "F": "supported",
+     "E": "supported",
+     "D": "ruled_out",
+     "C": "undecidable",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "E",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 20638
+  },
+  {
+   "review_id": "71376d2d7a9d6fea",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "event-phase",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "D": "ruled_out",
+     "F": "supported",
+     "H": "ruled_out",
+     "G": "ruled_out",
+     "C": "ruled_out",
+     "A": "ruled_out",
+     "B": "supported",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "F"
+    ],
+    "verdict": "ambiguous",
+    "notes": "其他都不相符"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "e840098afde59629",
+   "source": "fullvideo",
+   "unit": "cross_video",
+   "question_type": "route-divergence-location",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "E": "supported"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "0b2145cc96825bb5",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "event-phase",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 2,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "supported"
+    },
+    "final_answer": [
+     "A",
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "64a6a4102117e57d",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "multi-step-turns",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "D": "supported"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "9afc0f31ce13ebcc",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "event-phase",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "H": "supported",
+     "C": "supported",
+     "A": "ruled_out",
+     "D": "supported"
+    },
+    "final_answer": [
+     "C",
+     "D",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "e05e03cf9e6f4e05",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "multi-step-turns",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "F": "supported"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "9e2e1756b17fb99e",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "environment-stages",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "undecidable",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "undecidable"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "ambiguous",
+    "notes": "不是很清楚题目描述是什么意思，怎么算公园校园和校园小路"
+   },
+   "time_sec": 30456
+  },
+  {
+   "review_id": "e232862e1b5e6d48",
+   "source": "fullvideo",
+   "unit": "cross_video",
+   "question_type": "route-phase-alignment",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [],
+    "verdict": "cant_tell",
+    "notes": "没看出来是是什么顺序，E的mensa在左边；B，G，I的mensa在右边。并且感觉BE是一个mensa，GI是一个mensa。我只能确定I在G前面"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "5503e8a43a5b852d",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "multi-step-turns",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {},
+    "final_answer": [],
+    "verdict": "cant_tell",
+    "notes": "经过黄色工程车后只有一次右转。并且没有出现玻璃建筑。"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "29503531c7c0946e",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "event-phase",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "ruled_out",
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "C": "supported",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 31247
+  },
+  {
+   "review_id": "d59953e1755c3a16",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-revisit",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "C": "supported"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "dd8024edea82e4e8",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "environment-stages",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "supported"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "9293094f0b0818ef",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "multi-step-turns",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {},
+    "final_answer": [],
+    "verdict": "cant_tell",
+    "notes": "我觉得只有一次左转，然后就是直行。后续转弯都是在公园里面，而不是在公园之前"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "bfcc50bf051847a9",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "A": "supported",
+     "C": "ruled_out",
+     "B": "supported",
+     "H": "supported",
+     "G": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "B",
+     "D",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 32451
+  },
+  {
+   "review_id": "72c42877004ffafb",
+   "source": "fullvideo",
+   "unit": "cross_video",
+   "question_type": "description-matching",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "supported"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "e9b73932177d9acc",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "event-phase",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "supported",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 32791
+  },
+  {
+   "review_id": "68d945c2ddbde199",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "multi-step-turns",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [],
+    "verdict": "ambiguous",
+    "notes": "左转-右转-左转-（稍微向右转）"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "ab581f5a4e4ca02e",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "route-summary",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "C": "supported"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "53f046b98093e6cf",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "environment-stages",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "H": "supported",
+     "G": "supported",
+     "F": "ruled_out",
+     "E": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "G",
+     "H"
+    ],
+    "verdict": "ambiguous",
+    "notes": "A：clear，E和G我觉得都正确，H：经过了人行道的井盖，和人行道旁边的灌木丛。人行道和人行道旁边都是roadside area。"
+   },
+   "time_sec": 64435
+  },
+  {
+   "review_id": "baa99bc1f41a02d8",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "multi-step-turns",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "F": "supported"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "918fbeaff6e5bd55",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "start-end-relation",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "F": "ruled_out",
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "C": "undecidable",
+     "B": "ruled_out"
+    },
+    "final_answer": [],
+    "verdict": "ambiguous",
+    "notes": "黄色围挡和蓝色集装箱。没有同时出现的选项，其他的都不是很符合。"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "3637cd23171ce9b9",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "multi-step-turns",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "supported"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "0727bd23f4d6a3de",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "route-summary",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 76296
+  },
+  {
+   "review_id": "3e1363c1ee78c87a",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "route-summary",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 76369
+  },
+  {
+   "review_id": "2ead7752473b4534",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "route-summary",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "D": "supported"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "ambiguous",
+    "notes": "我觉得答案应该是D 但是没有看到white garages，只看见large white building"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "06ed3fbb4da49112",
+   "source": "fullvideo",
+   "unit": "cross_video",
+   "question_type": "divergence-point",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {},
+    "final_answer": [],
+    "verdict": "cant_tell",
+    "notes": "答案给出了很多视频，但是题干中视频只有G和K并且路线一致。"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "31b4384a57cd2cf0",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "event-phase",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 86819
+  },
+  {
+   "review_id": "47025242f8d7c645",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "event-phase",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "ambiguous",
+    "notes": "没有警车，自行车，小孩，也不是一个人或者三个人行走而是两个人"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "9b68481d537e1356",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "route-summary",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 88081
+  },
+  {
+   "review_id": "6172cbdb0f137831",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "event-phase",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "H": "supported",
+     "E": "supported",
+     "F": "supported",
+     "G": "ruled_out",
+     "D": "supported",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "D",
+     "E",
+     "F",
+     "H"
+    ],
+    "verdict": "ambiguous",
+    "notes": "不是很好确定哪段视频是折返的视频，还是整个所有视频都是返程的视频。如果这八个视频全是返程过程中，则clear"
+   },
+   "time_sec": 88374
+  },
+  {
+   "review_id": "8a791c4448268676",
+   "source": "fullvideo",
+   "unit": "cross_video",
+   "question_type": "unique-transient-obstacle",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "supported"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "0825531938022db4",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {},
+    "final_answer": [],
+    "verdict": "cant_tell",
+    "notes": "视频2衔接视频3.但是我没看出来视频1是如何和视频2，3衔接的。也没看出来在shops/cafes折返在哪里。"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "e16d838745f5f72d",
+   "source": "fullvideo",
+   "unit": "cross_video",
+   "question_type": "landmark-visibility-comparison",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "E": "supported",
+     "B": "ruled_out",
+     "A": "supported",
+     "C": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "ambiguous",
+    "notes": "两个视频前半段，柱子都在左侧。视频A从柱子左侧走过（00:28），柱子变为右侧。视频B从柱子右侧走过（00：21），柱子依然在左侧。"
+   },
+   "time_sec": 90254
+  },
+  {
+   "review_id": "e633084c6e402b66",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "multi-step-turns",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "supported"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "ef3ed4c937340ebc",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-revisit",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "G": "supported",
+     "E": "supported",
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "F": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "E",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 93285
+  },
+  {
+   "review_id": "6e26a6bd96d00d8e",
+   "source": "fullvideo",
+   "unit": "cross_video",
+   "question_type": "landmark-order-discrimination",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 93619
+  },
+  {
+   "review_id": "8ce47a41b03cba35",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "route-summary",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "E": "supported"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "cd3504d853f481c1",
+   "source": "fullvideo",
+   "unit": "cross_video",
+   "question_type": "route-phase-alignment",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "B": "supported"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "bad182dfa4e96a98",
+   "source": "fullvideo",
+   "unit": "cross_video",
+   "question_type": "route-divergence-location",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "D": "undecidable",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [],
+    "verdict": "cant_tell",
+    "notes": "video a和c在最后都选择了右侧岔路，没有diverge。假设diverge，答案唯一为D"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "3f44e400677eed89",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "E": "supported"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "e2af2cafa7acf669",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-revisit",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "F": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "2e4a25f13560cdbf",
+   "source": "fullvideo",
+   "unit": "cross_video",
+   "question_type": "divergence-point",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 2,
+   "complete": false,
+   "human_checks": {
+    "per_option": {},
+    "final_answer": [],
+    "verdict": "cant_tell",
+    "notes": "视频MNOPQR是在同一地点折返。视频AB在同一地点折返。无法判断这两个地点哪个更早"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "8b571eb2a0ade4c0",
+   "source": "fullvideo",
+   "unit": "cross_video",
+   "question_type": "unique-transient-obstacle",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "B": "supported"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "124b7a700fed42e3",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "event-phase",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "F": "ruled_out",
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "A": "ruled_out",
+     "B": "undecidable"
+    },
+    "final_answer": [],
+    "verdict": "ambiguous",
+    "notes": "唯一类似的答案是B但是covered industrial structure不确定是否包括房屋。我感觉左右侧都是building"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "faaa1383255e16b7",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "event-phase",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 2,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "H": "ruled_out",
+     "G": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [],
+    "verdict": "ambiguous",
+    "notes": "视频中有人群站在草地上，有一辆白色汽车停在远处路边，有一个人骑自行车经过。选项中的答案都不符合。"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "3f0b27bd0b0509c7",
+   "source": "fullvideo",
+   "unit": "cross_video",
+   "question_type": "landmark-visibility-comparison",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "E": "ruled_out",
+     "H": "supported",
+     "G": "supported",
+     "F": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "G",
+     "H"
+    ],
+    "verdict": "ambiguous",
+    "notes": "视频B，房屋和停放车辆都可以清楚看到在左侧。右侧极其仔细辨认可以看到有停车。视频c先经过亮灯房屋，清晰看到两侧都有车，再经过金属围栏和白色栅栏。"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "4f8161d8e0d4e4dc",
+   "source": "fullvideo",
+   "unit": "cross_video",
+   "question_type": "route-divergence-location",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "D": "supported"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "5b8722e2bf0de351",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "supported"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "43e5fb5a2360b3f0",
+   "source": "fullvideo",
+   "unit": "cross_video",
+   "question_type": "route-phase-alignment",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {},
+    "final_answer": [],
+    "verdict": "cant_tell",
+    "notes": "如果是视频的时间早晚，三个视频都差不多在25-30sec的时候到达黄色工程车，时间几乎一致。如果是实际的上午-中午-下午-晚上的早晚，video C和E无法判断哪个更早，都是白天（上午和下午在没有东南西北的方位的情况下看影子方向也不太好分辨）。Video E确定是晚上"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "ea65fba1cdc6ea40",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "H": "ruled_out",
+     "G": "ruled_out",
+     "F": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "ambiguous",
+    "notes": "视频H：轻微右转，右侧有绿色垃圾箱，深色container/广告柱。视频I：sharp左转，转完后左侧有白色建筑，拍摄者朝尽头红色圆形标志走去。和描述都不一致，大部分的描述和视频id不对应。"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "d62290fcdfacb737",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "D",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 103035
+  },
+  {
+   "review_id": "ead9f680af8c1a41",
+   "source": "p01ma_gdrive",
+   "unit": "cross_recording",
+   "question_type": "same-place-different-recording",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "F"
+    ],
+    "verdict": "ambiguous",
+    "notes": "A：C中长椅也在左侧。C：视频号说反了。D：旋转门都在左侧。E：坐在左侧。G：视频F先经过人再是玻璃建筑。H：雕塑都在右侧草坪。"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "e380d576d77dc91f",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "G"
+    ],
+    "verdict": "ambiguous",
+    "notes": "A：石凳在右转之后。C：自行车和楼梯在clipb。D：右转。E：没有红白相间柱子。F：没有alongside building进行turn。H：没有防撞柱和广场。"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "1ea84ef714ddfb18",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "route-phase-discrimination",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "G": "supported",
+     "F": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "F",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 104251
+  },
+  {
+   "review_id": "14b4e3528e23c709",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "E",
+     "F"
+    ],
+    "verdict": "ambiguous",
+    "notes": "A，B：无法判断两个视频先后顺序。C：没有货车。D：货车从前方驶来。G：低矮灌木丛也在左边，并且路灯左右都有。H：没有骑行者。"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "3c63f95ef4ab615d",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "supported"
+    },
+    "final_answer": [
+     "A",
+     "C",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 104782
+  },
+  {
+   "review_id": "b7207779890480f2",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "F",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 104995
+  },
+  {
+   "review_id": "b2a76af10d1d8857",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "E"
+    ],
+    "verdict": "ambiguous",
+    "notes": "对于其他选项，无法判断这两个视频的先后顺序。"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "cab892c5d1873f5b",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "supported",
+     "C": "supported"
+    },
+    "final_answer": [
+     "C",
+     "F",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 107581
+  },
+  {
+   "review_id": "8ca759aa0015e27e",
+   "source": "p01ma_gdrive",
+   "unit": "cross_recording",
+   "question_type": "route-identity-discrimination",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out",
+     "E": "ruled_out",
+     "G": "supported",
+     "H": "supported"
+    },
+    "final_answer": [
+     "B",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "591c56ed2fb7972a",
+   "source": "p01ma_gdrive",
+   "unit": "cross_recording",
+   "question_type": "environment-difference-across-recordings",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "supported",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "D",
+     "E",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 108202
+  },
+  {
+   "review_id": "c30ddcef3eb34ee9",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "landmark-cooccurrence",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "F",
+     "G"
+    ],
+    "verdict": "ambiguous",
+    "notes": "A：不直通fence。B：没有fence。C：没有pass column，在column之前就左转了。D：没有右转，直接看到了fence。E：没有左转。H：没有经过dining seating。"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "fe9ace481a97022f",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [],
+    "verdict": "cant_tell",
+    "notes": "无法判断这两个视频哪个在前哪个在后，都不是一条路"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "c6de66106a035420",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "landmark-cooccurrence",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "supported"
+    },
+    "final_answer": [
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "b6f1cd269e928a32",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "G": "ruled_out",
+     "F": "supported",
+     "E": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "E",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": "视频顺序我的判断是clipB-clipD。中间折返了一次"
+   },
+   "time_sec": 110502
+  },
+  {
+   "review_id": "a52f6fa813261680",
+   "source": "p01ma_gdrive",
+   "unit": "cross_recording",
+   "question_type": "route-identity-discrimination",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "supported"
+    },
+    "final_answer": [
+     "F",
+     "H"
+    ],
+    "verdict": "ambiguous",
+    "notes": "A：描述的是E，B：没有深色垃圾桶。C：有转向。D：右侧没有行人。E：没有转向 G：没有转向"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "614b2dcb07d4ccbe",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "supported"
+    },
+    "final_answer": [
+     "A",
+     "B",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 111206
+  },
+  {
+   "review_id": "aab7cce958c8527f",
+   "source": "p01ma_gdrive",
+   "unit": "cross_recording",
+   "question_type": "same-place-different-recording",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "C",
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 111462
+  },
+  {
+   "review_id": "c29c4c27e5138e40",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "B",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 111846
+  },
+  {
+   "review_id": "f00172ff58abb630",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "C": "undecidable",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "undecidable",
+     "G": "ruled_out",
+     "H": "ruled_out",
+     "B": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "E"
+    ],
+    "verdict": "ambiguous",
+    "notes": "C：不确定是不是算经过了 tall green hedge。F：如果视频F和B是连续的话，就是对的。在F经过KIT字样建筑，在B经过垃圾桶"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "0bbf5a20b446b06d",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "cross-segment-revisit",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "supported"
+    },
+    "final_answer": [
+     "C",
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 112725
+  },
+  {
+   "review_id": "72720592d9948580",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "undecidable",
+     "G": "undecidable",
+     "H": "ruled_out"
+    },
+    "final_answer": [],
+    "verdict": "ambiguous",
+    "notes": "A：没有左转绕过滑板车（视频C开头） B：没有左转进入广场，一直直行 C：自行车停放架不在照明小道之前 D：玻璃building之后没有转弯。 E：pedestrian zone的标志不在玻璃雕塑前面。 F：行人之后无法判断是不是pedestrian zone。两个视频无法判断前后顺序。 G，H：无法判断就两个视频的前后顺序 "
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "7f695e6db9e4fc02",
+   "source": "p01ma_gdrive",
+   "unit": "cross_recording",
+   "question_type": "same-place-different-recording",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 113564
+  },
+  {
+   "review_id": "6f985e2bc943d5d6",
+   "source": "p01ma_gdrive",
+   "unit": "cross_recording",
+   "question_type": "route-identity-discrimination",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "D",
+     "F"
+    ],
+    "verdict": "ambiguous",
+    "notes": "A：没有overhead pedestrian structure。 B：没经过旋转玻璃门 C：不是完全一样的路，只是有重合，也不是straight。E：没有bollards G：没有covered overpass H：没有经过orange sculpture。"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "2229e36655508447",
+   "source": "p01ma_gdrive",
+   "unit": "cross_recording",
+   "question_type": "same-place-different-recording",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 114442
+  },
+  {
+   "review_id": "7c73ea696cdb0388",
+   "source": "p01ma_gdrive",
+   "unit": "cross_recording",
+   "question_type": "environment-difference-across-recordings",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "G"
+    ],
+    "verdict": "ambiguous",
+    "notes": "A，F：没有骑车的人，视频H里那个人在走路。 B，D，E：视频D是晚上，视频H是白天 H：视频H的stop sign在右侧"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "fc50c6bfdda7ab41",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "environment-transition",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "supported"
+    },
+    "final_answer": [
+     "B",
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 114986
+  },
+  {
+   "review_id": "9a2b554691215510",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "supported"
+    },
+    "final_answer": [
+     "B",
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 115232
+  },
+  {
+   "review_id": "7550b8f4fc9979b7",
+   "source": "p01ma_hf",
+   "unit": "cross_recording",
+   "question_type": "environment-difference-across-recordings",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "supported",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "ruled_out",
+     "E": "supported"
+    },
+    "final_answer": [
+     "D",
+     "E",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 115550
+  },
+  {
+   "review_id": "da69e60e1ca640fe",
+   "source": "p01ma_hf",
+   "unit": "cross_recording",
+   "question_type": "shared-landmark-identification",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 115728
+  },
+  {
+   "review_id": "7a7490e20f555c2e",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "C": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "supported",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "59b50e0a8f26df69",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "route-phase-discrimination",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "supported"
+    },
+    "final_answer": [
+     "C",
+     "D",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 116396
+  },
+  {
+   "review_id": "b4ec54310a795909",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "route-phase-discrimination",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "F",
+     "G"
+    ],
+    "verdict": "ambiguous",
+    "notes": "A，B，C，D：描述错误视频 E：车辆和poles都在右侧 F：描述错误。"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "3d489823b40f37cb",
+   "source": "p01ma_hf",
+   "unit": "cross_recording",
+   "question_type": "shared-landmark-identification",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "E",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 117021
+  },
+  {
+   "review_id": "623e0568f8ebb27b",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "supported"
+    },
+    "final_answer": [
+     "B",
+     "E",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 117323
+  },
+  {
+   "review_id": "92a7ddbd03afd62e",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "D",
+     "E",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 117644
+  },
+  {
+   "review_id": "37ca2df5e82f6aac",
+   "source": "p01ma_hf",
+   "unit": "cross_recording",
+   "question_type": "shared-landmark-identification",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 118069
+  },
+  {
+   "review_id": "26cf0b41766ff448",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "supported",
+     "A": "supported"
+    },
+    "final_answer": [
+     "A",
+     "D",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 118243
+  },
+  {
+   "review_id": "6367f2f344f33a4b",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "F",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 118920
+  },
+  {
+   "review_id": "386bde9734a94e49",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "undecidable",
+     "B": "undecidable",
+     "C": "undecidable",
+     "F": "undecidable",
+     "H": "undecidable",
+     "D": "undecidable",
+     "E": "undecidable",
+     "G": "undecidable"
+    },
+    "final_answer": [],
+    "verdict": "cant_tell",
+    "notes": "无法判断视频的先后顺序"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "522e7dbbb57e461c",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "route-phase-discrimination",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "B": "supported",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "E",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 119592
+  },
+  {
+   "review_id": "b8f39f5ec914e4e9",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "environment-transition",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "supported"
+    },
+    "final_answer": [
+     "B",
+     "H"
+    ],
+    "verdict": "ambiguous",
+    "notes": "A，C，D，E，G：视频错误 F：经过黄色阳台后并没有右转（clipI结尾）"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "931b314c94c5cba8",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "environment-transition",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "D",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 120233
+  },
+  {
+   "review_id": "RBMA-0126",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "ambiguous",
+    "notes": "A：脚手架建筑后为左转 B：视频F中没有渔夫帽行人。 D：左转不是右转，左侧草坪没有自行车 E：都是左转 F：没有wagon穿过现代玻璃建筑前面的path。G：没有蓝色集装箱 H：没有蓝色上衣跑步者。"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "RBMA-0304",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "landmark-cooccurrence",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "F"
+    ],
+    "verdict": "ambiguous",
+    "notes": "B：围栏在左侧 C：自行车从左向右 D：初始是右转。 E：没有进行180度掉头。 G：没有穿过grey bollards。 H：护栏在右侧，而且是左转"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "RBMA-0068",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "C",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 121526
+  },
+  {
+   "review_id": "RBMA-0169",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "B",
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 122772
+  },
+  {
+   "review_id": "RBMA-0271",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "F",
+     "G"
+    ],
+    "verdict": "ambiguous",
+    "notes": "A，B：初始为左转  C：没有转弯 D：货车在左侧 E：交通标志在右侧 H：进行了转弯"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "RBMA-0067",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 123276
+  },
+  {
+   "review_id": "RBMA-0267",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [],
+    "verdict": "ambiguous",
+    "notes": "A，B，E，H：视频H全程直行没有转弯。 C：汽车在左边，D，G：没有拍到穿过红白柱子。"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "RBMA-0063",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "D",
+     "E",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 123812
+  },
+  {
+   "review_id": "RBMA-0036",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "D",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 124041
+  },
+  {
+   "review_id": "RBMA-0180",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "C",
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 124325
+  },
+  {
+   "review_id": "RBMA-0140",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "G"
+    ],
+    "verdict": "ambiguous",
+    "notes": "A：集装箱之前进行了平缓左转。B：视频A没有左转 D：木栅栏在右侧 E：混凝土墙在右侧 F：只有一辆货车。 H：没有around glass building，也不是左转。"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "RBMA-0183",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "D",
+     "F"
+    ],
+    "verdict": "ambiguous",
+    "notes": "A：汽车在右侧，B：没有摩托车，集装箱在右侧。C：没有摩托车。在交通标志右转。 E：视频B左转进入庭院。 G：最后右侧没有深色汽车。 H：左转而不是右转。"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "RBMA-0115",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "supported",
+     "G": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "E",
+     "F",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 125612
+  },
+  {
+   "review_id": "RBMA-0040",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "landmark-cooccurrence",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "supported"
+    },
+    "final_answer": [
+     "E",
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 125833
+  },
+  {
+   "review_id": "RBMA-0256",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "ambiguous",
+    "notes": "A： 不是右转而是左转 B，C：是左转 D：初始阶段左侧没有垃圾桶。 F：在右侧 G：在左侧 H：没有自行车"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "RBMA-0120",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "cross-segment-revisit",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "D",
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "RBMA-0184",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "supported"
+    },
+    "final_answer": [
+     "B",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "RBMA-0300",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C"
+    ],
+    "verdict": "ambiguous",
+    "notes": "A：经过餐车左转 D：垃圾箱在右侧 E：没有白色货车 F：网格状建筑在左侧 G：垃圾箱在右侧 H：环绕着白花而不是红花（视频C）"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "RBMA-0316",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "supported"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 127947
+  },
+  {
+   "review_id": "RBMA-0167",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "environment-transition",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "ambiguous",
+    "notes": "A：没有发光广告牌也没有左转。B：左转而不是右转。C：没有蓝色垃圾桶，左侧也没有应急车辆。 D：黑色轿车而不是银色wagon E：存在转弯 G：没有木质凉亭。H：没有红色标记的圆形木牌。圆形牌为金属。"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "RBMA-0222",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "environment-transition",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "G"
+    ],
+    "verdict": "ambiguous",
+    "notes": "A：视频A一开始没有右转 B：两个柱子不是三个。 C：不是笔直路线 D：白袋子在右侧。 E：左转而不是右转 F：左转而不是右转 H：没有白色货车。"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "RBMA-0251",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "RBMA-0146",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "ambiguous",
+    "notes": "A：左侧没有停车 B：视频C没有右转 C：左转后 E：没有鲜红色消防栓 F：没有一排蓝色大垃圾箱，右转进入停车区。 G：描述的是视频C，H：视频c中没有黄色轿车"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "RBMA-0272",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "supported"
+    },
+    "final_answer": [
+     "B",
+     "H"
+    ],
+    "verdict": "ambiguous",
+    "notes": "A：围挡在右侧 C：右转而不是左转 D：路灯在左侧 E：灰色建筑在左侧 F：视频I的汽车人从背后超过 G：没有转弯"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "RBMA-0230",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "supported"
+    },
+    "final_answer": [
+     "E",
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 130246
+  },
+  {
+   "review_id": "RBMA-0177",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "landmark-cooccurrence",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "E"
+    ],
+    "verdict": "ambiguous",
+    "notes": "B：视频D没有转弯，C：视频E右转后左侧没有灌木 D：视频E没有左转 F：蓝色垃圾桶在左侧，视频D开头 G：视频E没有左转弯 H：交通标志不是red cross。而是一个斜杠。"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "RBMA-0231",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Lei",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "supported"
+    },
+    "final_answer": [
+     "A",
+     "F",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 122583
+  }
+ ]
+}

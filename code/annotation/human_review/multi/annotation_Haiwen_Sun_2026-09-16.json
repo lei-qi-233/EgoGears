@@ -1,0 +1,4382 @@
+{
+ "schema": "runningbench-annotation-v1",
+ "bundle": "bundle_03",
+ "annotator": "Haiwen Sun",
+ "exported_at": "2026-09-16T00:48:46.680Z",
+ "reviews": [
+  {
+   "review_id": "6ed274a828f0d048",
+   "source": "excerpt",
+   "unit": "whole_video",
+   "question_type": "route-summary",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "C": "supported",
+     "B": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "B",
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 838
+  },
+  {
+   "review_id": "5cf4f6328e240f1d",
+   "source": "excerpt",
+   "unit": "whole_video",
+   "question_type": "route-summary",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "ruled_out",
+     "E": "supported",
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "F": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 1031
+  },
+  {
+   "review_id": "dafe227cb6048778",
+   "source": "excerpt",
+   "unit": "whole_video",
+   "question_type": "event-phase",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "F": "supported",
+     "E": "undecidable"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 1267
+  },
+  {
+   "review_id": "1fa13ba8546e540e",
+   "source": "excerpt",
+   "unit": "whole_video",
+   "question_type": "landmark-revisit",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "G": "supported",
+     "D": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "undecidable",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "H": "undecidable"
+    },
+    "final_answer": [
+     "D",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 1953
+  },
+  {
+   "review_id": "df3bd6fc68bdaf2f",
+   "source": "excerpt",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "supported",
+     "C": "undecidable",
+     "D": "undecidable",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "undecidable"
+    },
+    "final_answer": [
+     "A",
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 2431
+  },
+  {
+   "review_id": "5dae077b309b9664",
+   "source": "excerpt",
+   "unit": "whole_video",
+   "question_type": "route-summary",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "D": "ruled_out",
+     "E": "undecidable",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 2630
+  },
+  {
+   "review_id": "d845ff89665bb3bd",
+   "source": "excerpt",
+   "unit": "whole_video",
+   "question_type": "event-phase",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "G": "undecidable",
+     "A": "ruled_out",
+     "F": "undecidable",
+     "E": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported",
+     "H": "undecidable"
+    },
+    "final_answer": [
+     "C",
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 2938
+  },
+  {
+   "review_id": "287cde1c581202e5",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "event-phase",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 3058
+  },
+  {
+   "review_id": "8bca24947d1c88ec",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-revisit",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "H": "supported",
+     "B": "supported",
+     "A": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out",
+     "G": "supported",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 85642
+  },
+  {
+   "review_id": "fb8e97f08ef70468",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "multi-step-turns",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 85872
+  },
+  {
+   "review_id": "5005511dd9a718a5",
+   "source": "fullvideo",
+   "unit": "cross_video",
+   "question_type": "unique-transient-obstacle",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 86183
+  },
+  {
+   "review_id": "dded6b228749122e",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "route-summary",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 86659
+  },
+  {
+   "review_id": "0e7ec0998029b649",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "H": "undecidable",
+     "G": "undecidable"
+    },
+    "final_answer": [
+     "A",
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 87166
+  },
+  {
+   "review_id": "9ca1e8255b7c6882",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "route-summary",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "undecidable",
+     "F": "undecidable"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 87291
+  },
+  {
+   "review_id": "70c7ab0ff7f872f4",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 165820
+  },
+  {
+   "review_id": "c01721b0c3ddb216",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "start-end-relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [],
+    "verdict": "cant_tell",
+    "notes": "they start in an open hillside field and end in a deciduous forest"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "bb37d689e3f5ac3f",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "route-summary",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 166477
+  },
+  {
+   "review_id": "4e083adcf18e6b50",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "multi-step-turns",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 166802
+  },
+  {
+   "review_id": "7894985353d6a9f9",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "C": "supported",
+     "D": "supported",
+     "H": "supported",
+     "G": "ruled_out",
+     "F": "ruled_out",
+     "E": "ruled_out",
+     "B": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "D",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 167198
+  },
+  {
+   "review_id": "a60e0f83d31a8fdf",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "route-summary",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 167272
+  },
+  {
+   "review_id": "bd7e266476d02490",
+   "source": "fullvideo",
+   "unit": "cross_video",
+   "question_type": "unique-transient-obstacle",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "F": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 167346
+  },
+  {
+   "review_id": "139f7b09e466f884",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "E": "supported",
+     "F": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "G": "ruled_out",
+     "H": "supported"
+    },
+    "final_answer": [
+     "E",
+     "F",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 167435
+  },
+  {
+   "review_id": "e8d5ed8e48c16675",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "route-summary",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 167558
+  },
+  {
+   "review_id": "e64c8aa208414d3e",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "route-summary",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 167845
+  },
+  {
+   "review_id": "51c760e5248b63cc",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "start-end-relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 168173
+  },
+  {
+   "review_id": "770049922d6ca17c",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "event-phase",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "C": "supported",
+     "A": "ruled_out",
+     "D": "ruled_out",
+     "B": "ruled_out",
+     "E": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 168301
+  },
+  {
+   "review_id": "34ca194417b33cc7",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 168594
+  },
+  {
+   "review_id": "0e80c5fa7f59d1f3",
+   "source": "fullvideo",
+   "unit": "cross_video",
+   "question_type": "route-phase-alignment",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 168655
+  },
+  {
+   "review_id": "96c1c8c876677383",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "event-phase",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "H": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 168957
+  },
+  {
+   "review_id": "d96a2cda6c6cd963",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "multi-step-turns",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "F": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 169325
+  },
+  {
+   "review_id": "25fbd7261c1ee762",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "H": "ruled_out",
+     "G": "ruled_out",
+     "F": "supported",
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 169523
+  },
+  {
+   "review_id": "55c89ccf12919bb5",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-revisit",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "G": "ruled_out",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "H": "ruled_out",
+     "C": "supported",
+     "D": "supported",
+     "E": "supported",
+     "F": "supported"
+    },
+    "final_answer": [
+     "C",
+     "D",
+     "E",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 169789
+  },
+  {
+   "review_id": "50ae8b8b86c1773d",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "event-phase",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "supported",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "B",
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 187690
+  },
+  {
+   "review_id": "76595a8fb4e3101d",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-revisit",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 170205
+  },
+  {
+   "review_id": "3e41be4470fd2e15",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 170340
+  },
+  {
+   "review_id": "6d8e7f57d2a51edb",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "multi-step-turns",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 170559
+  },
+  {
+   "review_id": "5fdc3f6c54d685af",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 170884
+  },
+  {
+   "review_id": "8719116f18e2a314",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-revisit",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 170977
+  },
+  {
+   "review_id": "7f3717cc7767d9d6",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "multi-step-turns",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 182317
+  },
+  {
+   "review_id": "657413cd2a4a384c",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "E": "supported",
+     "C": "ruled_out",
+     "D": "supported",
+     "H": "supported",
+     "G": "supported",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D",
+     "E",
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 182699
+  },
+  {
+   "review_id": "d40dcd9f5b687441",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "route-summary",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 182871
+  },
+  {
+   "review_id": "7ab7594554e107d8",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "start-end-relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 183104
+  },
+  {
+   "review_id": "27c8b81e1141b0af",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "environment-stages",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 187715
+  },
+  {
+   "review_id": "8d1f4466adf21dec",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "environment-stages",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 183581
+  },
+  {
+   "review_id": "700b6c8197d0d9b0",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "G": "supported",
+     "H": "supported",
+     "C": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "E",
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 183733
+  },
+  {
+   "review_id": "ddd2d8e7a0b018d2",
+   "source": "fullvideo",
+   "unit": "cross_video",
+   "question_type": "unique-transient-obstacle",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "D": "ruled_out",
+     "A": "supported",
+     "B": "ruled_out",
+     "E": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "C",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 184135
+  },
+  {
+   "review_id": "2ebc6e80e635adb1",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "multi-step-turns",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 184345
+  },
+  {
+   "review_id": "6801250e1e78c40b",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-revisit",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 184499
+  },
+  {
+   "review_id": "dd1361b32757b628",
+   "source": "fullvideo",
+   "unit": "cross_video",
+   "question_type": "different-start-shared-path",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 187737
+  },
+  {
+   "review_id": "d0861104ff97f59e",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "event-phase",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 4,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "G": "supported",
+     "F": "ruled_out",
+     "D": "supported",
+     "B": "supported",
+     "C": "undecidable",
+     "A": "ruled_out",
+     "H": "undecidable",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "D",
+     "G"
+    ],
+    "verdict": "ambiguous",
+    "notes": ""
+   },
+   "time_sec": 185061
+  },
+  {
+   "review_id": "75583d23395c433e",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "G": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out",
+     "E": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 187747
+  },
+  {
+   "review_id": "eee50dd1e4595c80",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 187753
+  },
+  {
+   "review_id": "ca5fb47513c1984b",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "D": "ruled_out",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [],
+    "verdict": "cant_tell",
+    "notes": " there's no the graffiti wall and the bus stop"
+   },
+   "time_sec": 185804
+  },
+  {
+   "review_id": "2984b4490360d9eb",
+   "source": "fullvideo",
+   "unit": "cross_video",
+   "question_type": "landmark-visibility-comparison",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 5,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "E": "supported",
+     "B": "ruled_out",
+     "D": "supported",
+     "C": "supported",
+     "G": "ruled_out",
+     "A": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "C",
+     "D",
+     "E",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 185987
+  },
+  {
+   "review_id": "a8e1c61eab59422d",
+   "source": "fullvideo",
+   "unit": "cross_video",
+   "question_type": "route-retrieval",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 186469
+  },
+  {
+   "review_id": "165a242db073c26d",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "multi-step-turns",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 186482
+  },
+  {
+   "review_id": "89f198aee060b859",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "start-end-relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 186456
+  },
+  {
+   "review_id": "c7b353db3c39b7e1",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-revisit",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "F": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [],
+    "verdict": "cant_tell",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "375aa1c736f03b1b",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "route-summary",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "F": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 186678
+  },
+  {
+   "review_id": "89c874ec7ca1456a",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-revisit",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "A": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "B": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 441578
+  },
+  {
+   "review_id": "c2416f48bec9879f",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "multi-step-turns",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 187782
+  },
+  {
+   "review_id": "948f1eabdb3532db",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 4,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "H": "ruled_out",
+     "G": "supported",
+     "C": "ruled_out",
+     "A": "undecidable",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "G"
+    ],
+    "verdict": "ambiguous",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "b96a4b59506a4848",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "event-phase",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "undecidable",
+     "B": "undecidable",
+     "C": "undecidable",
+     "D": "undecidable",
+     "E": "undecidable",
+     "F": "undecidable"
+    },
+    "final_answer": [],
+    "verdict": "ambiguous",
+    "notes": "A person riding a bike"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "8b297d787b099d98",
+   "source": "fullvideo",
+   "unit": "cross_video",
+   "question_type": "divergence-point",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 187497
+  },
+  {
+   "review_id": "69a2d03afa23a2b0",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "event-phase",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "H": "ruled_out",
+     "G": "ruled_out",
+     "E": "ruled_out",
+     "D": "supported",
+     "B": "supported",
+     "C": "supported",
+     "A": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 526007
+  },
+  {
+   "review_id": "8fcce63e4d427072",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "route-summary",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 188588
+  },
+  {
+   "review_id": "220db489e55d083a",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-revisit",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "C": "supported",
+     "F": "ruled_out",
+     "D": "supported",
+     "E": "supported",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "D",
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 189061
+  },
+  {
+   "review_id": "200558f06d652794",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "environment-stages",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 264110
+  },
+  {
+   "review_id": "062564e5410a3d13",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "E": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out",
+     "H": "supported",
+     "G": "ruled_out",
+     "F": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 189494
+  },
+  {
+   "review_id": "44c58d755100873c",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "multi-step-turns",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "F": "ruled_out",
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 189701
+  },
+  {
+   "review_id": "317d884f39a7398f",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "undecidable",
+     "B": "undecidable",
+     "C": "undecidable",
+     "D": "undecidable",
+     "E": "undecidable",
+     "F": "undecidable"
+    },
+    "final_answer": [],
+    "verdict": "cant_tell",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "2beddd71f7dce226",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "ambiguous",
+    "notes": ""
+   },
+   "time_sec": 190040
+  },
+  {
+   "review_id": "823d4a6a4fc5e0cc",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "environment-stages",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "H": "supported",
+     "A": "ruled_out",
+     "G": "supported",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 263122
+  },
+  {
+   "review_id": "f3e572ff7689ee68",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "start-end-relation",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 264090
+  },
+  {
+   "review_id": "ddaaf3a5a3cc8eb0",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "event-phase",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 264083
+  },
+  {
+   "review_id": "834e8ace3dbb7c25",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "H": "ruled_out",
+     "F": "ruled_out",
+     "D": "supported",
+     "E": "ruled_out",
+     "A": "supported",
+     "B": "ruled_out",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "C",
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 263701
+  },
+  {
+   "review_id": "9091b7e2e8f4066e",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "event-phase",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 265512
+  },
+  {
+   "review_id": "46cb51c27bd76007",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "event-phase",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "ruled_out",
+     "H": "supported",
+     "C": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 263974
+  },
+  {
+   "review_id": "317ddf8832eb1e3d",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "multi-step-turns",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 264360
+  },
+  {
+   "review_id": "e33a7f5cce66646d",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "D": "supported",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "A": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 264835
+  },
+  {
+   "review_id": "8de0a9fa8f008e3f",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "H": "supported",
+     "G": "supported",
+     "D": "supported",
+     "E": "ruled_out",
+     "C": "ruled_out",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D",
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 265301
+  },
+  {
+   "review_id": "50d1962d460ab5ad",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "H": "supported",
+     "G": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 265504
+  },
+  {
+   "review_id": "5c82fd4561744c62",
+   "source": "p01ma_gdrive",
+   "unit": "cross_recording",
+   "question_type": "shared-landmark-identification",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "D": "ruled_out",
+     "H": "supported",
+     "G": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported",
+     "C": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "F",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 441607
+  },
+  {
+   "review_id": "f94848f5bafb9c6e",
+   "source": "p01ma_gdrive",
+   "unit": "cross_recording",
+   "question_type": "route-identity-discrimination",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "H": "ruled_out",
+     "F": "supported",
+     "B": "supported",
+     "G": "ruled_out",
+     "C": "ruled_out",
+     "A": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "D",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 441617
+  },
+  {
+   "review_id": "708ca3715ba5f976",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "H": "ruled_out",
+     "A": "supported",
+     "B": "supported",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "B",
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 267151
+  },
+  {
+   "review_id": "ff63a8ff95a7215a",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "C": "supported",
+     "B": "ruled_out",
+     "G": "ruled_out",
+     "D": "ruled_out",
+     "H": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "C",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 441623
+  },
+  {
+   "review_id": "4c0830f6cfd78e33",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "H": "supported",
+     "F": "ruled_out",
+     "G": "supported",
+     "C": "supported",
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 351090
+  },
+  {
+   "review_id": "6f6149744ba0b8bb",
+   "source": "p01ma_gdrive",
+   "unit": "cross_recording",
+   "question_type": "same-place-different-recording",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "G": "supported",
+     "H": "supported",
+     "C": "ruled_out",
+     "D": "supported",
+     "F": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "D",
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 351508
+  },
+  {
+   "review_id": "498d82e2b3b331a1",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "supported"
+    },
+    "final_answer": [
+     "C",
+     "E",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 359598
+  },
+  {
+   "review_id": "95d4352a5e1f51ed",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "route-phase-discrimination",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "H": "supported",
+     "D": "ruled_out",
+     "G": "supported",
+     "B": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported",
+     "C": "ruled_out"
+    },
+    "final_answer": [
+     "F",
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 441228
+  },
+  {
+   "review_id": "167c6100c95c67c2",
+   "source": "p01ma_gdrive",
+   "unit": "cross_recording",
+   "question_type": "route-identity-discrimination",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "G": "ruled_out",
+     "E": "supported",
+     "H": "ruled_out",
+     "C": "ruled_out",
+     "B": "supported",
+     "D": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "B",
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 441684
+  },
+  {
+   "review_id": "00954d779cd9f664",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "E": "ruled_out",
+     "F": "supported",
+     "C": "ruled_out",
+     "D": "supported",
+     "H": "ruled_out",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "D",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 441824
+  },
+  {
+   "review_id": "86782104710d3df4",
+   "source": "p01ma_gdrive",
+   "unit": "cross_recording",
+   "question_type": "route-identity-discrimination",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "ruled_out",
+     "H": "ruled_out",
+     "F": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "B": "supported",
+     "G": "ruled_out",
+     "E": "supported"
+    },
+    "final_answer": [
+     "B",
+     "E",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 442268
+  },
+  {
+   "review_id": "63d5c73ecd12686e",
+   "source": "p01ma_gdrive",
+   "unit": "cross_recording",
+   "question_type": "same-place-different-recording",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "H": "ruled_out",
+     "B": "ruled_out",
+     "E": "supported",
+     "G": "ruled_out",
+     "F": "supported"
+    },
+    "final_answer": [
+     "A",
+     "E",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 442484
+  },
+  {
+   "review_id": "256b7b511b806d54",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "H": "ruled_out",
+     "G": "ruled_out",
+     "E": "supported",
+     "B": "undecidable",
+     "C": "undecidable",
+     "D": "undecidable",
+     "F": "undecidable"
+    },
+    "final_answer": [
+     "A",
+     "E"
+    ],
+    "verdict": "ambiguous",
+    "notes": "don't find the building marked with '11' "
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "16ee9b1d5d549c17",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "route-phase-discrimination",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "G": "ruled_out",
+     "F": "supported",
+     "H": "supported",
+     "B": "ruled_out",
+     "E": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "F",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 443026
+  },
+  {
+   "review_id": "d7796dac6d8f2d63",
+   "source": "p01ma_gdrive",
+   "unit": "cross_recording",
+   "question_type": "route-identity-discrimination",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "G": "ruled_out",
+     "D": "ruled_out",
+     "C": "supported",
+     "A": "ruled_out",
+     "B": "supported",
+     "E": "ruled_out",
+     "H": "ruled_out",
+     "F": "supported"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 443946
+  },
+  {
+   "review_id": "c46d0eb64bf10a07",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "route-phase-discrimination",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "H": "supported",
+     "E": "ruled_out",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "B": "supported",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "F",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 444256
+  },
+  {
+   "review_id": "67a125bc363d3432",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "H": "supported",
+     "G": "ruled_out",
+     "A": "ruled_out",
+     "D": "supported",
+     "F": "ruled_out",
+     "E": "ruled_out",
+     "C": "ruled_out",
+     "B": "supported"
+    },
+    "final_answer": [
+     "B",
+     "D",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 444721
+  },
+  {
+   "review_id": "24b568e547b9fadb",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "landmark-cooccurrence",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "D": "ruled_out",
+     "H": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "G": "supported",
+     "F": "supported"
+    },
+    "final_answer": [
+     "B",
+     "F",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 444861
+  },
+  {
+   "review_id": "e8ae81b6a99457cc",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "route-phase-discrimination",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "F": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "H": "supported",
+     "G": "ruled_out",
+     "B": "supported",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 445116
+  },
+  {
+   "review_id": "2794fc360cb66fa7",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "landmark-cooccurrence",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "F": "supported",
+     "C": "ruled_out",
+     "A": "ruled_out",
+     "H": "ruled_out",
+     "G": "supported",
+     "E": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "F",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 445234
+  },
+  {
+   "review_id": "929fa5db8f0d323b",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "H": "ruled_out",
+     "E": "ruled_out",
+     "G": "ruled_out",
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "F": "supported"
+    },
+    "final_answer": [
+     "A",
+     "C",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 445506
+  },
+  {
+   "review_id": "e06bde38e881e54d",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "H": "supported",
+     "D": "ruled_out",
+     "F": "supported",
+     "E": "ruled_out",
+     "G": "ruled_out",
+     "A": "ruled_out",
+     "C": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "F",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 523787
+  },
+  {
+   "review_id": "6002e217d86914c1",
+   "source": "p01ma_gdrive",
+   "unit": "cross_recording",
+   "question_type": "shared-landmark-identification",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "H": "ruled_out",
+     "F": "ruled_out",
+     "A": "supported",
+     "E": "supported",
+     "D": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "D",
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 523801
+  },
+  {
+   "review_id": "57c22d29e4692208",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "route-phase-discrimination",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "ruled_out",
+     "A": "ruled_out",
+     "B": "supported",
+     "H": "supported",
+     "G": "ruled_out",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "D",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 509747
+  },
+  {
+   "review_id": "9be2318f7cc2932c",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "D": "ruled_out",
+     "H": "ruled_out",
+     "G": "ruled_out",
+     "F": "ruled_out",
+     "E": "supported",
+     "C": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "E"
+    ],
+    "verdict": "ambiguous",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "c3dfa6cac7952495",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "B",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 523805
+  },
+  {
+   "review_id": "0c72776de85c09ab",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "C": "supported",
+     "F": "ruled_out",
+     "B": "ruled_out",
+     "G": "ruled_out",
+     "H": "supported"
+    },
+    "final_answer": [
+     "A",
+     "C",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 515569
+  },
+  {
+   "review_id": "16b11a4dff08280f",
+   "source": "p01ma_hf",
+   "unit": "cross_recording",
+   "question_type": "environment-difference-across-recordings",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "supported",
+     "G": "ruled_out",
+     "H": "supported",
+     "F": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "E",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 515857
+  },
+  {
+   "review_id": "806f5731baa3e093",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "cross-segment-revisit",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "H": "supported",
+     "B": "ruled_out",
+     "G": "ruled_out",
+     "F": "supported",
+     "E": "supported",
+     "D": "ruled_out",
+     "C": "ruled_out"
+    },
+    "final_answer": [
+     "E",
+     "F",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 516037
+  },
+  {
+   "review_id": "7d42a65dc802b982",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "G": "ruled_out",
+     "H": "supported",
+     "B": "supported",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "D": "supported",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "D",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 516391
+  },
+  {
+   "review_id": "87884dbd8bc646f7",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "D": "ruled_out",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported",
+     "E": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "F"
+    ],
+    "verdict": "ambiguous",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "adb5aae13803fb10",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "undecidable",
+     "B": "undecidable",
+     "C": "undecidable",
+     "D": "undecidable",
+     "E": "undecidable",
+     "F": "undecidable",
+     "G": "undecidable",
+     "H": "undecidable"
+    },
+    "final_answer": [],
+    "verdict": "cant_tell",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "06cbc175606a6b7d",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "route-phase-discrimination",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "C": "supported",
+     "G": "ruled_out",
+     "H": "supported",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "C",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 518089
+  },
+  {
+   "review_id": "cc192d209f93333c",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "E": "supported",
+     "H": "ruled_out",
+     "G": "undecidable",
+     "F": "undecidable",
+     "C": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "E"
+    ],
+    "verdict": "cant_tell",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "99516a596251c098",
+   "source": "p01ma_hf",
+   "unit": "cross_recording",
+   "question_type": "environment-difference-across-recordings",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "H": "ruled_out",
+     "G": "supported",
+     "F": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "C",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 519012
+  },
+  {
+   "review_id": "dbf3c9945961f5d1",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "supported",
+     "H": "ruled_out",
+     "D": "ruled_out",
+     "G": "supported",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "E",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 519217
+  },
+  {
+   "review_id": "494ca6f144dd5462",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "ruled_out",
+     "E": "supported",
+     "A": "supported",
+     "C": "ruled_out",
+     "F": "ruled_out",
+     "H": "ruled_out",
+     "D": "supported",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "D",
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 523819
+  },
+  {
+   "review_id": "5f4cc4516f6fd174",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "H": "ruled_out",
+     "E": "supported",
+     "D": "ruled_out",
+     "A": "undecidable",
+     "C": "ruled_out",
+     "B": "undecidable",
+     "F": "undecidable",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "cant_tell",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "fcf5230a7cf6308e",
+   "source": "p01ma_hf",
+   "unit": "cross_recording",
+   "question_type": "route-identity-discrimination",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "G": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "F": "ruled_out",
+     "D": "ruled_out",
+     "H": "ruled_out",
+     "E": "ruled_out",
+     "C": "ruled_out"
+    },
+    "final_answer": [
+     "G"
+    ],
+    "verdict": "ambiguous",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "d68077d618ffc413",
+   "source": "p01ma_hf",
+   "unit": "cross_recording",
+   "question_type": "route-identity-discrimination",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "D": "ruled_out",
+     "B": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "supported",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "F",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 523917
+  },
+  {
+   "review_id": "9d52e4db595d75cf",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "H": "supported",
+     "G": "supported",
+     "F": "supported",
+     "E": "ruled_out",
+     "C": "ruled_out",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "F",
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 523921
+  },
+  {
+   "review_id": "2874e42804aa07fc",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "undecidable",
+     "C": "undecidable",
+     "F": "undecidable",
+     "G": "undecidable",
+     "H": "undecidable",
+     "D": "undecidable",
+     "E": "undecidable",
+     "B": "undecidable"
+    },
+    "final_answer": [],
+    "verdict": "cant_tell",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "ad031326d213362e",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "D": "supported",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "G": "supported",
+     "H": "supported",
+     "B": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D",
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 522491
+  },
+  {
+   "review_id": "54a92dbe7f45d0ac",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "supported",
+     "E": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "D",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 523034
+  },
+  {
+   "review_id": "RBMA-0077",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "H": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "C",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 523277
+  },
+  {
+   "review_id": "RBMA-0237",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "H": "supported",
+     "A": "ruled_out",
+     "B": "supported",
+     "F": "ruled_out",
+     "E": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "E",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 523459
+  },
+  {
+   "review_id": "RBMA-0026",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "H": "ruled_out",
+     "D": "supported",
+     "C": "ruled_out",
+     "A": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "D"
+    ],
+    "verdict": "ambiguous",
+    "notes": "no excavator "
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "RBMA-0074",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "H": "supported",
+     "G": "ruled_out",
+     "F": "supported"
+    },
+    "final_answer": [
+     "A",
+     "F",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 524479
+  },
+  {
+   "review_id": "RBMA-0166",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "G": "ruled_out",
+     "H": "supported",
+     "F": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "B",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 524787
+  },
+  {
+   "review_id": "RBMA-0148",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out",
+     "C": "ruled_out",
+     "B": "supported",
+     "F": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "F",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 525054
+  },
+  {
+   "review_id": "RBMA-0052",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "C": "ruled_out",
+     "B": "supported",
+     "E": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out",
+     "F": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "B",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 525266
+  },
+  {
+   "review_id": "RBMA-0179",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "H": "supported",
+     "G": "supported",
+     "F": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "F",
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 526065
+  },
+  {
+   "review_id": "RBMA-0268",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "H": "supported",
+     "G": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "supported"
+    },
+    "final_answer": [
+     "A",
+     "D",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 525594
+  },
+  {
+   "review_id": "RBMA-0085",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out",
+     "G": "supported",
+     "C": "supported",
+     "H": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "C",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 525802
+  },
+  {
+   "review_id": "RBMA-0240",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "E",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 525826
+  },
+  {
+   "review_id": "RBMA-0241",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "D": "supported",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "ruled_out",
+     "E": "ruled_out",
+     "C": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "D",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 525837
+  },
+  {
+   "review_id": "RBMA-0039",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "F": "supported",
+     "H": "supported",
+     "G": "ruled_out",
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "F",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 525846
+  },
+  {
+   "review_id": "RBMA-0038",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "E": "supported",
+     "G": "supported",
+     "H": "ruled_out",
+     "F": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "E",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 525857
+  },
+  {
+   "review_id": "RBMA-0219",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "F": "supported",
+     "G": "supported",
+     "H": "ruled_out",
+     "C": "ruled_out",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "E",
+     "F",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 525868
+  },
+  {
+   "review_id": "RBMA-0130",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "cross-segment-revisit",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "supported",
+     "G": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "E",
+     "F",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 525878
+  },
+  {
+   "review_id": "RBMA-0315",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "cross-segment-revisit",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 525890
+  },
+  {
+   "review_id": "RBMA-0129",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "environment-transition",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "F",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 525905
+  },
+  {
+   "review_id": "RBMA-0124",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 523616
+  },
+  {
+   "review_id": "RBMA-0247",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "supported"
+    },
+    "final_answer": [
+     "C",
+     "F",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 523634
+  },
+  {
+   "review_id": "RBMA-0313",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 523650
+  },
+  {
+   "review_id": "RBMA-0171",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "supported"
+    },
+    "final_answer": [
+     "C",
+     "E",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 523663
+  },
+  {
+   "review_id": "RBMA-0311",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "H": "ruled_out",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "B",
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 523677
+  },
+  {
+   "review_id": "RBMA-0281",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 523695
+  },
+  {
+   "review_id": "RBMA-0139",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "E",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 523710
+  },
+  {
+   "review_id": "RBMA-0170",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "supported"
+    },
+    "final_answer": [
+     "E",
+     "F",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 523725
+  },
+  {
+   "review_id": "RBMA-0232",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "supported"
+    },
+    "final_answer": [
+     "D",
+     "E",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 523739
+  },
+  {
+   "review_id": "RBMA-0253",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "route-phase-discrimination",
+   "annotator": "Haiwen Sun",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "supported"
+    },
+    "final_answer": [
+     "A",
+     "F",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 523755
+  }
+ ]
+}

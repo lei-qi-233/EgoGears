@@ -1,0 +1,1781 @@
+{
+ "schema": "runningbench-annotation-v1",
+ "bundle": "runningbench_part10",
+ "annotator": "Yufan Chen",
+ "exported_at": "2026-09-22T13:59:37.590Z",
+ "reviews": [
+  {
+   "review_id": "91982a97a878a4ff",
+   "source": "P02_FastWalk_Day_Trial01",
+   "unit": "P02_FastWalk_Day_Trial01 [240.0--300.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 197
+  },
+  {
+   "review_id": "e2a006d631c9aeaf",
+   "source": "P02_FastWalk_Day_Trial02",
+   "unit": "P02_FastWalk_Day_Trial02 [60.0--120.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 1183
+  },
+  {
+   "review_id": "8bf6e6f54676d25f",
+   "source": "P02_FastWalk_Night_Trial01",
+   "unit": "P02_FastWalk_Night_Trial01 [660.0--720.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 1253
+  },
+  {
+   "review_id": "348fd0984ce2cd85",
+   "source": "P02_FastWalk_Night_Trial02",
+   "unit": "P02_FastWalk_Night_Trial02 [420.0--480.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 1547
+  },
+  {
+   "review_id": "2772abe27cb05aef",
+   "source": "P02_Running_Day_Trial03",
+   "unit": "P02_Running_Day_Trial03 [360.0--420.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 1893
+  },
+  {
+   "review_id": "01c47a1f47168d36",
+   "source": "P02_Running_Night_Trial02",
+   "unit": "P02_Running_Night_Trial02 [0.0--60.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 4783
+  },
+  {
+   "review_id": "c979d143d6d19e6c",
+   "source": "P02_Running_Night_Trial02",
+   "unit": "P02_Running_Night_Trial02 [120.0--180.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 4814
+  },
+  {
+   "review_id": "e869a4ca661dab13",
+   "source": "P02_Running_Night_Trial03",
+   "unit": "P02_Running_Night_Trial03 [60.0--120.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 4949
+  },
+  {
+   "review_id": "7c3cf937b5a1ceeb",
+   "source": "P02_SlowWalk_Day_Trial01",
+   "unit": "P02_SlowWalk_Day_Trial01 [240.0--300.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "undecidable",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "ambiguous",
+    "notes": "Starts near a revolving door, walks straight ahead,  runs across the grass lawn, and pans right towards a grey building at the end."
+   },
+   "time_sec": 5354
+  },
+  {
+   "review_id": "790a108b1847bd86",
+   "source": "P02_SlowWalk_Day_Trial01",
+   "unit": "P02_SlowWalk_Day_Trial01 [420.0--480.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "F": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 5229
+  },
+  {
+   "review_id": "ba7f9c463255475b",
+   "source": "P02_SlowWalk_Day_Trial01",
+   "unit": "P02_SlowWalk_Day_Trial01 [960.0--1020.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "undecidable",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "ambiguous",
+    "notes": "They first trun left, then move continuously straight forward."
+   },
+   "time_sec": 5371
+  },
+  {
+   "review_id": "85d2086b3ec5b9ca",
+   "source": "P02_SlowWalk_Day_Trial03",
+   "unit": "P02_SlowWalk_Day_Trial03 [60.0--120.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "undecidable",
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "ambiguous",
+    "notes": "First turn left, then pans to orient forward, walks straight, makes a sharp 90-degree right turn after passing red and white bollards, and continues straight."
+   },
+   "time_sec": 5753
+  },
+  {
+   "review_id": "d51bbf2aca27ab4a",
+   "source": "P02_SlowWalk_Day_Trial03",
+   "unit": "P02_SlowWalk_Day_Trial03 [420.0--480.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 5853
+  },
+  {
+   "review_id": "4cf6531ddc8feaec",
+   "source": "P02_SlowWalk_Night_Trial01",
+   "unit": "P02_SlowWalk_Night_Trial01 [540.0--600.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 5954
+  },
+  {
+   "review_id": "7fb307a80ee58f40",
+   "source": "P02_SlowWalk_Night_Trial01",
+   "unit": "P02_SlowWalk_Night_Trial01 [720.0--780.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 5973
+  },
+  {
+   "review_id": "18d45db2dbc121bd",
+   "source": "P02_SlowWalk_Night_Trial02",
+   "unit": "P02_SlowWalk_Night_Trial02 [420.0--480.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 6019
+  },
+  {
+   "review_id": "6afa472e483583c0",
+   "source": "P02_SlowWalk_Night_Trial02",
+   "unit": "P02_SlowWalk_Night_Trial02 [480.0--540.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 6063
+  },
+  {
+   "review_id": "b3a05615429c5e66",
+   "source": "P02_SlowWalk_Night_Trial02",
+   "unit": "P02_SlowWalk_Night_Trial02 [540.0--600.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 6159
+  },
+  {
+   "review_id": "75a9e4a49b8f4a24",
+   "source": "P02_SlowWalk_Night_Trial03",
+   "unit": "P02_SlowWalk_Night_Trial03 [180.0--240.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "undecidable",
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "ambiguous",
+    "notes": "It starts with a rhythmic jogging motion, makes a sharp left turn and right turn at a major fork in the path , and then continues straight ahead with a rhythmic bobbing movement."
+   },
+   "time_sec": 6281
+  },
+  {
+   "review_id": "56804e0181f6acb5",
+   "source": "P03_FastWalk_Day_Traj01_Trial01",
+   "unit": "P03_FastWalk_Day_Traj01_Trial01 [420.0--480.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 7747
+  },
+  {
+   "review_id": "45fbd9c16d37e51b",
+   "source": "P03_FastWalk_Day_Traj01_Trial01",
+   "unit": "P03_FastWalk_Day_Traj01_Trial01 [480.0--540.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 7768
+  },
+  {
+   "review_id": "f4f3d119a934ee48",
+   "source": "P03_FastWalk_Night_Traj01_Trial01",
+   "unit": "P03_FastWalk_Night_Traj01_Trial01 [60.0--120.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 7797
+  },
+  {
+   "review_id": "97061d2867243812",
+   "source": "P03_FastWalk_Night_Traj02_Trial01",
+   "unit": "P03_FastWalk_Night_Traj02_Trial01 [540.0--600.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 7836
+  },
+  {
+   "review_id": "dd2a81c0de61bc6e",
+   "source": "P03_FastWalk_Night_Traj03_Trial01",
+   "unit": "P03_FastWalk_Night_Traj03_Trial01 [60.0--120.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 7867
+  },
+  {
+   "review_id": "af7f6acc177e6c65",
+   "source": "P03_Running_Day_Traj01_Trial01",
+   "unit": "P03_Running_Day_Traj01_Trial01 [180.0--240.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 7952
+  },
+  {
+   "review_id": "488b970d1d7379d1",
+   "source": "P03_Running_Day_Traj01_Trial01",
+   "unit": "P03_Running_Day_Traj01_Trial01 [360.0--420.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 7976
+  },
+  {
+   "review_id": "427a8e718323009d",
+   "source": "P03_Running_Night_Traj01_Trial01",
+   "unit": "P03_Running_Night_Traj01_Trial01 [0.0--60.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 7997
+  },
+  {
+   "review_id": "44d1bfd0faee38d9",
+   "source": "P03_Running_Night_Traj01_Trial01",
+   "unit": "P03_Running_Night_Traj01_Trial01 [540.0--600.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "undecidable"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "ambiguous",
+    "notes": "A right turn, followed by a left turn."
+   },
+   "time_sec": 8103
+  },
+  {
+   "review_id": "a7b3022597e222ce",
+   "source": "P03_Running_Night_Traj02_Trial01",
+   "unit": "P03_Running_Night_Traj02_Trial01 [60.0--120.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8150
+  },
+  {
+   "review_id": "a4445ce7ab41c0f4",
+   "source": "P03_SlowWalk_Day_Traj02_Trial01",
+   "unit": "P03_SlowWalk_Day_Traj02_Trial01 [300.0--360.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8204
+  },
+  {
+   "review_id": "6ca1d2fc567a7799",
+   "source": "P03_SlowWalk_Day_Traj02_Trial01",
+   "unit": "P03_SlowWalk_Day_Traj02_Trial01 [780.0--840.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8237
+  },
+  {
+   "review_id": "866e171a88e85e65",
+   "source": "P03_SlowWalk_Day_Traj02_Trial01",
+   "unit": "P03_SlowWalk_Day_Traj02_Trial01 [900.0--960.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8306
+  },
+  {
+   "review_id": "c277d090e40fc0e2",
+   "source": "P03_SlowWalk_Day_Traj03_Trial01",
+   "unit": "P03_SlowWalk_Day_Traj03_Trial01 [300.0--360.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8320
+  },
+  {
+   "review_id": "b621e19907907218",
+   "source": "P03_SlowWalk_Day_Traj03_Trial01",
+   "unit": "P03_SlowWalk_Day_Traj03_Trial01 [780.0--840.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8358
+  },
+  {
+   "review_id": "ea9ed50e265c8ed4",
+   "source": "P03_SlowWalk_Day_Traj03_Trial01",
+   "unit": "P03_SlowWalk_Day_Traj03_Trial01 [840.0--900.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8402
+  },
+  {
+   "review_id": "57447c3e31e5b345",
+   "source": "P03_SlowWalk_Night_Traj02_Trial01",
+   "unit": "P03_SlowWalk_Night_Traj02_Trial01 [180.0--240.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8430
+  },
+  {
+   "review_id": "0ff877fd945c7faf",
+   "source": "P03_SlowWalk_Night_Traj02_Trial01",
+   "unit": "P03_SlowWalk_Night_Traj02_Trial01 [240.0--300.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8510
+  },
+  {
+   "review_id": "a65852e082b202b6",
+   "source": "P03_SlowWalk_Night_Traj02_Trial01",
+   "unit": "P03_SlowWalk_Night_Traj02_Trial01 [720.0--780.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8544
+  },
+  {
+   "review_id": "f8cde9df2cc9e1fa",
+   "source": "P03_SlowWalk_Night_Traj03_Trial01",
+   "unit": "P03_SlowWalk_Night_Traj03_Trial01 [240.0--300.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8570
+  },
+  {
+   "review_id": "970079b9d1615c3d",
+   "source": "Privatweg_260515_162501",
+   "unit": "Privatweg_260515_162501 [180.0--240.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8613
+  },
+  {
+   "review_id": "ca9b7c832244dfa4",
+   "source": "VomWald_260516_185352",
+   "unit": "VomWald_260516_185352 [0.0--60.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "cant_tell",
+    "notes": "cant recognize anything"
+   },
+   "time_sec": 8706
+  },
+  {
+   "review_id": "806698f0b4c9bb0f",
+   "source": "VomWald_Walk_260515_165904",
+   "unit": "VomWald_Walk_260515_165904 [0.0--60.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8771
+  },
+  {
+   "review_id": "9c19ff7ecb453be0",
+   "source": "ZumWald_Walk",
+   "unit": "ZumWald_Walk [300.0--360.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "F": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8802
+  },
+  {
+   "review_id": "af0742ea76f3f7e4",
+   "source": "airport_walk_normal",
+   "unit": "airport_walk_normal [360.0--420.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "supported",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "B",
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8889
+  },
+  {
+   "review_id": "38b311fe950e5461",
+   "source": "gravel_plant_fast",
+   "unit": "gravel_plant_fast [360.0--420.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8915
+  },
+  {
+   "review_id": "60c6aa3bd3365f58",
+   "source": "gravel_plant_fast",
+   "unit": "gravel_plant_fast [420.0--448.108333]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8930
+  },
+  {
+   "review_id": "827c2210ea80e953",
+   "source": "gravel_plant_normal",
+   "unit": "gravel_plant_normal [480.0--540.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8967
+  },
+  {
+   "review_id": "c024393b4d61f357",
+   "source": "kit_hochhaus_informatikom_fast",
+   "unit": "kit_hochhaus_informatikom_fast [60.0--120.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "undecidable",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "cant_tell",
+    "notes": "dont see the swerve to the left"
+   },
+   "time_sec": 9088
+  },
+  {
+   "review_id": "16909f5b87a28eab",
+   "source": "kit_hochhaus_informatikom_fast",
+   "unit": "kit_hochhaus_informatikom_fast [300.0--360.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "E": "supported",
+     "G": "supported",
+     "H": "ruled_out",
+     "F": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out"
+    },
+    "final_answer": [
+     "E",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 9191
+  },
+  {
+   "review_id": "39fb6ddbade3de44",
+   "source": "kit_hochhaus_informatikom_normal",
+   "unit": "kit_hochhaus_informatikom_normal [360.0--420.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "B": "supported",
+     "A": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 9305
+  },
+  {
+   "review_id": "6a9d300c62ceea4a",
+   "source": "kit_hochhaus_informatikom_slow",
+   "unit": "kit_hochhaus_informatikom_slow [480.0--540.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 9407
+  },
+  {
+   "review_id": "91f885d382d0ddc2",
+   "source": "kit_informatikom_schloss_normal",
+   "unit": "kit_informatikom_schloss_normal [0.0--60.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 9425
+  },
+  {
+   "review_id": "ab648258fc87f1c3",
+   "source": "kit_informatikom_schloss_normal",
+   "unit": "kit_informatikom_schloss_normal [300.0--360.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 9438
+  },
+  {
+   "review_id": "6f07483d4dff951b",
+   "source": "kit_informatikom_schloss_slow",
+   "unit": "kit_informatikom_schloss_slow [60.0--120.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 9465
+  },
+  {
+   "review_id": "481be2c283cf159d",
+   "source": "kit_informatikom_schloss_slow",
+   "unit": "kit_informatikom_schloss_slow [540.0--600.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "H": "ruled_out",
+     "E": "ruled_out",
+     "G": "supported",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 10505
+  },
+  {
+   "review_id": "f9acd6743a4fb1a9",
+   "source": "kit_mensa_scc_slow",
+   "unit": "kit_mensa_scc_slow [240.0--300.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 9639
+  },
+  {
+   "review_id": "1d927f4bead6fb8e",
+   "source": "kit_mensa_scc_slow",
+   "unit": "kit_mensa_scc_slow [540.0--600.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 9673
+  },
+  {
+   "review_id": "abadf1988c9d1f19",
+   "source": "kit_scc_hochhaus_fast",
+   "unit": "kit_scc_hochhaus_fast [420.0--478.511667]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 9696
+  },
+  {
+   "review_id": "212f66c1f405ea8b",
+   "source": "plane_starting",
+   "unit": "plane_starting [60.0--120.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 9753
+  },
+  {
+   "review_id": "66248d53941f5ef7",
+   "source": "plane_starting",
+   "unit": "plane_starting [180.0--240.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "undecidable",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "ambiguous",
+    "notes": "It moves in a zig-zag pattern along the fence, and then pans upwards."
+   },
+   "time_sec": 9891
+  },
+  {
+   "review_id": "324471c0db12d3ee",
+   "source": "rhein_fast",
+   "unit": "rhein_fast [120.0--180.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 9925
+  },
+  {
+   "review_id": "9194e19534893c3a",
+   "source": "rhein_slow",
+   "unit": "rhein_slow [360.0--420.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 9995
+  },
+  {
+   "review_id": "c0bd930224e4eac2",
+   "source": "sinzheim_city_fast",
+   "unit": "sinzheim_city_fast [120.0--180.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 10039
+  },
+  {
+   "review_id": "f2c6b3e19222f055",
+   "source": "sinzheim_city_normal",
+   "unit": "sinzheim_city_normal [180.0--240.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 10360
+  },
+  {
+   "review_id": "65aaf69a7b25c12c",
+   "source": "sinzheim_city_slow",
+   "unit": "sinzheim_city_slow [240.0--300.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 10383
+  },
+  {
+   "review_id": "3d1b45c80f9bd07f",
+   "source": "weinreben_normal",
+   "unit": "weinreben_normal [0.0--60.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 10408
+  },
+  {
+   "review_id": "5747a3a21067041d",
+   "source": "weinreben_normal",
+   "unit": "weinreben_normal [420.0--480.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 10475
+  },
+  {
+   "review_id": "5bfca7714044329b",
+   "source": "weinreben_slow",
+   "unit": "weinreben_slow [0.0--60.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Yufan Chen",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 10497
+  }
+ ]
+}

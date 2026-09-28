@@ -1,0 +1,1982 @@
+{
+ "schema": "runningbench-annotation-v1",
+ "bundle": "runningbench_part07",
+ "annotator": "Chengzhi Wu",
+ "exported_at": "2026-09-22T10:04:29.750Z",
+ "reviews": [
+  {
+   "review_id": "dbb9048ae0acc43c",
+   "source": "P02_SlowWalk_Night_Trial02",
+   "unit": "P02_SlowWalk_Night_Trial02 [960.0--999.994]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 813
+  },
+  {
+   "review_id": "48c1ae4b049e8de3",
+   "source": "P02_SlowWalk_Night_Trial03",
+   "unit": "P02_SlowWalk_Night_Trial03 [240.0--300.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "E": "undecidable",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [],
+    "verdict": "ambiguous",
+    "notes": "it is not pipe, it is frame/framework"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "33303be6cb9b581a",
+   "source": "P02_SlowWalk_Night_Trial03",
+   "unit": "P02_SlowWalk_Night_Trial03 [720.0--780.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "C": "ruled_out"
+    },
+    "final_answer": [],
+    "verdict": "cant_tell",
+    "notes": "夜晚环境，无法辨别pole的颜色"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "870ab64164a310f3",
+   "source": "P02_SlowWalk_Night_Trial03",
+   "unit": "P02_SlowWalk_Night_Trial03 [960.0--1004.966667]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "supported",
+     "D": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "supported",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "F",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 1435
+  },
+  {
+   "review_id": "a01e006b72181e39",
+   "source": "P03_FastWalk_Day_Traj01_Trial01",
+   "unit": "P03_FastWalk_Day_Traj01_Trial01 [60.0--120.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "supported",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "D",
+     "E",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 1572
+  },
+  {
+   "review_id": "2410b69b1e5e0ed2",
+   "source": "P03_FastWalk_Day_Traj01_Trial01",
+   "unit": "P03_FastWalk_Day_Traj01_Trial01 [120.0--180.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 1692
+  },
+  {
+   "review_id": "d36a4a132ffa5cde",
+   "source": "P03_FastWalk_Day_Traj01_Trial01",
+   "unit": "P03_FastWalk_Day_Traj01_Trial01 [180.0--240.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 4,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "C": "ruled_out",
+     "E": "supported",
+     "G": "ruled_out",
+     "B": "supported",
+     "A": "undecidable",
+     "D": "undecidable",
+     "F": "undecidable",
+     "H": "undecidable"
+    },
+    "final_answer": [
+     "B",
+     "E"
+    ],
+    "verdict": "ambiguous",
+    "notes": "both pedestrians are male"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "580b2706346d2e0a",
+   "source": "P03_FastWalk_Day_Traj01_Trial01",
+   "unit": "P03_FastWalk_Day_Traj01_Trial01 [360.0--420.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "E",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 2041
+  },
+  {
+   "review_id": "ea8b25eac1b232e8",
+   "source": "P03_FastWalk_Day_Traj01_Trial01",
+   "unit": "P03_FastWalk_Day_Traj01_Trial01 [660.0--720.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 2095
+  },
+  {
+   "review_id": "512072ca5da786a6",
+   "source": "P03_FastWalk_Day_Traj01_Trial01",
+   "unit": "P03_FastWalk_Day_Traj01_Trial01 [780.0--809.4517]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 2210
+  },
+  {
+   "review_id": "a77d848d1537bc48",
+   "source": "P03_FastWalk_Day_Traj02_Trial01",
+   "unit": "P03_FastWalk_Day_Traj02_Trial01 [120.0--180.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 4,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "supported",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "B",
+     "F"
+    ],
+    "verdict": "ambiguous",
+    "notes": "只有3个正确"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "f5b496205ca0e98e",
+   "source": "P03_FastWalk_Day_Traj02_Trial01",
+   "unit": "P03_FastWalk_Day_Traj02_Trial01 [300.0--360.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "D": "supported",
+     "C": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "H": "ruled_out",
+     "G": "supported"
+    },
+    "final_answer": [
+     "D",
+     "E",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 2637
+  },
+  {
+   "review_id": "15905c9724757f39",
+   "source": "P03_FastWalk_Day_Traj02_Trial01",
+   "unit": "P03_FastWalk_Day_Traj02_Trial01 [360.0--420.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "C": "supported",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 2725
+  },
+  {
+   "review_id": "dc5b642ca271a004",
+   "source": "P03_FastWalk_Day_Traj02_Trial01",
+   "unit": "P03_FastWalk_Day_Traj02_Trial01 [660.0--720.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "ruled_out",
+     "F": "ruled_out",
+     "A": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 2832
+  },
+  {
+   "review_id": "0845b2b632d23501",
+   "source": "P03_FastWalk_Day_Traj02_Trial01",
+   "unit": "P03_FastWalk_Day_Traj02_Trial01 [720.0--780.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "C",
+     "D",
+     "F"
+    ],
+    "verdict": "ambiguous",
+    "notes": "有5个正确"
+   },
+   "time_sec": 3016
+  },
+  {
+   "review_id": "a5c1de0690d72d30",
+   "source": "P03_FastWalk_Day_Traj03_Trial01",
+   "unit": "P03_FastWalk_Day_Traj03_Trial01 [60.0--120.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 4,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "undecidable",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "C",
+     "E"
+    ],
+    "verdict": "ambiguous",
+    "notes": "the statue is green, does it count as dark-colored?"
+   },
+   "time_sec": 3158
+  },
+  {
+   "review_id": "5e681f8fee55eab4",
+   "source": "P03_FastWalk_Day_Traj03_Trial01",
+   "unit": "P03_FastWalk_Day_Traj03_Trial01 [120.0--180.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "H": "ruled_out",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "supported"
+    },
+    "final_answer": [
+     "D",
+     "E",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 3363
+  },
+  {
+   "review_id": "ec53f11269ed7d7c",
+   "source": "P03_FastWalk_Day_Traj03_Trial01",
+   "unit": "P03_FastWalk_Day_Traj03_Trial01 [300.0--360.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported",
+     "H": "supported",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "C",
+     "F",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 6252
+  },
+  {
+   "review_id": "74449e9fa65ceaa1",
+   "source": "P03_FastWalk_Day_Traj03_Trial01",
+   "unit": "P03_FastWalk_Day_Traj03_Trial01 [780.0--833.355]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "supported",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "supported"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "D",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 6439
+  },
+  {
+   "review_id": "67854a44428647ac",
+   "source": "P03_FastWalk_Night_Traj01_Trial01",
+   "unit": "P03_FastWalk_Night_Traj01_Trial01 [180.0--240.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 6468
+  },
+  {
+   "review_id": "a35a9b4b6f5942e8",
+   "source": "P03_FastWalk_Night_Traj01_Trial01",
+   "unit": "P03_FastWalk_Night_Traj01_Trial01 [480.0--540.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 4,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "supported",
+     "C": "undecidable",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "B",
+     "E"
+    ],
+    "verdict": "ambiguous",
+    "notes": "选项C，路灯在两段路上分别都是一侧有，而不是同时在两侧"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "f81031f04a9f9ed2",
+   "source": "P03_FastWalk_Night_Traj01_Trial01",
+   "unit": "P03_FastWalk_Night_Traj01_Trial01 [540.0--600.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "supported",
+     "D": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "F",
+     "G"
+    ],
+    "verdict": "",
+    "notes": "只有2个选项正确"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "31ca56f8d2c2a4da",
+   "source": "P03_FastWalk_Night_Traj01_Trial01",
+   "unit": "P03_FastWalk_Night_Traj01_Trial01 [720.0--780.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "supported",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 7064
+  },
+  {
+   "review_id": "9f3d176441b74628",
+   "source": "P03_FastWalk_Night_Traj02_Trial01",
+   "unit": "P03_FastWalk_Night_Traj02_Trial01 [300.0--360.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 7111
+  },
+  {
+   "review_id": "13b12d0db109642b",
+   "source": "P03_FastWalk_Night_Traj02_Trial01",
+   "unit": "P03_FastWalk_Night_Traj02_Trial01 [420.0--480.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "supported",
+     "E": "supported",
+     "F": "ruled_out",
+     "H": "supported",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "D",
+     "E",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 7314
+  },
+  {
+   "review_id": "ba9e479221aaf6ab",
+   "source": "P03_FastWalk_Night_Traj02_Trial01",
+   "unit": "P03_FastWalk_Night_Traj02_Trial01 [660.0--720.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "supported",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "supported"
+    },
+    "final_answer": [
+     "D",
+     "E",
+     "F",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 7437
+  },
+  {
+   "review_id": "5f86a26d705e9f7a",
+   "source": "P03_FastWalk_Night_Traj03_Trial01",
+   "unit": "P03_FastWalk_Night_Traj03_Trial01 [180.0--240.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "supported",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "D",
+     "E",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 7577
+  },
+  {
+   "review_id": "556de380b4e57440",
+   "source": "P03_FastWalk_Night_Traj03_Trial01",
+   "unit": "P03_FastWalk_Night_Traj03_Trial01 [420.0--480.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 4,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "D",
+     "F"
+    ],
+    "verdict": "ambiguous",
+    "notes": "只有3个选项正确"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "e8cf5821b24647fd",
+   "source": "P03_FastWalk_Night_Traj03_Trial01",
+   "unit": "P03_FastWalk_Night_Traj03_Trial01 [600.0--660.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 2,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "C": "supported",
+     "E": "ruled_out",
+     "D": "supported",
+     "B": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "C"
+    ],
+    "verdict": "",
+    "notes": "有3个选项正确"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "4621557592dbf0e4",
+   "source": "P03_Running_Day_Traj01_Trial01",
+   "unit": "P03_Running_Day_Traj01_Trial01 [120.0--180.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "supported",
+     "E": "ruled_out",
+     "F": "supported",
+     "D": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "F",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8029
+  },
+  {
+   "review_id": "315bb9155a356fc5",
+   "source": "P03_Running_Day_Traj01_Trial01",
+   "unit": "P03_Running_Day_Traj01_Trial01 [240.0--300.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "supported",
+     "D": "supported",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "D",
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 9701
+  },
+  {
+   "review_id": "2dfa48f1bdd092bb",
+   "source": "P03_Running_Day_Traj02_Trial01",
+   "unit": "P03_Running_Day_Traj02_Trial01 [60.0--120.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "H": "supported",
+     "G": "ruled_out",
+     "F": "ruled_out",
+     "E": "ruled_out",
+     "D": "supported"
+    },
+    "final_answer": [
+     "A",
+     "D",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 10078
+  },
+  {
+   "review_id": "e0850fcb617f01be",
+   "source": "P03_Running_Day_Traj02_Trial01",
+   "unit": "P03_Running_Day_Traj02_Trial01 [600.0--628.325]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "supported"
+    },
+    "final_answer": [
+     "A",
+     "D",
+     "E",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 10186
+  },
+  {
+   "review_id": "4eab817c3b5f5a1d",
+   "source": "P03_Running_Night_Traj01_Trial01",
+   "unit": "P03_Running_Night_Traj01_Trial01 [120.0--180.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "B",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 10468
+  },
+  {
+   "review_id": "610b6aad46b197c6",
+   "source": "P03_Running_Night_Traj01_Trial01",
+   "unit": "P03_Running_Night_Traj01_Trial01 [180.0--240.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "supported"
+    },
+    "final_answer": [
+     "B",
+     "E",
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 10618
+  },
+  {
+   "review_id": "a3ae039f472d7fa7",
+   "source": "P03_Running_Night_Traj01_Trial01",
+   "unit": "P03_Running_Night_Traj01_Trial01 [300.0--360.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 10643
+  },
+  {
+   "review_id": "5258800a93665776",
+   "source": "P03_Running_Night_Traj02_Trial01",
+   "unit": "P03_Running_Night_Traj02_Trial01 [120.0--180.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "supported",
+     "H": "supported",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "D",
+     "F",
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 10770
+  },
+  {
+   "review_id": "39d12a9b51445fd3",
+   "source": "P03_Running_Night_Traj02_Trial01",
+   "unit": "P03_Running_Night_Traj02_Trial01 [600.0--660.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "supported",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "B",
+     "C",
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 10902
+  },
+  {
+   "review_id": "43736ab2d3fd1673",
+   "source": "P03_Running_Night_Traj03_Trial01",
+   "unit": "P03_Running_Night_Traj03_Trial01 [0.0--60.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "supported",
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "E",
+     "F",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 11026
+  },
+  {
+   "review_id": "47f8519adb2eeb31",
+   "source": "P03_Running_Night_Traj03_Trial01",
+   "unit": "P03_Running_Night_Traj03_Trial01 [180.0--240.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "supported",
+     "C": "ruled_out",
+     "E": "supported",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "D",
+     "E",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 11142
+  },
+  {
+   "review_id": "932d16adc9fc35f3",
+   "source": "P03_Running_Night_Traj03_Trial01",
+   "unit": "P03_Running_Night_Traj03_Trial01 [300.0--360.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 4,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "D",
+     "F"
+    ],
+    "verdict": "ambiguous",
+    "notes": "只有3个选项正确"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "d531b222e1cfe902",
+   "source": "P03_SlowWalk_Day_Traj01_Trial01",
+   "unit": "P03_SlowWalk_Day_Traj01_Trial01 [60.0--120.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 4,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "F",
+     "G"
+    ],
+    "verdict": "ambiguous",
+    "notes": "只有3个选项正确"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "e4496142117c2eb5",
+   "source": "P03_SlowWalk_Day_Traj01_Trial01",
+   "unit": "P03_SlowWalk_Day_Traj01_Trial01 [120.0--180.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "F": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 11703
+  },
+  {
+   "review_id": "458eff8f4db3d4df",
+   "source": "P03_SlowWalk_Day_Traj01_Trial01",
+   "unit": "P03_SlowWalk_Day_Traj01_Trial01 [780.0--840.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "supported",
+     "C": "supported"
+    },
+    "final_answer": [
+     "C",
+     "E",
+     "F",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 11800
+  },
+  {
+   "review_id": "5e9c333ede7013e8",
+   "source": "P03_SlowWalk_Day_Traj02_Trial01",
+   "unit": "P03_SlowWalk_Day_Traj02_Trial01 [360.0--420.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 11864
+  },
+  {
+   "review_id": "d3ea8755f3dccb63",
+   "source": "P03_SlowWalk_Day_Traj03_Trial01",
+   "unit": "P03_SlowWalk_Day_Traj03_Trial01 [480.0--540.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "undecidable",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "undecidable",
+     "H": "supported"
+    },
+    "final_answer": [
+     "E",
+     "H"
+    ],
+    "verdict": "ambiguous",
+    "notes": "视频中存在U-turn，自行车前半段在右侧，后半段在左侧"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "72bf66919df3825d",
+   "source": "P03_SlowWalk_Night_Traj01_Trial01",
+   "unit": "P03_SlowWalk_Night_Traj01_Trial01 [300.0--360.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 12057
+  },
+  {
+   "review_id": "7b9c07df150e4c40",
+   "source": "P03_SlowWalk_Night_Traj01_Trial01",
+   "unit": "P03_SlowWalk_Night_Traj01_Trial01 [660.0--720.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 12168
+  },
+  {
+   "review_id": "489107d04627c5aa",
+   "source": "P03_SlowWalk_Night_Traj01_Trial01",
+   "unit": "P03_SlowWalk_Night_Traj01_Trial01 [720.0--780.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "supported"
+    },
+    "final_answer": [
+     "A",
+     "C",
+     "E",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 12360
+  },
+  {
+   "review_id": "b45947755ea98e00",
+   "source": "P03_SlowWalk_Night_Traj02_Trial01",
+   "unit": "P03_SlowWalk_Night_Traj02_Trial01 [300.0--360.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "supported"
+    },
+    "final_answer": [
+     "A",
+     "C",
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 13181
+  },
+  {
+   "review_id": "3d4cda3079bf7b83",
+   "source": "P03_SlowWalk_Night_Traj03_Trial01",
+   "unit": "P03_SlowWalk_Night_Traj03_Trial01 [120.0--180.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 13210
+  },
+  {
+   "review_id": "efc8f23dc9440671",
+   "source": "P03_SlowWalk_Night_Traj03_Trial01",
+   "unit": "P03_SlowWalk_Night_Traj03_Trial01 [600.0--660.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "undecidable",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "D",
+     "E"
+    ],
+    "verdict": "cant_tell",
+    "notes": "选项B由于是夜间，无法看出panel是否是green"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "9dc59050f5d167b0",
+   "source": "Privatweg_260515_162501",
+   "unit": "Privatweg_260515_162501 [300.0--360.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "C": "supported",
+     "H": "supported",
+     "G": "ruled_out",
+     "F": "ruled_out",
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "B": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 13560
+  },
+  {
+   "review_id": "9dd30f1d7d008fd3",
+   "source": "SB-BLB_Walk_260505_193813",
+   "unit": "SB-BLB_Walk_260505_193813 [0.0--60.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {},
+    "final_answer": [],
+    "verdict": "cant_tell",
+    "notes": "None. 或许你是指摄像人超过了什么人？"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "bc2dfa493432e17d",
+   "source": "VomWald_Walk_260515_165904",
+   "unit": "VomWald_Walk_260515_165904 [60.0--120.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "C": "supported",
+     "F": "supported",
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "B": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "C",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": "选项F太模糊了"
+   },
+   "time_sec": 13919
+  },
+  {
+   "review_id": "6e0c6cb99ccfa0dd",
+   "source": "VomWald_Walk_260515_165904",
+   "unit": "VomWald_Walk_260515_165904 [180.0--240.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "D": "supported",
+     "H": "ruled_out",
+     "G": "ruled_out",
+     "E": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "D",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 14024
+  },
+  {
+   "review_id": "18895341d412ae55",
+   "source": "ZumWald_Walk",
+   "unit": "ZumWald_Walk [540.0--600.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 14071
+  },
+  {
+   "review_id": "df16ab5df646b801",
+   "source": "ZumWald_Walk_260515_163801",
+   "unit": "ZumWald_Walk_260515_163801 [60.0--120.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 14146
+  },
+  {
+   "review_id": "16a160a1a1a75c37",
+   "source": "ZumWald_Walk_260515_163801",
+   "unit": "ZumWald_Walk_260515_163801 [420.0--480.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "ruled_out",
+     "B": "supported",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "supported",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "E",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 50750
+  },
+  {
+   "review_id": "61cdd0154191f5f1",
+   "source": "airport_walk_fast",
+   "unit": "airport_walk_fast [0.0--60.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 50829
+  },
+  {
+   "review_id": "006e1c22d288e4aa",
+   "source": "airport_walk_fast",
+   "unit": "airport_walk_fast [60.0--120.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 50914
+  },
+  {
+   "review_id": "47b1e4c3eec4b234",
+   "source": "airport_walk_fast",
+   "unit": "airport_walk_fast [360.0--420.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "B": "supported",
+     "A": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 51209
+  },
+  {
+   "review_id": "39c772a240e10d62",
+   "source": "airport_walk_normal",
+   "unit": "airport_walk_normal [0.0--60.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "H": "supported",
+     "D": "supported",
+     "F": "supported",
+     "G": "ruled_out",
+     "E": "ruled_out",
+     "C": "ruled_out",
+     "A": "ruled_out",
+     "B": "ruled_out"
+    },
+    "final_answer": [
+     "D",
+     "F",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 51465
+  },
+  {
+   "review_id": "d7992dbcd51f1f01",
+   "source": "airport_walk_normal",
+   "unit": "airport_walk_normal [60.0--120.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "D": "supported",
+     "B": "ruled_out",
+     "E": "ruled_out",
+     "A": "supported"
+    },
+    "final_answer": [
+     "A",
+     "C",
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 51595
+  },
+  {
+   "review_id": "128076f39ee9448d",
+   "source": "airport_walk_normal",
+   "unit": "airport_walk_normal [120.0--180.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "F": "supported",
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 51642
+  },
+  {
+   "review_id": "fd286f53017af7a5",
+   "source": "airport_walk_normal",
+   "unit": "airport_walk_normal [180.0--240.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "F": "ruled_out",
+     "E": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 51705
+  },
+  {
+   "review_id": "654fa276fe2848a7",
+   "source": "airport_walk_normal",
+   "unit": "airport_walk_normal [240.0--300.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 51728
+  },
+  {
+   "review_id": "496176603d9fa2a0",
+   "source": "airport_walk_slow",
+   "unit": "airport_walk_slow [0.0--60.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 51797
+  },
+  {
+   "review_id": "e8d1b2b9e4d39c40",
+   "source": "airport_walk_slow",
+   "unit": "airport_walk_slow [360.0--420.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "G": "ruled_out",
+     "B": "ruled_out",
+     "F": "supported",
+     "D": "undecidable",
+     "C": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "E",
+     "F"
+    ],
+    "verdict": "ambiguous",
+    "notes": "选项D，是指拍摄者的path，还是指右侧高地的path？"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "e945d8a8e60c6b88",
+   "source": "airport_walk_slow",
+   "unit": "airport_walk_slow [540.0--600.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chengzhi Wu",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "D": "supported",
+     "E": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "G": "ruled_out",
+     "F": "supported"
+    },
+    "final_answer": [
+     "D",
+     "E",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 52402
+  }
+ ]
+}

@@ -1,0 +1,1902 @@
+{
+ "schema": "runningbench-annotation-v1",
+ "bundle": "runningbench_part08",
+ "annotator": "Xiaoye Wang",
+ "exported_at": "2026-09-22T17:37:31.773Z",
+ "reviews": [
+  {
+   "review_id": "227455f57da17f86",
+   "source": "gravel_plant_fast",
+   "unit": "gravel_plant_fast [120.0--180.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 77348
+  },
+  {
+   "review_id": "d153b02b8c5f3eed",
+   "source": "gravel_plant_fast",
+   "unit": "gravel_plant_fast [240.0--300.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 77353
+  },
+  {
+   "review_id": "1baed11bfeaf50b7",
+   "source": "gravel_plant_slow",
+   "unit": "gravel_plant_slow [0.0--60.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "undecidable",
+     "B": "undecidable",
+     "C": "undecidable",
+     "D": "undecidable",
+     "E": "undecidable",
+     "F": "undecidable"
+    },
+    "final_answer": [],
+    "verdict": "cant_tell",
+    "notes": "没鸟啊，有鸟这人也不认识"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "3b35a6fdc4b59675",
+   "source": "gravel_plant_slow",
+   "unit": "gravel_plant_slow [600.0--622.708333]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 77368
+  },
+  {
+   "review_id": "b0402ff021988938",
+   "source": "kit_hochhaus_informatikom_normal",
+   "unit": "kit_hochhaus_informatikom_normal [240.0--300.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "B": "supported",
+     "E": "supported",
+     "A": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 77370
+  },
+  {
+   "review_id": "3dd0562ab063bb31",
+   "source": "kit_hochhaus_informatikom_normal",
+   "unit": "kit_hochhaus_informatikom_normal [300.0--360.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "H": "supported",
+     "A": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "B",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 77375
+  },
+  {
+   "review_id": "785ff8f28635afc8",
+   "source": "kit_hochhaus_informatikom_normal",
+   "unit": "kit_hochhaus_informatikom_normal [420.0--456.976667]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 77380
+  },
+  {
+   "review_id": "02dcd1a45b2a676e",
+   "source": "kit_hochhaus_informatikom_slow",
+   "unit": "kit_hochhaus_informatikom_slow [120.0--180.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 77384
+  },
+  {
+   "review_id": "a5ad58850b2a6685",
+   "source": "kit_hochhaus_informatikom_slow",
+   "unit": "kit_hochhaus_informatikom_slow [300.0--360.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 77387
+  },
+  {
+   "review_id": "14cc3227edf11007",
+   "source": "kit_hochhaus_informatikom_slow",
+   "unit": "kit_hochhaus_informatikom_slow [420.0--480.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "F": "supported",
+     "E": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "E",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 77392
+  },
+  {
+   "review_id": "b2949fce1d1e6d87",
+   "source": "kit_informatikom_schloss_normal",
+   "unit": "kit_informatikom_schloss_normal [240.0--300.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 77397
+  },
+  {
+   "review_id": "fdf23ec6dd094d32",
+   "source": "kit_informatikom_schloss_normal",
+   "unit": "kit_informatikom_schloss_normal [360.0--420.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "8254a628b94a0507",
+   "source": "kit_informatikom_schloss_slow",
+   "unit": "kit_informatikom_schloss_slow [120.0--180.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 77406
+  },
+  {
+   "review_id": "9bf4d63b0b4f6bc9",
+   "source": "kit_informatikom_schloss_slow",
+   "unit": "kit_informatikom_schloss_slow [240.0--300.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "A": "supported",
+     "H": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "D",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 77410
+  },
+  {
+   "review_id": "858658c3733baadb",
+   "source": "kit_mensa_scc_fast",
+   "unit": "kit_mensa_scc_fast [120.0--180.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "G": "ruled_out",
+     "B": "supported",
+     "D": "supported",
+     "A": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 77415
+  },
+  {
+   "review_id": "e4933287377dc638",
+   "source": "kit_mensa_scc_fast",
+   "unit": "kit_mensa_scc_fast [240.0--300.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out"
+    },
+    "final_answer": [],
+    "verdict": "cant_tell",
+    "notes": "没有转弯"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "7827baf8916e735d",
+   "source": "kit_mensa_scc_fast",
+   "unit": "kit_mensa_scc_fast [420.0--475.28]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 4,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "supported",
+     "G": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "B",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "fc5b094b32cdba6b",
+   "source": "kit_mensa_scc_normal",
+   "unit": "kit_mensa_scc_normal [60.0--120.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "G": "supported",
+     "E": "supported",
+     "A": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "F": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "E",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 77477
+  },
+  {
+   "review_id": "246ba2f971a8b9a4",
+   "source": "kit_mensa_scc_normal",
+   "unit": "kit_mensa_scc_normal [300.0--360.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "E": "supported",
+     "G": "supported",
+     "F": "ruled_out",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "D",
+     "E",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 67457
+  },
+  {
+   "review_id": "3d6fbf14105d02d9",
+   "source": "kit_mensa_scc_slow",
+   "unit": "kit_mensa_scc_slow [0.0--60.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "G": "supported",
+     "F": "supported"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "F",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 67620
+  },
+  {
+   "review_id": "8daf25cabe76a56c",
+   "source": "kit_mensa_scc_slow",
+   "unit": "kit_mensa_scc_slow [60.0--120.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "E": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "supported"
+    },
+    "final_answer": [
+     "C",
+     "D",
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 67700
+  },
+  {
+   "review_id": "41fadc2e6d3c7cf4",
+   "source": "kit_mensa_scc_slow",
+   "unit": "kit_mensa_scc_slow [180.0--240.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 4,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported",
+     "B": "supported",
+     "C": "ruled_out",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "B",
+     "F"
+    ],
+    "verdict": "ambiguous",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "c0723abe43e274d8",
+   "source": "kit_scc_hochhaus_normal",
+   "unit": "kit_scc_hochhaus_normal [0.0--60.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "ruled_out",
+     "C": "supported",
+     "A": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 67938
+  },
+  {
+   "review_id": "004ad85d24ad02e6",
+   "source": "kit_scc_hochhaus_slow",
+   "unit": "kit_scc_hochhaus_slow [0.0--60.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 77486
+  },
+  {
+   "review_id": "b6da74345e0319c4",
+   "source": "kit_scc_hochhaus_slow",
+   "unit": "kit_scc_hochhaus_slow [120.0--180.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "supported",
+     "F": "supported",
+     "E": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "B",
+     "E",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 68055
+  },
+  {
+   "review_id": "edea4a948676a0dd",
+   "source": "kit_scc_hochhaus_slow",
+   "unit": "kit_scc_hochhaus_slow [480.0--540.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 77490
+  },
+  {
+   "review_id": "f4df619ebe3d46e9",
+   "source": "kit_scc_hochhaus_slow",
+   "unit": "kit_scc_hochhaus_slow [540.0--600.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 77494
+  },
+  {
+   "review_id": "e7ffe559f7e159c9",
+   "source": "plane_landing",
+   "unit": "plane_landing [0.0--60.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "F": "supported",
+     "E": "ruled_out",
+     "H": "ruled_out",
+     "G": "ruled_out",
+     "C": "supported",
+     "A": "ruled_out",
+     "D": "supported"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "D",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 68187
+  },
+  {
+   "review_id": "669b40679c550786",
+   "source": "rhein_fast",
+   "unit": "rhein_fast [0.0--60.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 77498
+  },
+  {
+   "review_id": "df2e8ed0d613f912",
+   "source": "rhein_fast",
+   "unit": "rhein_fast [240.0--300.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 77505
+  },
+  {
+   "review_id": "713e5db09b885d60",
+   "source": "rhein_fast",
+   "unit": "rhein_fast [360.0--420.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "D": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "ambiguous",
+    "notes": "AD有点分不出来"
+   },
+   "time_sec": 77508
+  },
+  {
+   "review_id": "29a86d935ca6b5e2",
+   "source": "rhein_fast",
+   "unit": "rhein_fast [420.0--447.536667]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "G": "supported",
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 77516
+  },
+  {
+   "review_id": "3e7a840bd16409e0",
+   "source": "rhein_normal",
+   "unit": "rhein_normal [480.0--540.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "D": "supported",
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "D",
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 77520
+  },
+  {
+   "review_id": "a1cf7777e1138c60",
+   "source": "rhein_slow",
+   "unit": "rhein_slow [420.0--480.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "H": "supported",
+     "G": "supported",
+     "E": "supported",
+     "F": "ruled_out",
+     "D": "ruled_out",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out"
+    },
+    "final_answer": [
+     "E",
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 68682
+  },
+  {
+   "review_id": "84169419e923c665",
+   "source": "rhein_slow",
+   "unit": "rhein_slow [600.0--633.26]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 4,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "H": "ruled_out",
+     "G": "supported",
+     "F": "supported",
+     "E": "supported",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "E",
+     "F",
+     "G"
+    ],
+    "verdict": "ambiguous",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "8e056fba2ae29302",
+   "source": "sinzheim_city_slow",
+   "unit": "sinzheim_city_slow [120.0--180.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "C": "supported",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out",
+     "B": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "C",
+     "D",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 68765
+  },
+  {
+   "review_id": "e30d729ab617bca1",
+   "source": "sinzheim_city_slow",
+   "unit": "sinzheim_city_slow [480.0--540.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out",
+     "A": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "B",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 77526
+  },
+  {
+   "review_id": "03bf015e25bb488e",
+   "source": "weinreben_fast",
+   "unit": "weinreben_fast [0.0--60.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "ambiguous",
+    "notes": "看不出来这个题"
+   },
+   "time_sec": 77529
+  },
+  {
+   "review_id": "93ba9c383756cce2",
+   "source": "weinreben_fast",
+   "unit": "weinreben_fast [60.0--120.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 77533
+  },
+  {
+   "review_id": "533c2ac19c2e3231",
+   "source": "weinreben_fast",
+   "unit": "weinreben_fast [360.0--420.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 77537
+  },
+  {
+   "review_id": "548f936832568751",
+   "source": "weinreben_slow",
+   "unit": "weinreben_slow [180.0--240.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out",
+     "B": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 69510
+  },
+  {
+   "review_id": "b1178f170a6b1844",
+   "source": "Asemwald_laufen_1",
+   "unit": "Asemwald_laufen_1 [600.0--660.0]",
+   "question_type": "Scene and Place QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 77545
+  },
+  {
+   "review_id": "18f6f35e3b814429",
+   "source": "BLB-Euro_Run_260505_194245",
+   "unit": "BLB-Euro_Run_260505_194245 [0.0--60.0]",
+   "question_type": "Scene and Place QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 77548
+  },
+  {
+   "review_id": "6097d7b675d87e1d",
+   "source": "BLB-Euro_Run_260505_194245",
+   "unit": "BLB-Euro_Run_260505_194245 [60.0--120.0]",
+   "question_type": "Scene and Place QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 77554
+  },
+  {
+   "review_id": "d777abad276f8b83",
+   "source": "Hohenheim_2_langsam_3",
+   "unit": "Hohenheim_2_langsam_3 [240.0--300.0]",
+   "question_type": "Scene and Place QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "ambiguous",
+    "notes": "有点糊，有没有云看不清有点"
+   },
+   "time_sec": 77559
+  },
+  {
+   "review_id": "a428f1c3dd2fc63b",
+   "source": "Hohenheim_laufen",
+   "unit": "Hohenheim_laufen [1680.0--1740.0]",
+   "question_type": "Scene and Place QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 77565
+  },
+  {
+   "review_id": "767d584b6614bca4",
+   "source": "Hohenheim_laufen_langsam_halb",
+   "unit": "Hohenheim_laufen_langsam_halb [180.0--240.0]",
+   "question_type": "Scene and Place QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 77572
+  },
+  {
+   "review_id": "7f937393c59ad7dc",
+   "source": "P01_FastWalk_Day_Traj01",
+   "unit": "P01_FastWalk_Day_Traj01 [600.0--660.0]",
+   "question_type": "Scene and Place QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "E": "supported",
+     "G": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "E",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 77575
+  },
+  {
+   "review_id": "8de8d5b4376a851f",
+   "source": "P01_FastWalk_Night_Traj01",
+   "unit": "P01_FastWalk_Night_Traj01 [480.0--540.0]",
+   "question_type": "Scene and Place QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "ruled_out",
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 77580
+  },
+  {
+   "review_id": "e361da4afbac5880",
+   "source": "P01_FastWalk_Night_Traj03",
+   "unit": "P01_FastWalk_Night_Traj03 [240.0--300.0]",
+   "question_type": "Scene and Place QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "ruled_out",
+     "E": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 77583
+  },
+  {
+   "review_id": "81a735e5993c9b05",
+   "source": "P02_FastWalk_Day_Trial01",
+   "unit": "P02_FastWalk_Day_Trial01 [720.0--780.0]",
+   "question_type": "Scene and Place QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "supported",
+     "G": "supported",
+     "F": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "D",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 70223
+  },
+  {
+   "review_id": "5210c83a14280e02",
+   "source": "P02_FastWalk_Day_Trial02",
+   "unit": "P02_FastWalk_Day_Trial02 [420.0--480.0]",
+   "question_type": "Scene and Place QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 77587
+  },
+  {
+   "review_id": "af399856e3bfd0a0",
+   "source": "P02_FastWalk_Night_Trial03",
+   "unit": "P02_FastWalk_Night_Trial03 [420.0--480.0]",
+   "question_type": "Scene and Place QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "F": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 77593
+  },
+  {
+   "review_id": "bed44165dc4d9050",
+   "source": "P02_Running_Night_Trial03",
+   "unit": "P02_Running_Night_Trial03 [120.0--180.0]",
+   "question_type": "Scene and Place QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "G": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 77599
+  },
+  {
+   "review_id": "68b8e6a449c6e691",
+   "source": "P02_SlowWalk_Night_Trial01",
+   "unit": "P02_SlowWalk_Night_Trial01 [840.0--900.0]",
+   "question_type": "Scene and Place QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "C": "supported",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "073a458499694468",
+   "source": "ZumWald_260516_184159",
+   "unit": "ZumWald_260516_184159 [60.0--120.0]",
+   "question_type": "Scene and Place QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "D": "supported",
+     "G": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "D",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 77604
+  },
+  {
+   "review_id": "83e35887a1678683",
+   "source": "ZumWald_Walk",
+   "unit": "ZumWald_Walk [420.0--480.0]",
+   "question_type": "Scene and Place QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 77608
+  },
+  {
+   "review_id": "125842e9714cb200",
+   "source": "gravel_plant_normal",
+   "unit": "gravel_plant_normal [180.0--240.0]",
+   "question_type": "Scene and Place QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 77613
+  },
+  {
+   "review_id": "8513852278b4822f",
+   "source": "gravel_plant_normal",
+   "unit": "gravel_plant_normal [360.0--420.0]",
+   "question_type": "Scene and Place QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 77617
+  },
+  {
+   "review_id": "4e9d35cbbd70b1aa",
+   "source": "gravel_plant_slow",
+   "unit": "gravel_plant_slow [480.0--540.0]",
+   "question_type": "Scene and Place QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "ruled_out",
+     "D": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 77622
+  },
+  {
+   "review_id": "5316331f97117acb",
+   "source": "rhein_normal",
+   "unit": "rhein_normal [60.0--120.0]",
+   "question_type": "Scene and Place QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 77627
+  },
+  {
+   "review_id": "aa3be10a86f2de74",
+   "source": "weinreben_normal",
+   "unit": "weinreben_normal [180.0--240.0]",
+   "question_type": "Scene and Place QA",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 77631
+  },
+  {
+   "review_id": "fcc6818ee4736487",
+   "source": "Hohenheim_2_langsam_3",
+   "unit": "Hohenheim_2_langsam_3 [360.0--420.0]",
+   "question_type": "Temporal Grounding",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "undecidable",
+     "B": "undecidable",
+     "C": "undecidable",
+     "D": "undecidable",
+     "E": "undecidable",
+     "F": "undecidable"
+    },
+    "final_answer": [],
+    "verdict": "cant_tell",
+    "notes": "一直在直行"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "292a3c80d5246081",
+   "source": "Hohenheim_joggen_1",
+   "unit": "Hohenheim_joggen_1 [960.0--1020.0]",
+   "question_type": "Temporal Grounding",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "7a879ef3e065638f",
+   "source": "Hohenheim_laufen_schnell",
+   "unit": "Hohenheim_laufen_schnell [1200.0--1260.0]",
+   "question_type": "Temporal Grounding",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 77655
+  },
+  {
+   "review_id": "2381ebe098d02658",
+   "source": "P01_FastWalk_Day_Traj02",
+   "unit": "P01_FastWalk_Day_Traj02 [300.0--360.0]",
+   "question_type": "Temporal Grounding",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [],
+    "verdict": "ambiguous",
+    "notes": "没有绕黄色装载机左转。"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "5cf7dbdeeeb2f7b7",
+   "source": "P01_FastWalk_Night_Traj01",
+   "unit": "P01_FastWalk_Night_Traj01 [300.0--360.0]",
+   "question_type": "Temporal Grounding",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "E": "ruled_out",
+     "F": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "ambiguous",
+    "notes": "37开始转，45转完，感觉两个都可以选"
+   },
+   "time_sec": 77663
+  },
+  {
+   "review_id": "c4ac26586a9fbbd1",
+   "source": "P01_Running_Day_Traj01",
+   "unit": "P01_Running_Day_Traj01 [60.0--120.0]",
+   "question_type": "Temporal Grounding",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 77666
+  },
+  {
+   "review_id": "ae7cf1a4e47e97e1",
+   "source": "P01_Running_Night_Traj03",
+   "unit": "P01_Running_Night_Traj03 [360.0--420.0]",
+   "question_type": "Temporal Grounding",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 77670
+  },
+  {
+   "review_id": "481e475f0a23dbe5",
+   "source": "P02_FastWalk_Day_Trial03",
+   "unit": "P02_FastWalk_Day_Trial03 [540.0--600.0]",
+   "question_type": "Temporal Grounding",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 77675
+  }
+ ]
+}

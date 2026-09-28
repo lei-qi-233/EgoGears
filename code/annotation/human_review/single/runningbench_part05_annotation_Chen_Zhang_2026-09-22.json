@@ -1,0 +1,1927 @@
+{
+ "schema": "runningbench-annotation-v1",
+ "bundle": "runningbench_part05",
+ "annotator": "Chen Zhang",
+ "exported_at": "2026-09-22T16:43:22.666Z",
+ "reviews": [
+  {
+   "review_id": "78c43262f174e46f",
+   "source": "sinzheim_city_slow",
+   "unit": "sinzheim_city_slow [540.0--600.0]",
+   "question_type": "Event Sequencing",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 104
+  },
+  {
+   "review_id": "2a67e315e014b95b",
+   "source": "Asemwald_joggen",
+   "unit": "Asemwald_joggen [180.0--240.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "D": "supported",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 225
+  },
+  {
+   "review_id": "6b8487643a59f03e",
+   "source": "Asemwald_joggen",
+   "unit": "Asemwald_joggen [840.0--900.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "ruled_out",
+     "A": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "H": "supported",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 334
+  },
+  {
+   "review_id": "e8f29a4b9692dc54",
+   "source": "Asemwald_joggen",
+   "unit": "Asemwald_joggen [1380.0--1440.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 465
+  },
+  {
+   "review_id": "10a6b92e417227f1",
+   "source": "Asemwald_joggen",
+   "unit": "Asemwald_joggen [1440.0--1500.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "G": "supported",
+     "D": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 547
+  },
+  {
+   "review_id": "db9df3284596e6a9",
+   "source": "Asemwald_laufen_1",
+   "unit": "Asemwald_laufen_1 [300.0--360.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "D": "supported",
+     "H": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "D",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 592
+  },
+  {
+   "review_id": "9fe70f25e7e17ef3",
+   "source": "Asemwald_laufen_1",
+   "unit": "Asemwald_laufen_1 [360.0--420.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "supported",
+     "G": "ruled_out",
+     "H": "supported",
+     "F": "ruled_out",
+     "E": "supported",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "D",
+     "E",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 684
+  },
+  {
+   "review_id": "244e51aa33053381",
+   "source": "Asemwald_laufen_2",
+   "unit": "Asemwald_laufen_2 [60.0--120.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 700
+  },
+  {
+   "review_id": "8ba17099dbc2c68c",
+   "source": "Asemwald_laufen_langsam",
+   "unit": "Asemwald_laufen_langsam [1020.0--1080.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 760
+  },
+  {
+   "review_id": "e4c6ba7c0420fd68",
+   "source": "Asemwald_laufen_langsam",
+   "unit": "Asemwald_laufen_langsam [1620.0--1680.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "F": "ruled_out",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 858
+  },
+  {
+   "review_id": "3c02b07279029241",
+   "source": "Asemwald_laufen_langsam",
+   "unit": "Asemwald_laufen_langsam [1800.0--1860.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "F": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 901
+  },
+  {
+   "review_id": "c15fa65fd50ea8da",
+   "source": "BLB-Euro_Fast_260518_200852",
+   "unit": "BLB-Euro_Fast_260518_200852 [240.0--300.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "supported",
+     "E": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "B",
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 928
+  },
+  {
+   "review_id": "55d474d5f5611ec7",
+   "source": "Bruecke_Walk_260512_121834",
+   "unit": "Bruecke_Walk_260512_121834 [300.0--360.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 5,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "D": "supported",
+     "E": "supported",
+     "A": "supported",
+     "H": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "D",
+     "E",
+     "F",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 2675
+  },
+  {
+   "review_id": "284edb1574feca8e",
+   "source": "Bruecke_Walk_260512_121834",
+   "unit": "Bruecke_Walk_260512_121834 [420.0--480.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 2706
+  },
+  {
+   "review_id": "c152ed78e4b1347d",
+   "source": "Bruecke_Walk_260512_121834",
+   "unit": "Bruecke_Walk_260512_121834 [480.0--540.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "undecidable"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "ambiguous",
+    "notes": "一人穿着绿色上衣，另一个灰色衣服，背着黑色背包"
+   },
+   "time_sec": 2791
+  },
+  {
+   "review_id": "2eb2c21d06d47412",
+   "source": "Euro-BLB_260512_124125",
+   "unit": "Euro-BLB_260512_124125 [0.0--60.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "C": "supported",
+     "A": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 2864
+  },
+  {
+   "review_id": "b1e7e3d3715c669b",
+   "source": "Euro-BLB_260512_124125",
+   "unit": "Euro-BLB_260512_124125 [180.0--240.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "H": "supported",
+     "B": "ruled_out",
+     "E": "supported",
+     "D": "ruled_out",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "E",
+     "F",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 3199
+  },
+  {
+   "review_id": "6390ddb4d47e5d69",
+   "source": "Euro-BLB_260512_124125",
+   "unit": "Euro-BLB_260512_124125 [300.0--360.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 3264
+  },
+  {
+   "review_id": "15f461e5e6e83bf1",
+   "source": "GGO-FSH_Run_260507_132357",
+   "unit": "GGO-FSH_Run_260507_132357 [60.0--120.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 2,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "ambiguous",
+    "notes": "没有看到第二个符合的，列出的都在街道的左侧"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "2d2ecbaf28c773cb",
+   "source": "GGO-FSH_Walk_260505_195948",
+   "unit": "GGO-FSH_Walk_260505_195948 [180.0--240.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 3404
+  },
+  {
+   "review_id": "3dd1a8e2872e29c6",
+   "source": "Hohenheim_2_langsam_1",
+   "unit": "Hohenheim_2_langsam_1 [60.0--120.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "G": "supported",
+     "C": "supported",
+     "H": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "F": "supported",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "F",
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 4276
+  },
+  {
+   "review_id": "4b90f9316f476c42",
+   "source": "Hohenheim_2_langsam_1",
+   "unit": "Hohenheim_2_langsam_1 [360.0--420.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "E": "ruled_out",
+     "G": "supported",
+     "C": "supported",
+     "B": "supported",
+     "A": "ruled_out",
+     "D": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "F",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 4335
+  },
+  {
+   "review_id": "709d5436a6465d5f",
+   "source": "Hohenheim_2_langsam_3",
+   "unit": "Hohenheim_2_langsam_3 [120.0--180.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "G": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 17772
+  },
+  {
+   "review_id": "81eae909a3139eb0",
+   "source": "Hohenheim_2_langsam_3",
+   "unit": "Hohenheim_2_langsam_3 [300.0--360.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "A": "supported",
+     "G": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "F",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 17800
+  },
+  {
+   "review_id": "38f1a70b5d9576e6",
+   "source": "Hohenheim_joggen_1",
+   "unit": "Hohenheim_joggen_1 [240.0--300.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "ruled_out",
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 17826
+  },
+  {
+   "review_id": "0f6d402b6bbb5573",
+   "source": "Hohenheim_joggen_1",
+   "unit": "Hohenheim_joggen_1 [480.0--540.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "C": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "D"
+    ],
+    "verdict": "ambiguous",
+    "notes": "0：54能看到正面一个骑自行车的人"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "0962cbb9dd3c02e9",
+   "source": "Hohenheim_joggen_1",
+   "unit": "Hohenheim_joggen_1 [540.0--600.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 17929
+  },
+  {
+   "review_id": "d4d1ae552820ba5c",
+   "source": "Hohenheim_laufen",
+   "unit": "Hohenheim_laufen [0.0--60.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "H": "supported",
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "F": "supported",
+     "D": "ruled_out",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "F",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 17994
+  },
+  {
+   "review_id": "f9f8a00432f68ffe",
+   "source": "Hohenheim_laufen",
+   "unit": "Hohenheim_laufen [420.0--480.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 18042
+  },
+  {
+   "review_id": "40825c38d6919fa1",
+   "source": "Hohenheim_laufen",
+   "unit": "Hohenheim_laufen [840.0--900.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 2,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [],
+    "verdict": "ambiguous",
+    "notes": "这两名行人身穿深色衣服正朝镜头走来。"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "d7eee753edee97ac",
+   "source": "Hohenheim_laufen",
+   "unit": "Hohenheim_laufen [1080.0--1140.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 18190
+  },
+  {
+   "review_id": "cffb9c93d3e3e0ae",
+   "source": "Hohenheim_laufen",
+   "unit": "Hohenheim_laufen [1260.0--1320.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "D": "supported",
+     "H": "supported",
+     "G": "ruled_out",
+     "F": "ruled_out",
+     "E": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out"
+    },
+    "final_answer": [
+     "D",
+     "E",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 18231
+  },
+  {
+   "review_id": "115de6102c7333ba",
+   "source": "Hohenheim_laufen",
+   "unit": "Hohenheim_laufen [1320.0--1380.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "F": "supported",
+     "E": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "G": "supported"
+    },
+    "final_answer": [
+     "D",
+     "F",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 18298
+  },
+  {
+   "review_id": "7aac0f0d6836ad51",
+   "source": "Hohenheim_laufen",
+   "unit": "Hohenheim_laufen [1620.0--1680.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 18318
+  },
+  {
+   "review_id": "1dd1d596ffec5f98",
+   "source": "Hohenheim_laufen_schnell",
+   "unit": "Hohenheim_laufen_schnell [240.0--300.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 18335
+  },
+  {
+   "review_id": "3f60a204b5b4fa8f",
+   "source": "Hohenheim_laufen_schnell",
+   "unit": "Hohenheim_laufen_schnell [660.0--720.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "A": "ruled_out",
+     "B": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 18348
+  },
+  {
+   "review_id": "6dedaaf5c7668097",
+   "source": "Hohenheim_laufen_schnell",
+   "unit": "Hohenheim_laufen_schnell [720.0--780.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 18364
+  },
+  {
+   "review_id": "cfba99517fed31ab",
+   "source": "Hohenheim_laufen_schnell",
+   "unit": "Hohenheim_laufen_schnell [780.0--840.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 18388
+  },
+  {
+   "review_id": "aafd4a14457fddc2",
+   "source": "Hohenheim_laufen_schnell",
+   "unit": "Hohenheim_laufen_schnell [1020.0--1080.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out",
+     "C": "supported",
+     "E": "supported",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 18439
+  },
+  {
+   "review_id": "ed23e3438c765ec9",
+   "source": "Hohenheim_laufen_schnell",
+   "unit": "Hohenheim_laufen_schnell [1380.0--1440.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "H": "supported",
+     "G": "supported",
+     "F": "supported",
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "F",
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 20901
+  },
+  {
+   "review_id": "4dceec8f7861ac70",
+   "source": "Hohenheim_laufen_schnell",
+   "unit": "Hohenheim_laufen_schnell [1620.0--1680.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 20918
+  },
+  {
+   "review_id": "5b0bf817d735e52a",
+   "source": "Kiesweg_Fast_260518_202851",
+   "unit": "Kiesweg_Fast_260518_202851 [60.0--120.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "A": "ruled_out",
+     "E": "ruled_out",
+     "G": "ruled_out",
+     "B": "supported",
+     "D": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C"
+    ],
+    "verdict": "ambiguous",
+    "notes": "狗是白色的，离的最近的人穿着灰色上衣和带有白色条纹的黑色裤子，但手里拿的不是透明塑料袋而是一个包"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "43a1fa3d9c454a25",
+   "source": "Kiesweg_Run_260510_001841",
+   "unit": "Kiesweg_Run_260510_001841 [0.0--60.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "C": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out",
+     "B": "supported",
+     "D": "supported",
+     "A": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "D"
+    ],
+    "verdict": "ambiguous",
+    "notes": "垃圾桶在左侧，这条是铺设好的混凝土人行道，但没有黄色分割线，没有倒着跑"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "b6a2f95c47a051bd",
+   "source": "Muell_Run_260511_222242",
+   "unit": "Muell_Run_260511_222242 [60.0--120.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "E": "ruled_out",
+     "H": "supported",
+     "D": "supported",
+     "A": "supported",
+     "C": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "B",
+     "D",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 18669
+  },
+  {
+   "review_id": "0786cdce8bb84da3",
+   "source": "Muell_Walk_260504_220148",
+   "unit": "Muell_Walk_260504_220148 [180.0--240.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "H": "supported",
+     "D": "supported",
+     "C": "supported",
+     "B": "supported",
+     "A": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "D",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 18620
+  },
+  {
+   "review_id": "35c4f9a7121845dc",
+   "source": "Oberreut_260512_120332",
+   "unit": "Oberreut_260512_120332 [60.0--120.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 18571
+  },
+  {
+   "review_id": "7560d4e13e6d71c6",
+   "source": "Oberreut_260512_120332",
+   "unit": "Oberreut_260512_120332 [540.0--600.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 18703
+  },
+  {
+   "review_id": "7252c7c878026085",
+   "source": "P01_FastWalk_Day_Traj01",
+   "unit": "P01_FastWalk_Day_Traj01 [0.0--60.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "D": "supported",
+     "E": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "D",
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 18751
+  },
+  {
+   "review_id": "9e0c09bacd6f1a9b",
+   "source": "P01_FastWalk_Day_Traj01",
+   "unit": "P01_FastWalk_Day_Traj01 [60.0--120.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 18798
+  },
+  {
+   "review_id": "3014f1f712132e86",
+   "source": "P01_FastWalk_Day_Traj01",
+   "unit": "P01_FastWalk_Day_Traj01 [300.0--360.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 18808
+  },
+  {
+   "review_id": "956ef5435f545d4d",
+   "source": "P01_FastWalk_Day_Traj01",
+   "unit": "P01_FastWalk_Day_Traj01 [720.0--780.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "supported",
+     "C": "supported",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "B",
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 18829
+  },
+  {
+   "review_id": "291f1c65a13ccd4d",
+   "source": "P01_FastWalk_Day_Traj01",
+   "unit": "P01_FastWalk_Day_Traj01 [780.0--840.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "B": "supported",
+     "C": "supported",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 18854
+  },
+  {
+   "review_id": "669e913cc61dfe0c",
+   "source": "P01_FastWalk_Day_Traj02",
+   "unit": "P01_FastWalk_Day_Traj02 [0.0--60.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "E": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "A": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "E",
+     "F",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 18934
+  },
+  {
+   "review_id": "1b4b0356c4480593",
+   "source": "P01_FastWalk_Day_Traj02",
+   "unit": "P01_FastWalk_Day_Traj02 [180.0--240.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "H": "supported",
+     "F": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "F",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 18997
+  },
+  {
+   "review_id": "ebf7322871fce3f2",
+   "source": "P01_FastWalk_Day_Traj02",
+   "unit": "P01_FastWalk_Day_Traj02 [540.0--600.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 19037
+  },
+  {
+   "review_id": "3d526b3fa7a6831a",
+   "source": "P01_FastWalk_Day_Traj02",
+   "unit": "P01_FastWalk_Day_Traj02 [600.0--660.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 19057
+  },
+  {
+   "review_id": "a0d55822e695fd61",
+   "source": "P01_FastWalk_Day_Traj02",
+   "unit": "P01_FastWalk_Day_Traj02 [660.0--720.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 19084
+  },
+  {
+   "review_id": "31c9dd5fee737eec",
+   "source": "P01_FastWalk_Day_Traj02",
+   "unit": "P01_FastWalk_Day_Traj02 [840.0--900.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 2,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "ruled_out",
+     "A": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "supported"
+    },
+    "final_answer": [
+     "A",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 19110
+  },
+  {
+   "review_id": "ec346de8cafd5f71",
+   "source": "P01_FastWalk_Day_Traj02",
+   "unit": "P01_FastWalk_Day_Traj02 [900.0--924.3]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "ruled_out",
+     "F": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 19133
+  },
+  {
+   "review_id": "c3aa0c357baa298a",
+   "source": "P01_FastWalk_Day_Traj03",
+   "unit": "P01_FastWalk_Day_Traj03 [60.0--120.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "E": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 19153
+  },
+  {
+   "review_id": "254fcc6a96226cd3",
+   "source": "P01_FastWalk_Day_Traj03",
+   "unit": "P01_FastWalk_Day_Traj03 [180.0--240.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 19170
+  },
+  {
+   "review_id": "e1d522fe82f97745",
+   "source": "P01_FastWalk_Day_Traj03",
+   "unit": "P01_FastWalk_Day_Traj03 [540.0--600.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "supported",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 19220
+  },
+  {
+   "review_id": "cf6114ecfd6637e8",
+   "source": "P01_FastWalk_Day_Traj03",
+   "unit": "P01_FastWalk_Day_Traj03 [660.0--720.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "C": "supported",
+     "B": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 19243
+  },
+  {
+   "review_id": "9ab9998e5f62f8a1",
+   "source": "P01_FastWalk_Night_Traj01",
+   "unit": "P01_FastWalk_Night_Traj01 [240.0--300.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "ruled_out",
+     "A": "supported"
+    },
+    "final_answer": [
+     "A",
+     "D",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 19291
+  },
+  {
+   "review_id": "052602a40197ce88",
+   "source": "P01_FastWalk_Night_Traj02",
+   "unit": "P01_FastWalk_Night_Traj02 [240.0--300.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 19364
+  },
+  {
+   "review_id": "b400d6b7d0e3bd31",
+   "source": "P01_FastWalk_Night_Traj02",
+   "unit": "P01_FastWalk_Night_Traj02 [660.0--720.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 4,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "H": "supported",
+     "D": "supported",
+     "E": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "D",
+     "E",
+     "F",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 19400
+  },
+  {
+   "review_id": "22d7a7fd910f3825",
+   "source": "P01_FastWalk_Night_Traj02",
+   "unit": "P01_FastWalk_Night_Traj02 [720.0--780.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "B": "ruled_out",
+     "A": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [],
+    "verdict": "clear",
+    "notes": "前两个灯是冷白色光"
+   },
+   "time_sec": 19416
+  },
+  {
+   "review_id": "be046a3bcb38f581",
+   "source": "P01_FastWalk_Night_Traj02",
+   "unit": "P01_FastWalk_Night_Traj02 [780.0--840.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "G": "supported",
+     "E": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "F": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "D",
+     "E",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 19478
+  },
+  {
+   "review_id": "5f2f7b199875f1d2",
+   "source": "P01_FastWalk_Night_Traj03",
+   "unit": "P01_FastWalk_Night_Traj03 [780.0--840.0]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": "不确定是不是遛狗"
+   },
+   "time_sec": 19507
+  },
+  {
+   "review_id": "4b01ddd39ce64637",
+   "source": "P01_FastWalk_Night_Traj03",
+   "unit": "P01_FastWalk_Night_Traj03 [900.0--917.267]",
+   "question_type": "Object and Attribute QA",
+   "annotator": "Chen Zhang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "A": "supported",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 19538
+  }
+ ]
+}

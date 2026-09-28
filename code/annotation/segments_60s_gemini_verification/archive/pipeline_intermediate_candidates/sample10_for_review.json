@@ -1,0 +1,252 @@
+[
+  {
+    "n": 1,
+    "id": "8e4cb3e13d41dcca",
+    "video": "P03_Running_Day_Traj03_Trial01",
+    "span_sec": [
+      480.0,
+      540.0
+    ],
+    "report_class": "Object and Attribute QA",
+    "question": "During the first 15 seconds of the video (00:00 - 00:15), which group of objects is located on the right side of the path?",
+    "options": {
+      "A": "A yellow generator, a blue plastic barrel, a metal fence panel, and a signpost",
+      "B": "A red and white striped barrier, a black trash bin, a metal pole, and a bench",
+      "C": "A yellow construction vehicle, a white bag, a grey electrical box, and a street lamp",
+      "D": "A grey concrete block, a green waste container, a wooden post, and a bicycle",
+      "E": "An orange traffic cone, a black cable spool, a grey control panel, and a lamppost",
+      "F": "A metal scaffolding frame, a white plastic bucket, a wooden pallet, and a bollard"
+    },
+    "answer": [
+      "C"
+    ],
+    "verify_reason": "Option C correctly identifies the objects on the right, while all other options list items that are either absent or on the left.",
+    "clip": "P03_Running_Day_Traj03_Trial01__480_540.mp4"
+  },
+  {
+    "n": 2,
+    "id": "b19e1ada04bbfede",
+    "video": "P01_FastWalk_Day_Traj02",
+    "span_sec": [
+      180.0,
+      240.0
+    ],
+    "report_class": "Ego-relative Spatial Relation",
+    "question": "Which of the following objects or features are located on the right side of the path? (Select all that apply)",
+    "options": {
+      "A": "A yellow fire hydrant",
+      "B": "Two trash bins (one dark green and one blue)",
+      "C": "Spherical white street lamps on dark poles",
+      "D": "A pedestrian walking towards a doorway",
+      "E": "A large row of parked bicycles lined up against the building",
+      "F": "A blue post box",
+      "G": "A continuous low green hedge",
+      "H": "A circular red traffic sign on a pole"
+    },
+    "answer": [
+      "C",
+      "E",
+      "H"
+    ],
+    "verify_reason": "All marked options are correctly identified on the right side, while unmarked options are either on the left or absent.",
+    "clip": "P01_FastWalk_Day_Traj02__180_240.mp4"
+  },
+  {
+    "n": 3,
+    "id": "5cb819fb5b76fc13",
+    "video": "BLB-Euro_Walk_260504_212738",
+    "span_sec": [
+      240.0,
+      300.0
+    ],
+    "report_class": "Trajectory-grounded QA",
+    "question": "What is the runner's movement trajectory, and where are the key landmarks located relative to the runner?",
+    "options": {
+      "A": "The runner follows a circular loop, passing the same landmarks on the right multiple times.",
+      "B": "The runner makes a sharp left turn at a T-junction, with the landmarks appearing directly ahead.",
+      "C": "The runner weaves left and right, with landmarks distributed on both sides.",
+      "D": "The runner moves continuously straight, with all key landmarks located on the right side of the street.",
+      "E": "The runner moves continuously straight, with key landmarks located on the left side.",
+      "F": "The runner turns right at an intersection, with all landmarks located on the right side."
+    },
+    "answer": [
+      "E"
+    ],
+    "verify_reason": "The video shows continuous forward movement with all clearly identifiable landmarks (like Sparda-Bank and Saturn) located on the left side.",
+    "clip": "BLB-Euro_Walk_260504_212738__240_300.mp4"
+  },
+  {
+    "n": 4,
+    "id": "86dd5125f6d19a69",
+    "video": "P01_SlowWalk_Night_Traj03",
+    "span_sec": [
+      180.0,
+      240.0
+    ],
+    "report_class": "Ego-motion Recognition",
+    "question": "As the person moves forward, their shadow is projected onto the ground directly ahead of them. What is the source and relative position of the lighting that casts this shadow?",
+    "options": {
+      "A": "A spotlight mounted on a wall in back",
+      "B": "Bright building lights from the rear",
+      "C": "Car headlights shining from the rear",
+      "D": "Moonlight shining from directly back",
+      "E": "An overhead security light from the rear",
+      "F": "Streetlights positioned behind the person"
+    },
+    "answer": [
+      "F"
+    ],
+    "verify_reason": "The video shows the person walking on a path lined with streetlights, which cast the forward shadows. All other light sources are ruled out.",
+    "clip": "P01_SlowWalk_Night_Traj03__180_240.mp4"
+  },
+  {
+    "n": 5,
+    "id": "d6e31671d30aa9f2",
+    "video": "Hohenheim_laufen_schnell",
+    "span_sec": [
+      960.0,
+      1020.0
+    ],
+    "report_class": "Scene and Place QA",
+    "question": "Which of the following best describes the lighting and weather conditions of the park environment?",
+    "options": {
+      "A": "A bright, overcast day with natural lighting and no harsh shadows",
+      "B": "A partly cloudy afternoon with natural light and soft shadows",
+      "C": "A clear, sunny afternoon with bright sunlight and soft shadows",
+      "D": "A warm, sunny midday with direct sunlight and distinct shadows",
+      "E": "A bright, sunny morning with clear blue skies and light shadows",
+      "F": "A clear, sunny day with bright natural light and sharp shadows"
+    },
+    "answer": [
+      "A"
+    ],
+    "verify_reason": "Option A correctly describes the overcast sky and lack of harsh shadows, while all other options incorrectly claim sunny, clear, or partly cloudy conditions.",
+    "clip": "Hohenheim_laufen_schnell__960_1020.mp4"
+  },
+  {
+    "n": 6,
+    "id": "3e068bc8209d3a65",
+    "video": "P02_SlowWalk_Night_Trial03",
+    "span_sec": [
+      240.0,
+      300.0
+    ],
+    "report_class": "Event Sequencing",
+    "question": "Based on the camera's movement throughout the video, which of the following describes the sequence of turns made while moving forward along the path?",
+    "options": {
+      "A": "A slight rightward curve followed by a straight path, then a final slight turn to the left.",
+      "B": "A slight leftward curve followed by a straight path, then a final slight turn to the right.",
+      "C": "A straight forward path followed by a slight leftward curve, then a slight turn to the right.",
+      "D": "A slight leftward curve followed by a slight turn to the right, then continuing straight forward.",
+      "E": "A slight rightward curve followed by a slight turn to the left, then continuing straight forward.",
+      "F": "A straight forward path followed by a slight turn to the right, then a slight leftward curve."
+    },
+    "answer": [
+      "E"
+    ],
+    "verify_reason": "The camera clearly follows a path that curves right, then turns left, and finally continues straight, which perfectly matches the marked correct option.",
+    "clip": "P02_SlowWalk_Night_Trial03__240_300.mp4"
+  },
+  {
+    "n": 7,
+    "id": "3eaae0fa560d49d0",
+    "video": "P01_FastWalk_Day_Traj02",
+    "span_sec": [
+      660.0,
+      720.0
+    ],
+    "report_class": "Actor Action and Motion",
+    "question": "What event occurs just as the camera reaches the small courtyard before making the left turn?",
+    "options": {
+      "A": "A cyclist crosses the path from right to left.",
+      "B": "A person runs down the metal stairs on the right.",
+      "C": "A cyclist rides straight towards the camera and turns right.",
+      "D": "A silver car pulls out of a parking spot on the left.",
+      "E": "A pedestrian walks past a parked white van from left to right.",
+      "F": "A group of students crosses the road from left to right."
+    },
+    "answer": [
+      "A"
+    ],
+    "verify_reason": "Option A accurately describes the cyclist crossing from right to left just before the camera turns. All other options are contradicted by the footage.",
+    "clip": "P01_FastWalk_Day_Traj02__660_720.mp4"
+  },
+  {
+    "n": 8,
+    "id": "061ba5e3b3da6437",
+    "video": "P01_Running_Night_Traj02",
+    "span_sec": [
+      300.0,
+      360.0
+    ],
+    "report_class": "Temporal Grounding",
+    "question": "What change in direction does the camera person make during their journey, and approximately when does it occur?",
+    "options": {
+      "A": "They turn right near a building around 00:10.",
+      "B": "They turn left at a junction around 00:46.",
+      "C": "They turn right by a parked van around 00:15.",
+      "D": "They turn right past a bin around 00:30.",
+      "E": "They turn left near a hydrant around 00:25.",
+      "F": "They turn left past a bicycle around 00:35."
+    },
+    "answer": [
+      "B"
+    ],
+    "verify_reason": "The only turn made in the video is a left turn at a junction around 00:46, making option B the only correct choice.",
+    "clip": "P01_Running_Night_Traj02__300_360.mp4"
+  },
+  {
+    "n": 9,
+    "id": "60ff2f8525a44c35",
+    "video": "kit_mensa_scc_normal",
+    "span_sec": [
+      180.0,
+      240.0
+    ],
+    "report_class": "Text and OCR",
+    "question": "Which of the following specific markings, brands, or text labels are present on the vehicles, buildings, or infrastructure in the video? (Select all that apply)",
+    "options": {
+      "A": "'Büchele Lufttechnik' on a white van.",
+      "B": "'LIEBHERR' on the metal scaffolding.",
+      "C": "'POLIZEI' on a parked silver car.",
+      "D": "'SCHOLPP' on a massive red heavy-duty crane.",
+      "E": "'ALBA' on a dark blue industrial dumpster.",
+      "F": "'KÄRCHER' on a green public trash bin.",
+      "G": "'HADIKO Heimfest' on a poster on the red brick building.",
+      "H": "'30' speed limit marker painted on the asphalt road."
+    },
+    "answer": [
+      "A",
+      "D",
+      "E",
+      "G",
+      "H"
+    ],
+    "verify_reason": "All marked options are supported by the footage, and all unmarked options are contradicted by it.",
+    "clip": "kit_mensa_scc_normal__180_240.mp4"
+  },
+  {
+    "n": 10,
+    "id": "2bbe1bffe9f86d31",
+    "video": "Hohenheim_laufen",
+    "span_sec": [
+      720.0,
+      780.0
+    ],
+    "report_class": "Object and Attribute QA",
+    "question": "How does the texture or material of the path transition during the video?",
+    "options": {
+      "A": "It begins as a concrete walkway and then transitions to a loose, gravel path.",
+      "B": "It starts as a gravel path and then transitions to a smooth, concrete walkway.",
+      "C": "It begins as a dirt path and then transitions to a much firmer, asphalt-paved surface.",
+      "D": "It starts as brick paving and then transitions to a much rougher, cobblestone path.",
+      "E": "It begins as cobblestones and then transitions to a smoother, brick-paved walkway.",
+      "F": "It begins as paving stones and then transitions to a smoother, gravel-like surface."
+    },
+    "answer": [
+      "F"
+    ],
+    "verify_reason": "The marked answer accurately describes the transition from paving stones to a smoother, gravel-like surface, while all other options are contradicted.",
+    "clip": "Hohenheim_laufen__720_780.mp4"
+  }
+]

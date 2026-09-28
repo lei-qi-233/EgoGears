@@ -1,0 +1,2253 @@
+{
+ "schema": "runningbench-annotation-v1",
+ "bundle": "bundle_08",
+ "part": "second_half",
+ "part_range": [
+  77,
+  152
+ ],
+ "part_count": 76,
+ "annotator": "Xiaoye Wang",
+ "exported_at": "2026-09-13T19:38:16.032Z",
+ "reviews": [
+  {
+   "review_id": "d880c9cd29882987",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "event-phase",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "D",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 97835
+  },
+  {
+   "review_id": "f67af66d333a9b71",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "landmark-order",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "undecidable",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "G": "supported",
+     "F": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "F",
+     "G"
+    ],
+    "verdict": "ambiguous",
+    "notes": "F项不知道clip2的31s的那个算不算canal weir，但是H项立柱上白顶黄杆的"
+   },
+   "time_sec": 97843
+  },
+  {
+   "review_id": "b22f9d61c27b2161",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "start-end-relation",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "G": "supported",
+     "H": "ruled_out",
+     "E": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "F",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 97847
+  },
+  {
+   "review_id": "6ce3d922a4bb4ea6",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "environment-stages",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "B": "ruled_out",
+     "E": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "d6b27be59d2a385f",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "multi-step-turns",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "ruled_out",
+     "E": "supported",
+     "D": "undecidable",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "cant_tell",
+    "notes": "由clip1 & clip2可以看出先右转再左转，但是clip3和1 2不连贯，且建筑外观无法判断大致方位，看不出来第三转是怎么转的"
+   },
+   "time_sec": 98158
+  },
+  {
+   "review_id": "bebb957154e051ec",
+   "source": "fullvideo",
+   "unit": "whole_video",
+   "question_type": "multi-step-turns",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "F": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "ambiguous",
+    "notes": "从clip2来看，实际路径看起来是clip1右转过后，clip2原地掉头了，掉头的时候是往左转了180度。感觉D只能算勉强正确"
+   },
+   "time_sec": 98390
+  },
+  {
+   "review_id": "bc8f6fdcd0b8f5ab",
+   "source": "p01ma_gdrive",
+   "unit": "cross_recording",
+   "question_type": "same-place-different-recording",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out",
+     "H": "supported",
+     "A": "supported",
+     "B": "ruled_out",
+     "E": "ruled_out",
+     "G": "supported"
+    },
+    "final_answer": [
+     "A",
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 98571
+  },
+  {
+   "review_id": "337b4b39d9955316",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "route-phase-discrimination",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "E": "ruled_out",
+     "H": "supported",
+     "D": "ruled_out",
+     "G": "supported",
+     "B": "ruled_out",
+     "C": "supported",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 99727
+  },
+  {
+   "review_id": "8790634591ca9fd6",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "C",
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 248591
+  },
+  {
+   "review_id": "1abb8271d38f00f5",
+   "source": "p01ma_gdrive",
+   "unit": "cross_recording",
+   "question_type": "same-place-different-recording",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "E",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 248687
+  },
+  {
+   "review_id": "c1f73a565ca49d88",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "route-phase-discrimination",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "B": "ruled_out",
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "A": "ruled_out",
+     "F": "ruled_out",
+     "H": "supported",
+     "C": "supported",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "H"
+    ],
+    "verdict": "ambiguous",
+    "notes": "感觉没看到其他合适的答案。"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "e1e4a15e28a777d4",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "cross-segment-revisit",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "supported"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 249322
+  },
+  {
+   "review_id": "7e8adbe38f565e02",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "C": "ruled_out",
+     "D": "supported",
+     "F": "supported",
+     "G": "ruled_out",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "E": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "D",
+     "F"
+    ],
+    "verdict": "ambiguous",
+    "notes": "ClipD全程直行，Clip B 一开始先左转，后又转两次"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "5d95c99170f0f7fe",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "E": "supported",
+     "H": "ruled_out",
+     "G": "ruled_out",
+     "F": "supported",
+     "C": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "E",
+     "F"
+    ],
+    "verdict": "ambiguous",
+    "notes": "感觉A项向右弯行有点歧义"
+   },
+   "time_sec": 256472
+  },
+  {
+   "review_id": "be6c8e3531c0616d",
+   "source": "p01ma_gdrive",
+   "unit": "cross_recording",
+   "question_type": "environment-difference-across-recordings",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "C": "ruled_out",
+     "B": "supported",
+     "A": "supported",
+     "G": "ruled_out",
+     "H": "supported"
+    },
+    "final_answer": [
+     "A",
+     "B",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 256711
+  },
+  {
+   "review_id": "40b24f2d8001c0a4",
+   "source": "p01ma_gdrive",
+   "unit": "cross_recording",
+   "question_type": "same-place-different-recording",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "supported",
+     "A": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "supported"
+    },
+    "final_answer": [
+     "D",
+     "E",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 256843
+  },
+  {
+   "review_id": "70b83aca91ac464a",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "route-phase-discrimination",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "ruled_out",
+     "H": "ruled_out",
+     "C": "supported",
+     "A": "ruled_out",
+     "F": "supported",
+     "E": "ruled_out",
+     "G": "ruled_out",
+     "B": "supported"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "F"
+    ],
+    "verdict": "ambiguous",
+    "notes": "感觉选不出第三个，CF是ok的，B感觉是从左边掉头"
+   },
+   "time_sec": 257243
+  },
+  {
+   "review_id": "cd34ff8e856deb36",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "route-phase-discrimination",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "ruled_out",
+     "E": "supported",
+     "H": "ruled_out",
+     "A": "ruled_out",
+     "D": "ruled_out",
+     "F": "supported",
+     "C": "ruled_out",
+     "G": "supported"
+    },
+    "final_answer": [
+     "E",
+     "F",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 258408
+  },
+  {
+   "review_id": "29e29ef9bdd5ee9c",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "route-phase-discrimination",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "H": "supported",
+     "B": "ruled_out",
+     "F": "ruled_out",
+     "G": "supported",
+     "E": "ruled_out",
+     "A": "supported"
+    },
+    "final_answer": [
+     "A",
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 258574
+  },
+  {
+   "review_id": "09b7fc815e97d21e",
+   "source": "p01ma_gdrive",
+   "unit": "cross_recording",
+   "question_type": "same-place-different-recording",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "C": "supported",
+     "B": "ruled_out",
+     "D": "supported",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "D",
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 258707
+  },
+  {
+   "review_id": "5fe012f8af4c4249",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "supported"
+    },
+    "final_answer": [
+     "D",
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 262119
+  },
+  {
+   "review_id": "167528fe25477c59",
+   "source": "p01ma_gdrive",
+   "unit": "cross_recording",
+   "question_type": "shared-landmark-identification",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "G": "supported",
+     "B": "ruled_out",
+     "E": "ruled_out",
+     "H": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "F",
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 262372
+  },
+  {
+   "review_id": "20a7a1a0d7b04ec1",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "H": "ruled_out",
+     "D": "supported",
+     "G": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "ambiguous",
+    "notes": "D勉强可以选\nA左转看不出来，B没有明显右转和蓝色汽车，C没有自行车横穿街道，D有点勉强，微微左转，E有stop没有右转，F行人从右到左，G只能算微微右转，且没有电动滑板车，H看不出镜头左转，如果那个小s弯算左转的话那补丁在左转之前。"
+   },
+   "time_sec": 262945
+  },
+  {
+   "review_id": "7d684c5fc5c785d0",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "D": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "E": "ruled_out",
+     "B": "supported",
+     "A": "ruled_out",
+     "H": "supported"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 263181
+  },
+  {
+   "review_id": "8767ae39b18b4868",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "F": "undecidable",
+     "E": "ruled_out",
+     "C": "ruled_out",
+     "H": "supported",
+     "G": "undecidable"
+    },
+    "final_answer": [
+     "A",
+     "H"
+    ],
+    "verdict": "cant_tell",
+    "notes": "F和G的先后顺序难以判断"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "d1a4ac298b2f5f48",
+   "source": "p01ma_gdrive",
+   "unit": "cross_recording",
+   "question_type": "shared-landmark-identification",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "H": "supported",
+     "F": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "B": "supported",
+     "E": "ruled_out",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 263928
+  },
+  {
+   "review_id": "8a1d897211c5b845",
+   "source": "p01ma_gdrive",
+   "unit": "cross_recording",
+   "question_type": "shared-landmark-identification",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "supported",
+     "D": "undecidable",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "supported",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 264152
+  },
+  {
+   "review_id": "79d04197baecbb44",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "cross-segment-revisit",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "C": "supported",
+     "G": "ruled_out",
+     "D": "ruled_out",
+     "B": "ruled_out",
+     "F": "supported",
+     "H": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "C",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 264577
+  },
+  {
+   "review_id": "fd82eee09aae44f9",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "D": "supported",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "G": "ruled_out",
+     "F": "ruled_out",
+     "H": "supported"
+    },
+    "final_answer": [
+     "A",
+     "D",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 265014
+  },
+  {
+   "review_id": "78ab099d9e854d80",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported",
+     "H": "supported",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "F",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 265362
+  },
+  {
+   "review_id": "b47fe9f8ab87f5a0",
+   "source": "p01ma_gdrive",
+   "unit": "cross_recording",
+   "question_type": "route-identity-discrimination",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "C": "ruled_out",
+     "D": "supported",
+     "A": "ruled_out",
+     "E": "ruled_out",
+     "G": "ruled_out",
+     "B": "supported",
+     "F": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "D"
+    ],
+    "verdict": "ambiguous",
+    "notes": "无法选出第三个"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "2ce478a9984522e2",
+   "source": "p01ma_gdrive",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "C": "ruled_out",
+     "F": "supported",
+     "H": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "E": "ruled_out",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "D",
+     "F"
+    ],
+    "verdict": "ambiguous",
+    "notes": "Clip E全程直行，Clip F做了左向的掉头，但是F的相关选项没有任何match的"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "b48a0d0887b49316",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "route-phase-discrimination",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "C": "ruled_out",
+     "F": "supported",
+     "A": "ruled_out",
+     "D": "supported",
+     "E": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "D",
+     "F"
+    ],
+    "verdict": "ambiguous",
+    "notes": "题干歧义，A说clip C说middle stage，D说 clip F是middle stage，实际上应该是F是middle stage。"
+   },
+   "time_sec": 445409
+  },
+  {
+   "review_id": "49ba39629c366e8d",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "route-phase-discrimination",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "B": "ruled_out",
+     "E": "ruled_out",
+     "G": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "F": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "F",
+     "G"
+    ],
+    "verdict": "ambiguous",
+    "notes": "CLIP G全程直行，也没有蓝色厕所和起重机，无法选中ACD。CLIP H也是直行，BE不对。CLIP F也是直行，无法选H。"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "ece38b9bef53e949",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "B": "ruled_out",
+     "A": "undecidable",
+     "D": "undecidable",
+     "C": "undecidable",
+     "G": "undecidable",
+     "H": "undecidable",
+     "F": "undecidable",
+     "E": "undecidable"
+    },
+    "final_answer": [],
+    "verdict": "cant_tell",
+    "notes": "这道题感觉两个画面完全没有时空信息可以判断先后。仅B项右转不对，其他都难以判断（除非让VLM排除法，选刚好对的3个然后自动排除另外4个，但是感觉这个就不是直接给予画面了，而是需要逻辑回答，和之前的问题类型不太一样）"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "ab11504c28f59abd",
+   "source": "p01ma_hf",
+   "unit": "cross_recording",
+   "question_type": "shared-landmark-identification",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "A": "supported",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "supported"
+    },
+    "final_answer": [
+     "A",
+     "E",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 447010
+  },
+  {
+   "review_id": "67a70a115226b9a7",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 451650
+  },
+  {
+   "review_id": "69c0c5acc443bcc1",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "E",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 451798
+  },
+  {
+   "review_id": "3f2a76bb282c41b2",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "supported",
+     "F": "supported",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "D",
+     "F",
+     "G"
+    ],
+    "verdict": "ambiguous",
+    "notes": "还是觉得这个前后信息关联不强，两个clip没有明显的overlap"
+   },
+   "time_sec": 452506
+  },
+  {
+   "review_id": "630a160c11688b6b",
+   "source": "p01ma_hf",
+   "unit": "cross_recording",
+   "question_type": "same-place-different-recording",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "undecidable",
+     "B": "undecidable",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "supported",
+     "F": "supported",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "D",
+     "E",
+     "F"
+    ],
+    "verdict": "cant_tell",
+    "notes": "AB选项视频看不出来"
+   },
+   "time_sec": 452634
+  },
+  {
+   "review_id": "1b658610b30ab4da",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out",
+     "F": "ruled_out",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "G"
+    ],
+    "verdict": "ambiguous",
+    "notes": "选不出来后两个"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "1c1993fa7b85c588",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "E": "supported",
+     "C": "ruled_out",
+     "A": "ruled_out",
+     "F": "supported",
+     "G": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "E",
+     "F",
+     "G"
+    ],
+    "verdict": "cant_tell",
+    "notes": "u1s1这两个画面时空联系不强，选EFG纯假设Clip G发生在Clip I前面，但是时空信息无法判定这个。"
+   },
+   "time_sec": 517169
+  },
+  {
+   "review_id": "c48a80a595e83f2e",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "landmark-cooccurrence",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "E": "ruled_out",
+     "A": "ruled_out",
+     "B": "supported",
+     "D": "ruled_out",
+     "C": "undecidable",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "supported"
+    },
+    "final_answer": [
+     "B",
+     "G",
+     "H"
+    ],
+    "verdict": "",
+    "notes": "C看不出来名字"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "52989c4bce21643f",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "H": "supported",
+     "G": "ruled_out",
+     "C": "supported"
+    },
+    "final_answer": [
+     "C",
+     "D",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 518094
+  },
+  {
+   "review_id": "15742b71f4f1c045",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "H": "ruled_out",
+     "D": "supported",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "ambiguous",
+    "notes": "两个CLIP都没有转向。"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "2a3352a7d36f9779",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "route-phase-discrimination",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "F": "ruled_out",
+     "H": "supported",
+     "D": "supported",
+     "E": "ruled_out",
+     "G": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "D",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 518598
+  },
+  {
+   "review_id": "db5d13a10d627a2b",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "E": "supported",
+     "H": "supported"
+    },
+    "final_answer": [
+     "E",
+     "F",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 519151
+  },
+  {
+   "review_id": "d7a55de035232cee",
+   "source": "p01ma_hf",
+   "unit": "multi_caption_multi_clip",
+   "question_type": "event-order",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "E": "supported",
+     "F": "supported",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "E",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "1c60e179c1d3d3bc",
+   "source": "p01ma_hf",
+   "unit": "cross_recording",
+   "question_type": "same-place-different-recording",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "D"
+    ],
+    "verdict": "ambiguous",
+    "notes": "选不出第三个选项"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "RBMA-0032",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "H": "supported"
+    },
+    "final_answer": [
+     "C",
+     "E",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 521451
+  },
+  {
+   "review_id": "RBMA-0060",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "supported",
+     "C": "ruled_out",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "D",
+     "G"
+    ],
+    "verdict": "cant_tell",
+    "notes": "感觉这个里面行人描述都不对，AB明显有问题，然后A中行人是对向走过来的，H只看到行人横向从右向左走过去了"
+   },
+   "time_sec": 522578
+  },
+  {
+   "review_id": "RBMA-0224",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "E": "ruled_out",
+     "H": "ruled_out",
+     "C": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out",
+     "A": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "ambiguous",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "RBMA-0003",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "ruled_out",
+     "G": "supported",
+     "B": "supported",
+     "H": "ruled_out",
+     "F": "ruled_out",
+     "C": "ruled_out",
+     "A": "supported",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "B",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 523553
+  },
+  {
+   "review_id": "RBMA-0262",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported",
+     "A": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "C",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 523706
+  },
+  {
+   "review_id": "RBMA-0182",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "H": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "C",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 523795
+  },
+  {
+   "review_id": "RBMA-0033",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "E": "supported",
+     "F": "supported",
+     "G": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "E",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 523409
+  },
+  {
+   "review_id": "RBMA-0044",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "landmark-cooccurrence",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "C": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "B": "supported",
+     "D": "ruled_out",
+     "H": "supported",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "H"
+    ],
+    "verdict": "ambiguous",
+    "notes": "感觉H项的长廊这个说法就不准，但是别的也选不出来了。"
+   },
+   "time_sec": 523311
+  },
+  {
+   "review_id": "RBMA-0274",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "supported",
+     "D": "ruled_out",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "supported",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "E",
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 521938
+  },
+  {
+   "review_id": "RBMA-0029",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "supported",
+     "G": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "F": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "E",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 521879
+  },
+  {
+   "review_id": "RBMA-0228",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out",
+     "E": "supported",
+     "D": "ruled_out",
+     "H": "ruled_out",
+     "F": "ruled_out",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "E"
+    ],
+    "verdict": "ambiguous",
+    "notes": "ABJ三个clip全程直行，ACDH排除。G白色建筑在左侧"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "RBMA-0056",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "ruled_out",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "H": "supported",
+     "A": "ruled_out",
+     "C": "supported",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "D",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 519239
+  },
+  {
+   "review_id": "RBMA-0181",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "H": "supported",
+     "E": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "F",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 517854
+  },
+  {
+   "review_id": "RBMA-0014",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "landmark-cooccurrence",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "H": "ruled_out",
+     "D": "supported",
+     "A": "ruled_out",
+     "B": "supported",
+     "G": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 517719
+  },
+  {
+   "review_id": "RBMA-0141",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "H": "supported",
+     "A": "ruled_out",
+     "B": "supported",
+     "D": "ruled_out",
+     "G": "supported"
+    },
+    "final_answer": [
+     "B",
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": "感觉这种急左转的说法实际上应该换成左向掉头"
+   },
+   "time_sec": 512297
+  },
+  {
+   "review_id": "RBMA-0152",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "environment-transition",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "supported",
+     "C": "ruled_out",
+     "E": "supported",
+     "H": "ruled_out",
+     "G": "ruled_out",
+     "F": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "B",
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 512169
+  },
+  {
+   "review_id": "RBMA-0243",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "C": "supported",
+     "H": "ruled_out",
+     "G": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "ambiguous",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "RBMA-0255",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "supported",
+     "D": "ruled_out",
+     "G": "ruled_out",
+     "F": "supported",
+     "E": "ruled_out",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 510962
+  },
+  {
+   "review_id": "RBMA-0266",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "landmark-cooccurrence",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "D",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 510817
+  },
+  {
+   "review_id": "RBMA-0127",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "supported",
+     "C": "supported",
+     "D": "ruled_out",
+     "F": "ruled_out",
+     "E": "ruled_out",
+     "H": "ruled_out",
+     "G": "supported"
+    },
+    "final_answer": [
+     "B",
+     "C",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 510519
+  },
+  {
+   "review_id": "RBMA-0307",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "A": "ruled_out",
+     "G": "supported",
+     "B": "ruled_out",
+     "H": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "G"
+    ],
+    "verdict": "ambiguous",
+    "notes": "这个里面只有G选项没问题，其他选不出来，一般是左右有问题。"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "RBMA-0050",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "D": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "F": "supported",
+     "E": "supported"
+    },
+    "final_answer": [
+     "E",
+     "F",
+     "G"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 503660
+  },
+  {
+   "review_id": "RBMA-0123",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out",
+     "E": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out"
+    },
+    "final_answer": [
+     "E",
+     "G"
+    ],
+    "verdict": "ambiguous",
+    "notes": "无法选出第三个选项，clip A clip D都在执行任务，没有左转。"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "RBMA-0277",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "C": "ruled_out",
+     "G": "supported",
+     "H": "supported"
+    },
+    "final_answer": [
+     "G",
+     "H"
+    ],
+    "verdict": "ambiguous",
+    "notes": "无法选出第三个选项"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "RBMA-0280",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "H": "supported",
+     "E": "ruled_out",
+     "G": "supported",
+     "C": "supported",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 452348
+  },
+  {
+   "review_id": "RBMA-0286",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "spatial-consistency",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "G": "supported",
+     "H": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C",
+     "G"
+    ],
+    "verdict": "ambiguous",
+    "notes": "CLIP E镜头没有任何急转，跟E相关的都不对。"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "RBMA-0308",
+   "source": "rbma273",
+   "unit": "anonymous_multi_clip",
+   "question_type": "turn-pattern-comparison",
+   "annotator": "Xiaoye Wang",
+   "tool": "web",
+   "n_select": 3,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "ruled_out",
+     "E": "supported",
+     "G": "supported",
+     "H": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "D": "supported",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D",
+     "E",
+     "G"
+    ],
+    "verdict": "ambiguous",
+    "notes": "不知道右向掉头算不算right turn，总感觉right turn应该是接近90度"
+   },
+   "time_sec": 452030
+  }
+ ]
+}

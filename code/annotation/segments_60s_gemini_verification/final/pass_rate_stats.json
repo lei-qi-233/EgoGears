@@ -1,0 +1,65 @@
+{
+  "Object and Attribute QA": {
+    "pool": 2496,
+    "verified": 2496,
+    "passed": 2081,
+    "pass_rate": 0.8337,
+    "target700": 250
+  },
+  "Ego-relative Spatial Relation": {
+    "pool": 1942,
+    "verified": 1942,
+    "passed": 1488,
+    "pass_rate": 0.7662,
+    "target700": 195
+  },
+  "Trajectory-grounded QA": {
+    "pool": 1061,
+    "verified": 1061,
+    "passed": 751,
+    "pass_rate": 0.7078,
+    "target700": 106
+  },
+  "Ego-motion Recognition": {
+    "pool": 441,
+    "verified": 441,
+    "passed": 352,
+    "pass_rate": 0.7982,
+    "target700": 44
+  },
+  "Temporal Grounding": {
+    "pool": 151,
+    "verified": 151,
+    "passed": 116,
+    "pass_rate": 0.7682,
+    "target700": 21
+  },
+  "Scene and Place QA": {
+    "pool": 141,
+    "verified": 141,
+    "passed": 122,
+    "pass_rate": 0.8652,
+    "target700": 21
+  },
+  "Event Sequencing": {
+    "pool": 118,
+    "verified": 118,
+    "passed": 88,
+    "pass_rate": 0.7458,
+    "target700": 21
+  },
+  "Actor Action and Motion": {
+    "pool": 80,
+    "verified": 80,
+    "passed": 64,
+    "pass_rate": 0.8,
+    "target700": 21
+  },
+  "Text and OCR": {
+    "pool": 22,
+    "verified": 22,
+    "passed": 19,
+    "pass_rate": 0.8636,
+    "target700": 21
+  }
+}

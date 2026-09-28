@@ -1,0 +1,1819 @@
+{
+ "schema": "runningbench-annotation-v1",
+ "bundle": "runningbench_part09",
+ "annotator": "Junwei Zheng",
+ "exported_at": "2026-09-22T17:11:25.386Z",
+ "reviews": [
+  {
+   "review_id": "3071488bad2fc80a",
+   "source": "P02_Running_Night_Trial03",
+   "unit": "P02_Running_Night_Trial03 [420.0--480.0]",
+   "question_type": "Temporal Grounding",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [],
+    "verdict": "clear",
+    "notes": "Around the 00:15 mark, turning to the right"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "22f3152fcf3b36ba",
+   "source": "P02_SlowWalk_Day_Trial02",
+   "unit": "P02_SlowWalk_Day_Trial02 [780.0--840.0]",
+   "question_type": "Temporal Grounding",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 622
+  },
+  {
+   "review_id": "14e28593309ca961",
+   "source": "P03_FastWalk_Day_Traj02_Trial01",
+   "unit": "P03_FastWalk_Day_Traj02_Trial01 [480.0--540.0]",
+   "question_type": "Temporal Grounding",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [],
+    "verdict": "clear",
+    "notes": "no left turn"
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "c4288eaa1eccf499",
+   "source": "P03_FastWalk_Night_Traj03_Trial01",
+   "unit": "P03_FastWalk_Night_Traj03_Trial01 [480.0--540.0]",
+   "question_type": "Temporal Grounding",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 1293
+  },
+  {
+   "review_id": "f71ea28f6cc7987b",
+   "source": "P03_Running_Day_Traj02_Trial01",
+   "unit": "P03_Running_Day_Traj02_Trial01 [360.0--420.0]",
+   "question_type": "Temporal Grounding",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 1351
+  },
+  {
+   "review_id": "1086282c31088de8",
+   "source": "P03_Running_Day_Traj02_Trial01",
+   "unit": "P03_Running_Day_Traj02_Trial01 [420.0--480.0]",
+   "question_type": "Temporal Grounding",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 1371
+  },
+  {
+   "review_id": "a05a0aacc6b1bfb1",
+   "source": "P03_Running_Day_Traj03_Trial01",
+   "unit": "P03_Running_Day_Traj03_Trial01 [120.0--180.0]",
+   "question_type": "Temporal Grounding",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 1438
+  },
+  {
+   "review_id": "a56e7f5e5f036be9",
+   "source": "P03_Running_Night_Traj02_Trial01",
+   "unit": "P03_Running_Night_Traj02_Trial01 [240.0--300.0]",
+   "question_type": "Temporal Grounding",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 1478
+  },
+  {
+   "review_id": "8c065629afd617e1",
+   "source": "P03_SlowWalk_Night_Traj01_Trial01",
+   "unit": "P03_SlowWalk_Night_Traj01_Trial01 [0.0--60.0]",
+   "question_type": "Temporal Grounding",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 2266
+  },
+  {
+   "review_id": "0acc0a853d04f625",
+   "source": "P03_SlowWalk_Night_Traj01_Trial01",
+   "unit": "P03_SlowWalk_Night_Traj01_Trial01 [540.0--600.0]",
+   "question_type": "Temporal Grounding",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out",
+     "E": "supported",
+     "B": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 2343
+  },
+  {
+   "review_id": "b54037daae10662f",
+   "source": "P03_SlowWalk_Night_Traj02_Trial01",
+   "unit": "P03_SlowWalk_Night_Traj02_Trial01 [1020.0--1080.0]",
+   "question_type": "Temporal Grounding",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 2395
+  },
+  {
+   "review_id": "92f000fba8a41379",
+   "source": "P03_SlowWalk_Night_Traj03_Trial01",
+   "unit": "P03_SlowWalk_Night_Traj03_Trial01 [720.0--780.0]",
+   "question_type": "Temporal Grounding",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 2421
+  },
+  {
+   "review_id": "e7ecb2bfaa6af49e",
+   "source": "P03_SlowWalk_Night_Traj03_Trial01",
+   "unit": "P03_SlowWalk_Night_Traj03_Trial01 [780.0--840.0]",
+   "question_type": "Temporal Grounding",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 2466
+  },
+  {
+   "review_id": "8b4396ab83a47846",
+   "source": "Euro-BLB_260512_124125",
+   "unit": "Euro-BLB_260512_124125 [480.0--540.0]",
+   "question_type": "Text and OCR",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 2551
+  },
+  {
+   "review_id": "3a41c99905a6dff2",
+   "source": "Hohenheim_laufen_schnell",
+   "unit": "Hohenheim_laufen_schnell [1140.0--1200.0]",
+   "question_type": "Text and OCR",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 7549
+  },
+  {
+   "review_id": "daaf489089f1e26a",
+   "source": "P01_Running_Day_Traj02",
+   "unit": "P01_Running_Day_Traj02 [180.0--240.0]",
+   "question_type": "Text and OCR",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 7812
+  },
+  {
+   "review_id": "eb2df321419a769d",
+   "source": "P01_SlowWalk_Day_Traj01",
+   "unit": "P01_SlowWalk_Day_Traj01 [840.0--900.0]",
+   "question_type": "Text and OCR",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 7836
+  },
+  {
+   "review_id": "08c8e2692ed7ff89",
+   "source": "P02_FastWalk_Day_Trial01",
+   "unit": "P02_FastWalk_Day_Trial01 [180.0--240.0]",
+   "question_type": "Text and OCR",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 7880
+  },
+  {
+   "review_id": "ad490a5083ee7a7c",
+   "source": "P02_FastWalk_Day_Trial03",
+   "unit": "P02_FastWalk_Day_Trial03 [360.0--420.0]",
+   "question_type": "Text and OCR",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8093
+  },
+  {
+   "review_id": "1b6fe4cbc28bad44",
+   "source": "P02_FastWalk_Day_Trial03",
+   "unit": "P02_FastWalk_Day_Trial03 [720.0--780.0]",
+   "question_type": "Text and OCR",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8172
+  },
+  {
+   "review_id": "0d8ffa4e741cc9e6",
+   "source": "P02_Running_Day_Trial01",
+   "unit": "P02_Running_Day_Trial01 [540.0--600.0]",
+   "question_type": "Text and OCR",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8199
+  },
+  {
+   "review_id": "687b8108ca1c59c8",
+   "source": "P02_SlowWalk_Day_Trial01",
+   "unit": "P02_SlowWalk_Day_Trial01 [600.0--660.0]",
+   "question_type": "Text and OCR",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8265
+  },
+  {
+   "review_id": "f41c0fd587dca433",
+   "source": "P02_SlowWalk_Day_Trial03",
+   "unit": "P02_SlowWalk_Day_Trial03 [300.0--360.0]",
+   "question_type": "Text and OCR",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "de67a84f558733cd",
+   "source": "P03_SlowWalk_Day_Traj03_Trial01",
+   "unit": "P03_SlowWalk_Day_Traj03_Trial01 [0.0--60.0]",
+   "question_type": "Text and OCR",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8420
+  },
+  {
+   "review_id": "167f75915b35eaf4",
+   "source": "P03_SlowWalk_Day_Traj03_Trial01",
+   "unit": "P03_SlowWalk_Day_Traj03_Trial01 [180.0--240.0]",
+   "question_type": "Text and OCR",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 4,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "D": "ruled_out",
+     "H": "ruled_out",
+     "F": "supported",
+     "G": "ruled_out",
+     "E": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "2b1e76587275317a",
+   "source": "P03_SlowWalk_Day_Traj03_Trial01",
+   "unit": "P03_SlowWalk_Day_Traj03_Trial01 [840.0--900.0]",
+   "question_type": "Text and OCR",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8703
+  },
+  {
+   "review_id": "6073158c97cdb4ea",
+   "source": "P03_SlowWalk_Day_Traj03_Trial01",
+   "unit": "P03_SlowWalk_Day_Traj03_Trial01 [960.0--985.143333]",
+   "question_type": "Text and OCR",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8741
+  },
+  {
+   "review_id": "f9ebe5bb4f6211e0",
+   "source": "P03_SlowWalk_Night_Traj03_Trial01",
+   "unit": "P03_SlowWalk_Night_Traj03_Trial01 [180.0--240.0]",
+   "question_type": "Text and OCR",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "F": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8784
+  },
+  {
+   "review_id": "b3b54da53fa8beb6",
+   "source": "airport_walk_normal",
+   "unit": "airport_walk_normal [300.0--360.0]",
+   "question_type": "Text and OCR",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "ruled_out",
+     "E": "supported",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 8914
+  },
+  {
+   "review_id": "37cd4c637f1bcc0d",
+   "source": "gravel_plant_normal",
+   "unit": "gravel_plant_normal [120.0--180.0]",
+   "question_type": "Text and OCR",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "D": "supported",
+     "F": "ruled_out",
+     "B": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 9012
+  },
+  {
+   "review_id": "60ff2f8525a44c35",
+   "source": "kit_mensa_scc_normal",
+   "unit": "kit_mensa_scc_normal [180.0--240.0]",
+   "question_type": "Text and OCR",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 5,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "E": "supported",
+     "D": "supported",
+     "H": "supported",
+     "G": "supported",
+     "F": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out"
+    },
+    "final_answer": [
+     "A",
+     "D",
+     "E",
+     "G",
+     "H"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 9191
+  },
+  {
+   "review_id": "0894e974a1007f5e",
+   "source": "rhein_slow",
+   "unit": "rhein_slow [360.0--420.0]",
+   "question_type": "Text and OCR",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 9271
+  },
+  {
+   "review_id": "da0680f9bf0e7704",
+   "source": "Asemwald_joggen",
+   "unit": "Asemwald_joggen [1080.0--1140.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 9289
+  },
+  {
+   "review_id": "0ece01232d170ffc",
+   "source": "Asemwald_joggen",
+   "unit": "Asemwald_joggen [1320.0--1380.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 9416
+  },
+  {
+   "review_id": "adc4c0443b9f97ba",
+   "source": "Asemwald_laufen_1",
+   "unit": "Asemwald_laufen_1 [540.0--600.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 9469
+  },
+  {
+   "review_id": "03ce6ca142d3e6e3",
+   "source": "Asemwald_laufen_2",
+   "unit": "Asemwald_laufen_2 [0.0--60.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 9526
+  },
+  {
+   "review_id": "f93a72048ee9c0f1",
+   "source": "Asemwald_laufen_2",
+   "unit": "Asemwald_laufen_2 [120.0--180.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 9574
+  },
+  {
+   "review_id": "e866caa013b5cc65",
+   "source": "Asemwald_laufen_langsam",
+   "unit": "Asemwald_laufen_langsam [0.0--60.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "supported",
+     "F": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 9619
+  },
+  {
+   "review_id": "8f395f8462ceeca0",
+   "source": "Asemwald_laufen_langsam",
+   "unit": "Asemwald_laufen_langsam [360.0--420.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 9641
+  },
+  {
+   "review_id": "04640396a0ac8a32",
+   "source": "Asemwald_laufen_langsam",
+   "unit": "Asemwald_laufen_langsam [540.0--600.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 9661
+  },
+  {
+   "review_id": "4d58b781df683f83",
+   "source": "Asemwald_laufen_langsam",
+   "unit": "Asemwald_laufen_langsam [780.0--840.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "supported",
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 9685
+  },
+  {
+   "review_id": "b12661860228f8f9",
+   "source": "BLB-SB_Walk_260505_193245",
+   "unit": "BLB-SB_Walk_260505_193245 [60.0--120.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 9719
+  },
+  {
+   "review_id": "25b3b1fd895df7e1",
+   "source": "BerlinerPlatz_Walk_260505_195319",
+   "unit": "BerlinerPlatz_Walk_260505_195319 [0.0--60.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 9756
+  },
+  {
+   "review_id": "4ee552f884fb5fcb",
+   "source": "Euro-BLB_260512_124125",
+   "unit": "Euro-BLB_260512_124125 [120.0--180.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 9838
+  },
+  {
+   "review_id": "8f07557927f5cd2c",
+   "source": "GGO-FSH_Walk_260505_195948",
+   "unit": "GGO-FSH_Walk_260505_195948 [60.0--120.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "ruled_out",
+     "B": "supported",
+     "C": "ruled_out",
+     "A": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 9910
+  },
+  {
+   "review_id": "17c1ecec4398a26c",
+   "source": "Hohenheim_2_langsam_1",
+   "unit": "Hohenheim_2_langsam_1 [540.0--600.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "C": "ruled_out",
+     "D": "supported",
+     "B": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 10263
+  },
+  {
+   "review_id": "043cb0619922af9a",
+   "source": "Hohenheim_2_langsam_4",
+   "unit": "Hohenheim_2_langsam_4 [0.0--60.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "C": "supported"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 10520
+  },
+  {
+   "review_id": "489a0b3c7756e1f3",
+   "source": "Hohenheim_2_langsam_4",
+   "unit": "Hohenheim_2_langsam_4 [240.0--300.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "F": "supported",
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "",
+    "notes": ""
+   },
+   "time_sec": 0
+  },
+  {
+   "review_id": "02bad289bf706990",
+   "source": "Hohenheim_joggen_1",
+   "unit": "Hohenheim_joggen_1 [780.0--840.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 10974
+  },
+  {
+   "review_id": "a4b08681e9ba3989",
+   "source": "P01_FastWalk_Day_Traj01",
+   "unit": "P01_FastWalk_Day_Traj01 [180.0--240.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 11189
+  },
+  {
+   "review_id": "04afaaacea9a0e95",
+   "source": "P01_FastWalk_Day_Traj02",
+   "unit": "P01_FastWalk_Day_Traj02 [420.0--480.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "ruled_out",
+     "B": "supported",
+     "A": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "B"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 11230
+  },
+  {
+   "review_id": "7f89f3ab2363bad4",
+   "source": "P01_FastWalk_Day_Traj03",
+   "unit": "P01_FastWalk_Day_Traj03 [900.0--946.9]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "B": "ruled_out",
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 11400
+  },
+  {
+   "review_id": "f18c59302fa2d315",
+   "source": "P01_FastWalk_Night_Traj01",
+   "unit": "P01_FastWalk_Night_Traj01 [180.0--240.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 11496
+  },
+  {
+   "review_id": "1812995562879b35",
+   "source": "P01_FastWalk_Night_Traj01",
+   "unit": "P01_FastWalk_Night_Traj01 [540.0--600.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 11546
+  },
+  {
+   "review_id": "f19a9a8f49da4761",
+   "source": "P01_FastWalk_Night_Traj03",
+   "unit": "P01_FastWalk_Night_Traj03 [60.0--120.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 11585
+  },
+  {
+   "review_id": "88f80751650f536a",
+   "source": "P01_FastWalk_Night_Traj03",
+   "unit": "P01_FastWalk_Night_Traj03 [120.0--180.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out",
+     "A": "supported",
+     "C": "ruled_out",
+     "E": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 11649
+  },
+  {
+   "review_id": "96a117824602b756",
+   "source": "P01_FastWalk_Night_Traj03",
+   "unit": "P01_FastWalk_Night_Traj03 [480.0--540.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "ruled_out",
+     "A": "supported",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 11690
+  },
+  {
+   "review_id": "3252dbe6c33678f4",
+   "source": "P01_Running_Day_Traj01",
+   "unit": "P01_Running_Day_Traj01 [120.0--180.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "supported",
+     "F": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 11877
+  },
+  {
+   "review_id": "1ab1d54c6922c415",
+   "source": "P01_Running_Day_Traj02",
+   "unit": "P01_Running_Day_Traj02 [60.0--120.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "F": "supported",
+     "C": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 11937
+  },
+  {
+   "review_id": "63c12e121327a065",
+   "source": "P01_Running_Night_Traj01",
+   "unit": "P01_Running_Night_Traj01 [360.0--420.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "supported"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 12286
+  },
+  {
+   "review_id": "f6347352700394b0",
+   "source": "P01_Running_Night_Traj02",
+   "unit": "P01_Running_Night_Traj02 [0.0--60.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 12408
+  },
+  {
+   "review_id": "5bbe4da7d7f04b5b",
+   "source": "P01_Running_Night_Traj03",
+   "unit": "P01_Running_Night_Traj03 [480.0--540.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "ruled_out",
+     "F": "supported",
+     "E": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 12449
+  },
+  {
+   "review_id": "e84ed0e84a4628ed",
+   "source": "P01_SlowWalk_Day_Traj01",
+   "unit": "P01_SlowWalk_Day_Traj01 [0.0--60.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 12480
+  },
+  {
+   "review_id": "3f303b06555b8392",
+   "source": "P01_SlowWalk_Day_Traj01",
+   "unit": "P01_SlowWalk_Day_Traj01 [60.0--120.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "F": "supported"
+    },
+    "final_answer": [
+     "F"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 12547
+  },
+  {
+   "review_id": "92382ba22c10895c",
+   "source": "P01_SlowWalk_Day_Traj01",
+   "unit": "P01_SlowWalk_Day_Traj01 [660.0--720.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "ruled_out",
+     "F": "ruled_out",
+     "E": "supported",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "E"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 12589
+  },
+  {
+   "review_id": "dbae0766fde0931f",
+   "source": "P01_SlowWalk_Night_Traj01",
+   "unit": "P01_SlowWalk_Night_Traj01 [960.0--1020.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 13492
+  },
+  {
+   "review_id": "1122a8b71e4290bd",
+   "source": "P01_SlowWalk_Night_Traj02",
+   "unit": "P01_SlowWalk_Night_Traj02 [540.0--600.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "A": "supported",
+     "B": "ruled_out",
+     "C": "ruled_out",
+     "E": "ruled_out",
+     "D": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "A"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 13761
+  },
+  {
+   "review_id": "02672b8baae1e3c4",
+   "source": "P01_SlowWalk_Night_Traj02",
+   "unit": "P01_SlowWalk_Night_Traj02 [780.0--840.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "D": "supported",
+     "E": "ruled_out",
+     "F": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out"
+    },
+    "final_answer": [
+     "D"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 13850
+  },
+  {
+   "review_id": "22507e1f51624dc0",
+   "source": "P01_SlowWalk_Night_Traj02",
+   "unit": "P01_SlowWalk_Night_Traj02 [960.0--1009.834]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": true,
+   "human_checks": {
+    "per_option": {
+     "C": "supported",
+     "A": "ruled_out",
+     "B": "ruled_out",
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [
+     "C"
+    ],
+    "verdict": "clear",
+    "notes": ""
+   },
+   "time_sec": 13962
+  },
+  {
+   "review_id": "fa5d7602290536b8",
+   "source": "P02_FastWalk_Day_Trial01",
+   "unit": "P02_FastWalk_Day_Trial01 [180.0--240.0]",
+   "question_type": "Trajectory-grounded QA",
+   "annotator": "Junwei Zheng",
+   "tool": "web",
+   "n_select": 1,
+   "complete": false,
+   "human_checks": {
+    "per_option": {
+     "D": "ruled_out",
+     "E": "ruled_out",
+     "C": "ruled_out",
+     "B": "ruled_out",
+     "A": "ruled_out",
+     "F": "ruled_out"
+    },
+    "final_answer": [],
+    "verdict": "clear",
+    "notes": "Starts by moving straight, turns right, then straight"
+   },
+   "time_sec": 0
+  }
+ ]
+}
