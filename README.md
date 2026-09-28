@@ -1,6 +1,6 @@
 # EgoGears
 
-**EgoGears** is a complementary single- and multi-video benchmark for embodied AI, designed to answer a central question: can models transfer knowledge acquired during one encounter to understand another?
+**EgoGears** is a first-person outdoor video-understanding benchmark built from human-collected recordings across multiple routes, covering three movement states—walking, jogging, and running—and two lighting conditions—daytime and nighttime. Its question-answer pairs evaluate both single-video understanding and cross-video reasoning, measuring local visual, spatial, motion, and temporal evidence as well as whether observations can be aligned and composed across independent encounters. The benchmark diagnoses how changes in viewpoint, movement speed, illumination, and route phase affect the transfer of scene and route understanding between observations.
 
 > **Repository status:** This repository is still being organized. File names and contents will continue to be refined, and more detailed documentation will be added in future updates.
 
