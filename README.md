@@ -4,14 +4,16 @@
 
 > **Repository status:** This repository is still being organized. File names and contents will continue to be refined, and more detailed documentation will be added in future updates.
 
-> **Repository contents:** This GitHub repository contains the code and intermediate files used to build and evaluate the EgoGears dataset. For the final released dataset, evaluation results, and statistical information, please visit the EgoGears Hugging Face page.
+**Repository contents:** This GitHub repository contains the code and intermediate files used to build and evaluate the EgoGears dataset. 
+
+For the **final released dataset, evaluation results, and statistical information**, please visit the EgoGears Hugging Face page.
 
 ---
 
 ### 🚀 Quick Links
 
 <p align="center">
-	<a href="YOUR_ARXIV_LINK">
+	<a href="https://arxiv.org/abs/2609.37938v1">
 		<img src="https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv" alt="arXiv Paper"/>
 	</a>
 	<a href="https://huggingface.co/datasets/lei-qi-233/EgoGears">
