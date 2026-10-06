@@ -143,15 +143,25 @@ EgoGears can be used to study and evaluate:
 
 The EgoGears benchmark dataset and this GitHub repository are established and maintained by:
 
-* Yuedong Tan: Co-first author
-* [Lei Qi](https://github.com/LEI-QI-233): Co-first author
-* [Kunyu Peng](https://cvhci.iar.kit.edu/people_2123.php): Research supervisor
+* **[Lei Qi](https://github.com/LEI-QI-233)**<sup>*</sup>: Dataset construction, feasibility study, manuscript writing & visualization.
+* **[Yuedong Tan](https://github.com/supertyd)**<sup>*</sup>: Dataset construction, code implementation & experimental evaluation.
+* **[Kunyu Peng](https://cvhci.iar.kit.edu/people_2123.php)**: Research supervision.
 
+<sup>*</sup> **Equal contribution (Co-first authors).**
 
-## License
-
-This project is released under the [MIT License](LICENSE).
 
 ## Citation
 
 If you find this dataset useful in your research, please use the following BibTeX entry for citation:
+
+```bibtex
+@misc{tan2026doeslocalvideounderstanding,
+      title={Does Local Video Understanding Transfer Across Encounters? The EgoGears Benchmark}, 
+      author={Yuedong Tan and Lei Qi and Yu Liu and Di Wen and Ruiping Liu and Xiaoye Wang and Yufan Chen and Junwei Zheng and Chengzhi Wu and Chen Zhang and Zhihang Chen and Haiwen Sun and Zongwei Wu and Radu Timofte and Danda Pani Paudel and Kunyu Peng},
+      year={2026},
+      eprint={2609.37938},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2609.37938}, 
+}
+```
